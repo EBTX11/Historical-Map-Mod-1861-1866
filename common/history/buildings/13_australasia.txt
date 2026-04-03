@@ -85,29 +85,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:NSW"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_religious_bureaucrats" "pm_professional_bureaucrats" "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
-			}
 		}
 		region_state:GML={
 			create_building={
@@ -290,16 +267,15 @@
 				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_no_equipment" "pm_saw_mills" }
 			}
 			create_building={
-				building="building_power_plant"
+				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:TAS"
 						levels=1
 					}
 				}
-				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
+				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 		}
 	}
@@ -375,16 +351,15 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
-				building="building_power_plant"
+				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:SAS"
 						levels=1
 					}
 				}
-				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
+				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 		}
 		region_state:ASD={
@@ -401,7 +376,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -415,18 +390,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
 			}
 		}
 	}
@@ -443,7 +406,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_no_equipment" "pm_simple_forestry" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 		}
 		region_state:WAS={
@@ -493,19 +456,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -518,7 +469,18 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:WAS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
 			}
 		}
 		region_state:WTI={
@@ -565,7 +527,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
+				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -577,18 +539,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				subsidized=yes
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
 			}
 		}
 		region_state:NSW={
@@ -603,6 +553,8 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+		}
+		region_state:NTO={
 		}
 	}
 	s:STATE_SOUTH_ISLAND={

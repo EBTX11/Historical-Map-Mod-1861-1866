@@ -5,10 +5,4 @@
   setting_historical_map_mod_disabled:0 "Disable historical country names"
   
   setting_historical_map_mod_enabled_desc:0 "Enable historical country names like "Free and Hanseatic City of Lübeck" instead of "Lübeck" "
-  setting_historical_map_mod_disabled_desc:0 "Disable historical country names"
-
-
-
-  american_civil_war:0 "American Civil War"
-  # american_civil_war_desc:0 "A brutal conflict between the Union and the Confederacy that will determine the future of the United States."
- 
+  setting_historical_map_mod_disabled_desc:0 "Disable historical country names" 

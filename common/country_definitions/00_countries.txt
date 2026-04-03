@@ -2720,7 +2720,7 @@ COM = {
 SEQ = {
 	color = { 250 249 245 }
 
-	country_type = unrecognized #decentralized
+	country_type = decentralized
 
 	tier = principality
 
@@ -2742,7 +2742,7 @@ DKT = {
 LKT = {
 	color = { 217 123 83 }
  
-	country_type = colonial
+	country_type = decentralized #colonial
 
 	tier = principality
 
@@ -2764,7 +2764,7 @@ NVJ = {
 ARP = {
 	color = { 255 255 128 } 
 
-	country_type = colonial
+	country_type = decentralized #colonial
 
 	tier = principality
 
@@ -3175,9 +3175,10 @@ MCO = { # Michoacan
 }
 
 TWT = { # Tawantinsuyu
-	color = { 125 92 110 }
+	#color = { 125 92 110 }
+	color = { 250 249 245 }
 
-	country_type = unrecognized
+	country_type = decentralized #unrecognized
 
 	tier = kingdom
 
@@ -3187,9 +3188,10 @@ TWT = { # Tawantinsuyu
 }
 
 AYM = { # Aymara
-	color = { 173 211 239 }
+	#color = { 173 211 239 }
+	color = { 250 249 245 }
 
-	country_type = unrecognized
+	country_type = decentralized #unrecognized
 
 	tier = principality
 

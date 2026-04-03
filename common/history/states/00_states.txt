@@ -24,7 +24,7 @@ STATES = {
 		add_homeland = cu:cajun
 		add_homeland = cu:afro_antillean
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_NEW_YORK = {
 		create_state = {
@@ -36,7 +36,7 @@ STATES = {
 		add_homeland = cu:yankee
 		add_homeland = cu:iroquoian
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_VIRGINIA = {
 		create_state = {
@@ -47,7 +47,7 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_LOWER_EGYPT = {
 		create_state = {
@@ -211,7 +211,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x115180 x16E6F3 x175EC6 x1ABD79 x1D4C25 x2EF696 x32CFB2 x33490F x38A73B x39F708 x41FB70 x4724A9 x483CDB x498F0D x50D040 x55944E x599BC4 x6B8F67 x6BFF52 x6DA6F9 x71C085 x798677 x8064F0 x83EC09 x90D001 x9D1474 xA0CF65 xAB53A3 xAC24A6 xAEDF9B xB33A36 xBAA1D3 xC13552 xC14ECA xC55E74 xCF50BF xE01180 xE19708 xF07810 xF2D180
+				x175EC6 x1ABD79 x1D4C25 x2EF696 x32CFB2 x38A73B x39F708 x41FB70 x4724A9 x483CDB x498F0D x50D040 x6B8F67 x6BFF52 x6DA6F9 x71C085 x798677 x90D001 x9D1474 xA0CF65 xAB53A3 xAC24A6 xAEDF9B xBAA1D3 xC14ECA xE01180 xF07810 xF2D180
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				x83EC09 x33490F x115180 x599BC4 xC13552 xB33A36 x16E6F3 x8064F0 x55944E xC55E74 xE19708 xCF50BF
 			}
 		}
 		add_homeland = cu:han
@@ -220,7 +226,13 @@ STATES = {
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				x61F061 x6E575B x86FF7E xD0D0C0 x301000 xB01101 xE9E92E
+				x61F061 x6E575B xD0D0C0 x301000 xB01101 xE9E92E
+			}
+		}
+		create_state = {
+			country = c:CHI
+			owned_provinces = {
+				x86FF7E
 			}
 		}
 		add_homeland = cu:han
@@ -301,7 +313,7 @@ STATES = {
 		}
 		add_homeland = cu:nez_perce
 		add_homeland = cu:salish
-		add_claim = c:USA 
+		add_claim = c:USA
 	}
 	s:STATE_OREGON = {
 		create_state = {
@@ -319,7 +331,7 @@ STATES = {
 		add_homeland = cu:salish
 		add_homeland = cu:nez_perce
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_IDAHO = {
 		create_state = {
@@ -342,7 +354,7 @@ STATES = {
 		}
 		add_homeland = cu:nez_perce
 		add_homeland = cu:paiute
-		add_claim = c:USA 
+		add_claim = c:USA
 	}
 	s:STATE_COLORADO = {
 		create_state = {
@@ -477,7 +489,7 @@ STATES = {
 		}
 		add_homeland = cu:siouan
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_OKLAHOMA = {
 		create_state = {
@@ -488,6 +500,8 @@ STATES = {
 		}
 		add_homeland = cu:cherokee
 		add_homeland = cu:siouan
+		add_claim = c:USA
+		add_claim = c:CSA
 	}
 	s:STATE_ARKANSAS = {
 		create_state = {
@@ -501,20 +515,26 @@ STATES = {
 		add_homeland = cu:cherokee
 		add_homeland = cu:cajun
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MISSOURI = {
 		create_state = {
 			country = c:USA
 			owned_provinces = {
-				x84487E xFF9F56 xCDC95A x1BB57F xF279B1 xD3F59D xEA9822 x1BE410 x948616 x591E45 x0AC4E5 x4D6DEF xBF3FF3 x67104C xF23379 x701948 x8ADB9A xF5005E x53BF8B x67DC9A x7B0051 x1B4F2D x971521 xE30DBE x0DAFAE x65632B x724BC4 xA5AFE3 x9DC7AE xD00040 x852923 xD04080 x50C080 x6ED39C xCC0FCA x508040 x9EA16E x5CB3AF xE73161 x0E60EA x5171F6 x547EEE x5E76CB x91A469
+				x591E45 x0AC4E5 x4D6DEF xBF3FF3 x67104C xF23379 x701948 x8ADB9A xF5005E x53BF8B x67DC9A x7B0051 x1B4F2D x971521 x0DAFAE x9DC7AE
+			}
+		}
+		create_state = {
+			country = c:CSA
+			owned_provinces = {
+				x5171F6 x91A469 x5CB3AF x0E60EA xD04080 xE73161 x50C080 x5E76CB x508040 x1BE410 xD00040 x852923 xCC0FCA x6ED39C x65632B x724BC4 x00A080 xFF9F56 xCDC95A xF279B1 xEA9822 x948616 x1BB57F xD3F59D x84487E x547EEE xE30DBE x9EA16E xA5AFE3
 			}
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_homeland = cu:cajun
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_IOWA = {
 		create_state = {
@@ -527,7 +547,7 @@ STATES = {
 		add_homeland = cu:yankee
 		add_homeland = cu:dakota
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MINNESOTA = {
 		create_state = {
@@ -541,7 +561,7 @@ STATES = {
 		add_homeland = cu:dakota
 		add_homeland = cu:algonquian
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_WISCONSIN = {
 		create_state = {
@@ -555,7 +575,7 @@ STATES = {
 		add_homeland = cu:dakota
 		add_homeland = cu:algonquian
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_INDIANA = {
 		create_state = {
@@ -566,7 +586,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MICHIGAN = {
 		create_state = {
@@ -579,7 +599,7 @@ STATES = {
 		add_homeland = cu:yankee
 		add_homeland = cu:algonquian
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_OHIO = {
 		create_state = {
@@ -590,19 +610,25 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_KENTUCKY = {
 		create_state = {
 			country = c:USA
 			owned_provinces = {
-				xE0446E x5EBF40 x8D925C xBC5C72 x345456 xD9E5F5 x0CE796 xDECE20 x2C3DD6 x2ED593 x2EF726 x4ADDB6 x4987B9 x7450B4 x22372A x8CF367 xB9F919 xF00040 x8C6574 x552EC3 x8ABB32 x394A84 x9A4E18 x72B7A5 xC07000 xFDE30E x07190B x2BBF97 xB04080 xC010AA xF56394 x5F08F6
+				xE0446E xD9E5F5 x0CE796 x22372A x8C6574 x8ABB32 x394A84 x72B7A5
+			}
+		}
+		create_state = {
+			country = c:CSA
+			owned_provinces = {
+				x8CF367 x2C3DD6 x2EF726 xF00040 x7450B4 x4ADDB6 x4987B9 xFDE30E x07190B xC010AA xB04080 x552EC3 xB9F919 x5F08F6 x345456 x2ED593 xBC5C72 x5EBF40 xDECE20 xF56394 x2BBF97 x9A4E18 xC07000 x8D925C
 			}
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_TENNESSEE = {
 		create_state = {
@@ -614,7 +640,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MISSISSIPPI = {
 		create_state = {
@@ -626,7 +652,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_ALABAMA = {
 		create_state = {
@@ -639,7 +665,7 @@ STATES = {
 		add_homeland = cu:afro_american
 		add_homeland = cu:caddoan
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_FLORIDA = {
 		create_state = {
@@ -648,12 +674,12 @@ STATES = {
 				x4407A0 x5B1199 xED77FB xE58A3D x5CD014 x7BCB55 xC60D66 x4070C0 x3556E5 xAAF2AF xF0B481 x9088D5 xFE627B x65ECBE xC000F0 x2E5E47 x3126CA x88BDEA x31C481 xB06E20 xDAE3CC x0C1D7F x1714EE xA03000 xD0761D x23B4D0 x8C16F9 x6E31DE x976584 xE3533E xF41CC0 x7FA347 x3CDD1A x552AD8 xE740E5
 			}
 			state_type = unincorporated
-		} 
+		}
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_homeland = cu:muskogean
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_GEORGIA = {
 		create_state = {
@@ -665,7 +691,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
 		create_state = {
@@ -677,19 +703,25 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {
 			country = c:USA
 			owned_provinces = {
-				x579843 x845FC0 xCB120B xB865A2 x82CE19 x0F5821 x366DF2 x999738 x38925B x06D57E x30C000 x7416CB xB04000 x2EA16C x364F38 x43DB99 x7755AD x08D472 xAD371C
+				x845FC0 xCB120B x82CE19 x0F5821 x999738 x364F38 x43DB99 x7755AD x08D472 xAD371C
+			}
+		}
+		create_state = {
+			country = c:CSA
+			owned_provinces = {
+				x579843 xB865A2 x366DF2 xB04000 x38925B x30C000 x7416CB x2EA16C x06D57E
 			}
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
@@ -701,7 +733,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_DELAWARE = {
 		create_state = {
@@ -713,7 +745,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_PENNSYLVANIA = {
 		create_state = {
@@ -724,7 +756,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_NEW_JERSEY = {
 		create_state = {
@@ -735,18 +767,18 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_ILLINOIS = {
 		create_state = {
 			country = c:USA
 			owned_provinces = {
-				x00A080 x22BBD7 x6D1F7A x4A94CA x908040 x2B0E33 xD998BB x2938A5 x746E6F x1B1B01 x0212BC x6D8AAA xF82338 xBD8B8B x26D283 x6B3BE8 x3FEEB5 xB90E0D x9EA280 x977A71 xCD3BFC xA53D3B x585A65 x999D9F x806000 x7A2E59 xA36021 x67EB18 x445F91 x108040 xEB7340 x7514E0 x2FBF72 x543986 xAD5337 x34036E x50C040 xF68D89 xBCB645 x4E0162 x33B258 x6F02DA
+				x22BBD7 x6D1F7A x4A94CA x908040 x2B0E33 xD998BB x2938A5 x746E6F x1B1B01 x0212BC x6D8AAA xF82338 xBD8B8B x26D283 x6B3BE8 x3FEEB5 xB90E0D x9EA280 x977A71 xCD3BFC xA53D3B x585A65 x999D9F x806000 x7A2E59 xA36021 x67EB18 x445F91 x108040 xEB7340 x7514E0 x2FBF72 x543986 xAD5337 x34036E x50C040 xF68D89 xBCB645 x4E0162 x33B258 x6F02DA
 			}
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_CONNECTICUT = {
 		create_state = {
@@ -757,7 +789,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_RHODE_ISLAND = {
 		create_state = {
@@ -768,7 +800,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MASSACHUSETTS = {
 		create_state = {
@@ -779,7 +811,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_VERMONT = {
 		create_state = {
@@ -790,7 +822,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_NEW_HAMPSHIRE = {
 		create_state = {
@@ -801,7 +833,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_MAINE = {
 		create_state = {
@@ -812,7 +844,7 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_NORTH_CAROLINA = {
 		create_state = {
@@ -823,7 +855,7 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_TEXAS = {
 		create_state = {
@@ -837,7 +869,7 @@ STATES = {
 		add_homeland = cu:mexican
 		add_homeland = cu:comanche
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_YUKON_TERRITORY = {
 		create_state = {
@@ -2090,7 +2122,7 @@ STATES = {
 				xD29C90 x44CC50 xBB6368 x39AEE1 x022AE2 xDCBAE1 x2FD5DD x911882 x1B31B7 xC28CA0 x48A4E7 x1546DA xA615B6 xBF471B x8737CC x2392B7 xC96399 xD331E1 x949C3F xA8531A x8755F3 x77EF15 x1BDEB7 x1A06C1 x104080 x67A8BE xD08000 xE8DCD0 x5BB5D7 x90C000 xC98675 x4FDFA6 x428B93 x3B1B46 x5B065E x2E93C4 x8C8183 x6685A7 x40437B x6F049A xA13A4D xF9F480 x900E30 xC6C267 xF38C8A xF31ACC x4DA90F xC79CD0 xA721D9 xF259D7 x557C77 xC94B0F xB03D4F x177225 x34B00A xFDBD34
 			}
 		}
-		add_claim = c:USA 
+		add_claim = c:USA
 		add_homeland = cu:navajo
 		add_homeland = cu:apache
 		add_homeland = cu:pueblo
@@ -2113,7 +2145,7 @@ STATES = {
 		add_homeland = cu:pueblo
 		add_homeland = cu:comanche
 		add_homeland = cu:apache
-		add_claim = c:USA 
+		add_claim = c:USA
 	}
 	s:STATE_CALIFORNIA = {
 		create_state = {
@@ -2124,7 +2156,7 @@ STATES = {
 		}
 		add_homeland = cu:hokan
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_SONORA = {
 		create_state = {
@@ -2300,6 +2332,7 @@ STATES = {
 		add_homeland = cu:afro_caribeno
 		add_homeland = cu:guajiro
 		add_homeland = cu:cariban
+		add_claim = c:VNZ
 	}
 	s:STATE_MIRANDA = {
 		create_state = {
@@ -2317,6 +2350,7 @@ STATES = {
 		add_homeland = cu:north_andean
 		add_homeland = cu:afro_caribeno
 		add_homeland = cu:cariban
+		add_claim = c:VNZ
 	}
 	s:STATE_BOLIVAR = {
 		create_state = {
@@ -2335,6 +2369,7 @@ STATES = {
 		add_homeland = cu:afro_caribeno
 		add_homeland = cu:amazonian
 		add_homeland = cu:cariban
+		add_claim = c:VNZ
 	}
 	s:STATE_ANTIOQUIA = {
 		create_state = {
@@ -2353,6 +2388,7 @@ STATES = {
 		add_homeland = cu:afro_caribeno
 		add_homeland = cu:guajiro
 		add_homeland = cu:cariban
+		add_claim = c:CLM
 	}
 	s:STATE_GUAVIARE = {
 		create_state = {
@@ -2394,6 +2430,7 @@ STATES = {
 		add_homeland = cu:north_andean
 		add_homeland = cu:afro_caribeno
 		add_homeland = cu:muisca
+		add_claim = c:CLM
 	}
 	s:STATE_CAUCA = {
 		create_state = {
@@ -4208,6 +4245,7 @@ STATES = {
 		}
 		add_homeland = cu:afro_antillean
 		add_homeland = cu:afro_caribbean
+		add_claim = c:VNZ
 	}
 	s:STATE_JAMAICA = {
 		create_state = {
@@ -7382,13 +7420,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x60E0D5 x5B7400 xCCB937 xC3C67F x787852 x654894 x509862 xA5D674 x2B4D74 x05195F x4BEFB9 x0502BE x24A95A x4BBCD9 xB391A8 x735688 xDDCBB6 xC943C3 x41F76A x5C8BAE x59CA77 xF0F6C5 x66015E xF64FC1 xAF900C x6E1C89 xF6FED1 xAE99AF xAD69D9 x6FFCF0 xF72ADD x60B060 x7D9239 x793905 xBE3ADF x745C03 x102905 x154288 xC38352 x8A6C0F x49C4AB x092323 x9F88D3 xD91B4A x82755F
+				x60E0D5 x5B7400 xCCB937 xC3C67F x787852 x654894 x509862 xA5D674 x2B4D74 x05195F x4BEFB9 x0502BE x24A95A x4BBCD9 xB391A8 x735688 xDDCBB6 x41F76A x59CA77 xF0F6C5 xF64FC1 xAF900C x6E1C89 xF6FED1 xAE99AF xAD69D9 x6FFCF0 xF72ADD x60B060 x7D9239 x793905 xBE3ADF x745C03 x102905 x154288 xC38352 x8A6C0F x49C4AB x092323 x9F88D3 xD91B4A x82755F
 			}
 		}
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				x8FC46D x87C535 xE9438D x9F1EF5 xBF0445 x162AC1 x0BAD6F x42DB73 x7F3356 x8D0615 x8B74E5 x5D7F15 xCAEF49 xC5FA12 x2CC651 xF47E4A x5056A4 x93091D x85F99B xBC9630 xD7D182 x5F792D x25C936 x0D68E8 x83A248 xE0B060 x7F900E x98345A x09C8CB xBAD952 x143D50 x891A77 x8C298E x7511D0 xBFC5D3 x39A321 x411CFE xEA3DB0 x2F07EE xFF933F xC97B8A x3E073E xBB4B6C x1C5B2A x2332C5 x4C02B1 x11062E xA1C52B xBE3227 xD3C3F5 x8F60D5 x710D15 x12B742 x28C7CA x11B3F7 x1C8A07 x157E2E x5304E5 xD57DC5 x8E92CB
+				x8FC46D x87C535 xE9438D x9F1EF5 xBF0445 x162AC1 x0BAD6F x42DB73 x7F3356 x8D0615 x8B74E5 x5D7F15 xCAEF49 xC5FA12 x2CC651 xF47E4A x5056A4 x93091D x85F99B xBC9630 xD7D182 x5F792D x25C936 x0D68E8 x83A248 xE0B060 x7F900E x98345A x09C8CB xBAD952 x143D50 x891A77 x8C298E x7511D0 xBFC5D3 x39A321 x411CFE xEA3DB0 x2F07EE xFF933F xC97B8A x3E073E xBB4B6C x1C5B2A x2332C5 x4C02B1 x11062E xA1C52B xBE3227 xD3C3F5 x8F60D5 x710D15 x12B742 x28C7CA x11B3F7 x1C8A07 x157E2E x5304E5 xD57DC5 x8E92CB x5C8BAE xC943C3 x66015E
 			}
 		}
 		add_homeland = cu:han
@@ -7410,13 +7448,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x97C139 x2145E4 x9F6A1B x88C50C xDAD8AE x4C694B x8B77B9 xF38277 x14F092 x581D64 xEE0374 x12DE54 xC80075 x91CCD7 x6B9BF6 x4D64C0 x70CB39 x269610 xAEBCB8 x392877 xC7612E xAA4079 x24BC36 x3DD0C5 xCABB49 xF1F862 xE0F060 xFCC7AF x957B54 xF4DC23 x3254BE x4526DC x053F4B x785430 xA61477 x8EF2F9 x21B519
+				x97C139 x9F6A1B x88C50C xDAD8AE x4C694B x8B77B9 xF38277 x581D64 xEE0374 x12DE54 x91CCD7 x6B9BF6 x70CB39 x269610 xC7612E x24BC36 xF1F862 xFCC7AF xF4DC23 x3254BE x4526DC x053F4B xA61477 x8EF2F9 x21B519 xC3B047 x735753 x2DB649 x109000
 			}
 		}
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				x909000 x7BC0E9 x096C00 xEBF671 x0398DE x9DDD67 x109000 xC3B047 x2DB649 x735753
+				x909000 x7BC0E9 x096C00 xEBF671 x0398DE x9DDD67 xE0F060 xC80075 x785430 x957B54 x14F092 x2145E4 x4D64C0 xCABB49 xAA4079 x3DD0C5 xAEBCB8 x392877
 			}
 		}
 		add_homeland = cu:han
@@ -7427,13 +7465,19 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				xA613C9 xE6F815 xF070E0 xD2A4C7 x12F28E x242A48 xF7C5ED x40D43A x07C8D6 x8D6A1E xEA597E x9C3F91 xACD8B5 x4CF229 x845B19 xEAB2D0 x12DF0F xDFB220 x31B061 xAADB15 xCD4039 xA0C90D
+				xE6F815 x07C8D6 x845B19 xEAB2D0 x12DF0F xDFB220 x31B061 xAADB15 xCD4039 xA0C90D
 			}
 		}
 		create_state = {
 			country = c:GBR
 			owned_provinces = {
 				xB03161
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				xACD8B5 x9C3F91 xF7C5ED x12F28E xA613C9 xD2A4C7 x242A48 x4CF229 x40D43A x8D6A1E xEA597E xF070E0
 			}
 		}
 		add_homeland = cu:yue
@@ -7470,13 +7514,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				xBE7B7A x6D1ACD x1E5C7E xE19EFE x37E3AC xC407AF xDCC7E1 x8D45C0 xF0F0A0 xBC6F1C xC20E6A x0422AC x53ABCA x58D3A8 xB1309B x94D1BC x702462 xC3BDF0 x4269D4 xB71848 xFA9280 xA98A12 xCC1018 xF071A0 xE38868 x09D527 xC776A0 x3B542C x9F05B1 x84F9AF x8834F9 xE2A874 x9E2972 x25EA31 x84BD66 x116561 xE33EC4 x5100A2 x0F948D x201F22 x05C2CD x942ACA x48D397 xA34E72 x1380FF xBA0CC4
+				xBE7B7A x6D1ACD xE19EFE x37E3AC xC407AF xF0F0A0 xBC6F1C x702462 x84BD66 xE33EC4 x5100A2 xA34E72
 			}
 		}
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				x6EB824 x368CDE xDDB27C x505080 x135B0F x0359FB xF4850E x432FE3 x686CE7 xFF1286 x12B2EF x244859 xB0B0E0 xD8799B x9E70F2
+				x6EB824 x368CDE xDDB27C x505080 x135B0F x0359FB xF4850E x432FE3 x686CE7 xFF1286 x12B2EF x244859 xB0B0E0 xD8799B x9E70F2 xB1309B x1E5C7E xE38868 x0422AC xA98A12 x9E2972 x8D45C0 xCC1018 x9F05B1 xF071A0 xE2A874 xC776A0 x201F22 x05C2CD x942ACA xB71848 x8834F9 x4269D4 x3B542C x09D527 x84F9AF x25EA31 xFA9280 xDCC7E1 x94D1BC x53ABCA xC3BDF0 xC20E6A x48D397 xBA0CC4 x116561 x1380FF x0F948D x58D3A8
 			}
 		}
 		add_homeland = cu:yue
@@ -7534,7 +7578,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				xB53053 x7EECDC x2E331F x0F7841 xBBD804 x9090C0 x1A2B77 x352689 xBDBFAF x771E37 x102702 xE75A35 xE79EED x7F5143 x04647B xB63C5E x092D9A xF87F8F x149A35 xA3D4C9 xFA7945 x2BAB5F x71F0A0 x41D423 x2E1AF5 x778646 x406C38 xF45F74 x5DD6C0 x6A2320 x62F096 x554E31 x703060 xA0F6F6 x21C69F xD09041 xA892F9 xF141F6 xBDF913 xC933A2 xD29750
+				xB53053 x7EECDC x2E331F x0F7841 xBBD804 x9090C0 x1A2B77 x352689 xBDBFAF x771E37 x102702 xE75A35 xE79EED x7F5143 x04647B xB63C5E x092D9A xF87F8F x149A35 xA3D4C9 xFA7945 x2BAB5F x71F0A0 x41D423 x2E1AF5 x406C38 x5DD6C0 x554E31 x21C69F xBDF913 xC933A2
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				x778646 x62F096 x703060 xF45F74 x6A2320 xD29750 xD09041 xA0F6F6 xF141F6 xA892F9
 			}
 		}
 		add_homeland = cu:han
@@ -7543,7 +7593,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				xB4A217 xA09080 xFB1690 x19B590 xC14D4F x3C0326 x584DF4 xB5C560 xA762C6 x83E09F xF3DD2F x6CA1B1 xCCEDF7 x074BCB x09BCF6 x2FF3B4 x9101A7 xCA217E xAC32B2 x23D056 x1D97FA xCCCD99 xF32666 x18598F x48175A x4CCC0E x3FC5F7 x8F5E51 x358CED x5023A8 x2FC489 xE94A07 x1E4AB9 xC174DB xD5965A x6E8E64 xB2D474 xD8DFAA x909080 x90E663 x8A81C7 xFE1D86 x5EA4EA x88DFF1 xC13263 x4DAD29 xBF3F1F x059BB6 x769B1C x2EE787 x2030E0 x5A9612 x357B9C xA1721C
+				xB4A217 x19B590 xC14D4F x3C0326 x584DF4 xB5C560 xA762C6 x83E09F xF3DD2F x6CA1B1 xCCEDF7 x074BCB x2FF3B4 x9101A7 xCA217E x23D056 x1D97FA xCCCD99 xF32666 x18598F x48175A x4CCC0E x3FC5F7 x8F5E51 x358CED x5023A8 x2FC489 xE94A07 x1E4AB9 xC174DB xD5965A x6E8E64 xB2D474 xD8DFAA x909080 x90E663 x8A81C7 xFE1D86 x5EA4EA x88DFF1 xC13263 x4DAD29 xBF3F1F x059BB6 x769B1C x2EE787 x2030E0 x5A9612 x357B9C xA1721C
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				x09BCF6 xAC32B2 xA09080 xFB1690
 			}
 		}
 		add_homeland = cu:han
@@ -7562,7 +7618,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x6CC278 x38D512 x1FCA38 xADCF92 xC9D000 x6BE3E0 x749C07 x7ED6E0 x6A2E0D x2B47B0 x5003FE xA64E0F x63CB81 x8C9D26 xE5BE65 xEB71FF x509080 xF80FD0 xA5CD14 xA82289 x826987 xF40585 x08880B x32EDB3 xA7D4E7 xCBACD2 x434092 xD01080 x3A0F5D x5E3640 x09BD45 x3CE218 x1A1A09 x4A615F x6F4A61 x2D169B xAFEA41 xC154EE xD35EE3 xAD7D71 xD01000 x609C66 xDC98F0 x9772CF x9D1667 x11F985
+				x38D512 x1FCA38 xADCF92 x7ED6E0 x2B47B0 x63CB81 x8C9D26 xE5BE65 xF80FD0 xA5CD14 xA82289 x826987 xF40585 x08880B x32EDB3 xA7D4E7 xCBACD2 x434092 xD01080 x3A0F5D x5E3640 x09BD45 x3CE218 x1A1A09 x2D169B
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				xAFEA41 xDC98F0 x6F4A61 x509080 xC9D000 x5003FE xAD7D71 x9D1667 xC154EE x4A615F xD35EE3 x11F985 x9772CF xD01000 x609C66 x6BE3E0 x749C07 xA64E0F x6A2E0D x6CC278 xEB71FF
 			}
 		}
 		add_homeland = cu:han
@@ -7617,7 +7679,13 @@ STATES = {
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				x876F90 x70F060 x13C257 x67D814 x999320 x813C9B xF07060 xCDCCF7 x28B132 xA22FB2 x1B6AE2 xE070E0 x2D35A0 xE006E2 x4BB46A x2028A1 xC4F2DB x1FFEE2 xB203D2 x50C5FA x553A28 x77145A x85A9B1 xB6E7BA x229CC3 xA9286D x8D2979 xA0F0E0 xBC88D6 xB36BC5 x5469D3
+				x876F90 x70F060 x13C257 x999320 x813C9B xF07060 x28B132 xA22FB2 x1B6AE2 xE070E0 x2D35A0 xE006E2 x4BB46A x2028A1 xC4F2DB x1FFEE2 x229CC3 xA9286D x8D2979 xA0F0E0 xBC88D6 xB36BC5 x5469D3
+			}
+		}
+		create_state = {
+			country = c:CHI
+			owned_provinces = {
+				x67D814 x85A9B1 x50C5FA x77145A xB203D2 xB6E7BA x553A28 xCDCCF7
 			}
 		}
 		add_homeland = cu:han
@@ -7646,13 +7714,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				xCFABF8 x11D080 x2C1D6B xF5F230
+				x2C1D6B xF5F230
 			}
 		}
 		create_state = {
 			country = c:TPG
 			owned_provinces = {
-				xEF14F8 xDB13A1 xFAE3BB xD39CAD x474A7C x51DED8 x51D0C0 x21F0E0 x57F598 xCEA76B x6B1559
+				xEF14F8 xDB13A1 xFAE3BB xD39CAD x474A7C x51DED8 x51D0C0 x21F0E0 x57F598 xCEA76B x6B1559 xCFABF8 x11D080
 			}
 		}
 		add_homeland = cu:han
@@ -7661,7 +7729,13 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x4D6017 x6CC08C xD888E9 xB17F9F x55EA06 xE87279 xB6B50B xF9316A x97B78C x390A81 x98EC6A x909041 xAD3FD2 x22554F xEF7A33 x4D05FD x4D738D xF2F770 x90D080 x5C5657 x284C0E x1111C0 x985308 xC94FF2 x1190C0 xA43ACB x42D2BF xF8272C x3702A8 x783F2A x3EE5FD x5DB808 x112F90
+				x4D6017 x6CC08C xD888E9 xB17F9F xE87279 xB6B50B xF9316A x97B78C x390A81 x98EC6A x909041 xAD3FD2 xEF7A33 xF2F770 x90D080 x1111C0 xC94FF2 xA43ACB x42D2BF xF8272C x3702A8 x783F2A x3EE5FD x5DB808 x112F90
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				x22554F x4D05FD x55EA06 x4D738D x284C0E x5C5657 x985308 x1190C0
 			}
 		}
 		add_homeland = cu:han
@@ -7670,13 +7744,19 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x0970D9 x0FEECE x115101 x1AB7C6 x1F637F x215101 x43043A x480190 x4E770A x5CFC15 x5DA25B x5E5C94 x680507 x6850DA x76B0CC x81A01A x83E0CF x905101 xA08982 xAD4A5C xD09080 xD8F037 xDBD047 xE0D001 xF54194 xF7D611 xF9A4A2
+				x0970D9 x4E770A x83E0CF xDBD047 xF54194 x0FEECE xD09080 x680507
 			}
 		}
 		create_state = {
 			country = c:FRA
 			owned_provinces = {
 				xE5DAD3
+			}
+		}
+		create_state = {
+			country = c:TPG
+			owned_provinces = {
+				xD8F037 x1AB7C6 x115101 x480190 x5E5C94 x81A01A x5CFC15 x5DA25B x215101 x43043A xA08982 xF7D611 x76B0CC x6850DA xF9A4A2 x905101 xE0D001 xAD4A5C x1F637F
 			}
 		}
 		add_homeland = cu:han
@@ -7702,7 +7782,7 @@ STATES = {
 	}
 	s:STATE_NORTHERN_ANHUI = {
 		create_state = {
-			country = c:CHI
+			country = c:TPG
 			owned_provinces = {
 				x9381DD xCFAB73 xC6A460 xD05101 x9DE44A x87DFF6 x467DAC xC44EE7 xF5E291 x6895C0 x055124 x942097 x23849F x515101 x3D7546 xFD70D3 x901159 x7A0832 x55AA37 x5970FA x8EAD09 xBBD141 x801190
 			}
@@ -7741,15 +7821,15 @@ STATES = {
 	}
 	s:STATE_HUNAN = {
 		create_state = {
-			country = c:CHI
+			country = c:TPG
 			owned_provinces = {
-				xF1D0A3 x0C3FAC x61F84E xC8039B x133EB5 xD010C0 x6823EC x0E9E2E xC8EB76 x313A55 x105040 x0BC9A5 xC2F0B2 x337511 xBC0A62 xEDEC87 x3E0895 x4BD086 x6CD43B x8AE2CB x252DF2 xD090C0 xC8CEB1 xF8E062 x838F91 x2FA4D2 xA62BCD x232F8B x4F1960
+				xD05080 x425FDF x72AB61 x186F43 x0EE8CC x0C3FAC x61F84E xC8039B xD010C0 x6823EC x105040 x0BC9A5 xC2F0B2 x337511 xBC0A62 xEDEC87 x3E0895 x4BD086 x6CD43B x8AE2CB x252DF2 xD090C0 xC8CEB1 xF8E062 x838F91 x2FA4D2 xA62BCD x232F8B x4F1960
 			}
 		}
 		create_state = {
-			country = c:TPG
+			country = c:CHI
 			owned_provinces = {
-				xD05080 x425FDF x72AB61 x186F43 x0EE8CC
+				xC8EB76 x133EB5 xF1D0A3 x0E9E2E x313A55
 			}
 		}
 		add_homeland = cu:han
@@ -9074,7 +9154,7 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_claim = c:USA
-		add_claim = c:CSA 
+		add_claim = c:CSA
 	}
 	s:STATE_CHIAPAS = {
 		create_state = {
