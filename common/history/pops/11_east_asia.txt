@@ -241,7 +241,7 @@
 			create_pop = {
 				culture = han # nanfaren
 				religion = sunni
-				size = 2
+				size = 1
 			}
 		}
 	
@@ -1312,7 +1312,7 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 1028
+				size = 868
 			}
 			create_pop = {
 				culture = han
@@ -1330,7 +1330,7 @@
 			create_pop = {
 				culture = han # nanfaren
 				religion = sunni
-				size = 1
+				size = 0
 			}
 		}
 	}
@@ -1340,11 +1340,11 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 979
+				size = 826
 			}
 			create_pop = {
 				culture = han
-				size = 45938897
+				size = 38790238
 				religion = mahayana
 			}
 			create_pop = {
@@ -1379,11 +1379,11 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 1604
+				size = 1354
 			}
 			create_pop = {
 				culture = han
-				size = 127
+				size = 107
 				religion = mahayana
 			}
 			create_pop = {
@@ -1393,7 +1393,7 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 2
+				size = 1
 			}
 		}
 	}
@@ -1486,20 +1486,20 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3465
+				size = 2925
 			}
 			create_pop = {
 				culture = han
-				size = 277360
+				size = 234199
 				religion = mahayana
 			}
 			create_pop = {
 				culture = manchu
-				size = 15638
+				size = 13204
 			}
 			create_pop = {
 				culture = yue
-				size = 54
+				size = 45
 			}
 			create_pop = {
 				culture = yue
@@ -1513,7 +1513,7 @@
 			create_pop = {
 				culture = miao
 				religion = mahayana
-				size = 5
+				size = 4
 			}
 		}
 	}
@@ -1563,11 +1563,11 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 2957
+				size = 2496
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 1493
+				size = 1260
 				religion = mahayana
 			}
 		}
@@ -1578,11 +1578,11 @@
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 13967631
+				size = 11794095
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 40307
+				size = 34034
 				religion = mahayana
 			}
 		}
