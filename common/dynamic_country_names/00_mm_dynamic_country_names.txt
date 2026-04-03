@@ -1,5 +1,4 @@
-﻿
-INJECT:ORA = { 
+﻿INJECT:ORA = { 
 	dynamic_country_name = {
 		name = dyn_c_ORA_01
 		adjective = ORA_ADJ
@@ -1242,6 +1241,25 @@ COG = {
 }
 
 
+BRZ = { 
+	dynamic_country_name = {
+		name = dyn_c_BRZ_01
+		adjective = BRZ_ADJ
+
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			has_game_rule = historical_map_mod_enabled 
+			scope:actor = {
+				OR = {
+					coa_monarchy_trigger = yes
+					coa_absolute_monarchy_trigger = yes
+				}
+			} 
+		}
+	}
+} 
 
 
 INJECT:ITA = { 

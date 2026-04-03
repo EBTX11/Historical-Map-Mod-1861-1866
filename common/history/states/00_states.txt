@@ -23,6 +23,8 @@ STATES = {
 		add_homeland = cu:afro_american
 		add_homeland = cu:cajun
 		add_homeland = cu:afro_antillean
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_NEW_YORK = {
 		create_state = {
@@ -33,6 +35,8 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_homeland = cu:iroquoian
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_VIRGINIA = {
 		create_state = {
@@ -42,6 +46,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_LOWER_EGYPT = {
 		create_state = {
@@ -312,6 +318,8 @@ STATES = {
 		}
 		add_homeland = cu:salish
 		add_homeland = cu:nez_perce
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_IDAHO = {
 		create_state = {
@@ -469,6 +477,7 @@ STATES = {
 		}
 		add_homeland = cu:siouan
 		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_OKLAHOMA = {
 		create_state = {
@@ -491,6 +500,8 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:cherokee
 		add_homeland = cu:cajun
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MISSOURI = {
 		create_state = {
@@ -502,6 +513,8 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
 		add_homeland = cu:cajun
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_IOWA = {
 		create_state = {
@@ -513,6 +526,8 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_homeland = cu:dakota
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MINNESOTA = {
 		create_state = {
@@ -526,6 +541,7 @@ STATES = {
 		add_homeland = cu:dakota
 		add_homeland = cu:algonquian
 		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_WISCONSIN = {
 		create_state = {
@@ -538,6 +554,8 @@ STATES = {
 		add_homeland = cu:yankee
 		add_homeland = cu:dakota
 		add_homeland = cu:algonquian
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_INDIANA = {
 		create_state = {
@@ -547,6 +565,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MICHIGAN = {
 		create_state = {
@@ -558,6 +578,8 @@ STATES = {
 		}
 		add_homeland = cu:yankee
 		add_homeland = cu:algonquian
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_OHIO = {
 		create_state = {
@@ -567,6 +589,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_KENTUCKY = {
 		create_state = {
@@ -577,6 +601,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_TENNESSEE = {
 		create_state = {
@@ -587,6 +613,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MISSISSIPPI = {
 		create_state = {
@@ -597,6 +625,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_ALABAMA = {
 		create_state = {
@@ -608,6 +638,8 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_homeland = cu:caddoan
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_FLORIDA = {
 		create_state = {
@@ -616,11 +648,12 @@ STATES = {
 				x4407A0 x5B1199 xED77FB xE58A3D x5CD014 x7BCB55 xC60D66 x4070C0 x3556E5 xAAF2AF xF0B481 x9088D5 xFE627B x65ECBE xC000F0 x2E5E47 x3126CA x88BDEA x31C481 xB06E20 xDAE3CC x0C1D7F x1714EE xA03000 xD0761D x23B4D0 x8C16F9 x6E31DE x976584 xE3533E xF41CC0 x7FA347 x3CDD1A x552AD8 xE740E5
 			}
 			state_type = unincorporated
-		}
-		add_claim = c:CSA
+		} 
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 		add_homeland = cu:muskogean
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_GEORGIA = {
 		create_state = {
@@ -631,6 +664,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_DISTRICT_OF_COLUMBIA = {
 		create_state = {
@@ -641,6 +676,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {
@@ -651,6 +688,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MARYLAND = {
 		create_state = {
@@ -661,6 +700,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_DELAWARE = {
 		create_state = {
@@ -671,6 +712,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_PENNSYLVANIA = {
 		create_state = {
@@ -680,6 +723,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_NEW_JERSEY = {
 		create_state = {
@@ -689,6 +734,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_ILLINOIS = {
 		create_state = {
@@ -698,6 +745,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_CONNECTICUT = {
 		create_state = {
@@ -707,6 +756,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_RHODE_ISLAND = {
 		create_state = {
@@ -716,6 +767,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MASSACHUSETTS = {
 		create_state = {
@@ -725,6 +778,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_VERMONT = {
 		create_state = {
@@ -734,6 +789,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_NEW_HAMPSHIRE = {
 		create_state = {
@@ -743,6 +800,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_MAINE = {
 		create_state = {
@@ -752,6 +811,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:yankee
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_NORTH_CAROLINA = {
 		create_state = {
@@ -761,6 +822,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:dixie
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_TEXAS = {
 		create_state = {
@@ -773,8 +836,8 @@ STATES = {
 		add_homeland = cu:afro_american
 		add_homeland = cu:mexican
 		add_homeland = cu:comanche
-		add_claim = c:CSA
-		add_claim = c:CSA
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_YUKON_TERRITORY = {
 		create_state = {
@@ -2060,6 +2123,8 @@ STATES = {
 			}
 		}
 		add_homeland = cu:hokan
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_SONORA = {
 		create_state = {
@@ -9008,6 +9073,8 @@ STATES = {
 		}
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
+		add_claim = c:USA
+		add_claim = c:CSA 
 	}
 	s:STATE_CHIAPAS = {
 		create_state = {
@@ -9022,7 +9089,7 @@ STATES = {
 	}
 	s:STATE_SAN_SALVADOR = {
 		create_state = {
-			country = c:COS
+			country = c:ESL
 			owned_provinces = {
 				xB0D0C7 x3DB036 x107040 xCC1FCA
 			}

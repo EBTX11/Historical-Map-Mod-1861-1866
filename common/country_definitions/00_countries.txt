@@ -61,7 +61,7 @@ FRA = {
 	cultures = { french }
 	capital = STATE_ILE_DE_FRANCE
 
-	religion = protestant
+	religion = catholic
 }
 
 PRU = {

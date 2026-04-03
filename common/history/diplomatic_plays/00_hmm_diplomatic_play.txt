@@ -1,0 +1,59 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:CSA ?= {
+		create_diplomatic_play = {
+			name = american_civil_war #American Civil War
+ 
+			# target_state = c:USA.capital 
+			# war = yes
+			# annex_as_civil_war = yes 
+			# type = dp_revolution 
+
+
+			
+
+			target_state = s:STATE_TEXAS.region_state:MEX
+
+			war = yes
+
+			type = dp_return_state
+
+
+
+		}
+		 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

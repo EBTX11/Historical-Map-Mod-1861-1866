@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:CHI ?= {
+	c:TPG ?= {
         effect_starting_technology_tier_3_tech = yes
 		add_technology_researched = urban_planning
 		add_technology_researched = sericulture
@@ -17,17 +17,10 @@
 		activate_law = law_type:law_closed_borders
 		activate_law = law_type:law_free_trade #law_canton_system
 		activate_law = law_type:law_freedom_of_conscience
-
-		
-
-
-		set_tax_level = low
-	 
-		#add_journal_entry = { type = je_warlord_china }
-		add_journal_entry = { type = je_taiping }
-
-		add_modifier = {
-			name = opium_wars_lost 
-		}
-	}  
+ 
+		set_tax_level = low  
+	}
 }
+
+
+

@@ -7,12 +7,18 @@
 					building={
 						type="building_financial_district"
 						country="c:RUS"
-						levels=2
+						levels=1
+						region="STATE_URAL"
+					}
+					building={
+						type="building_iron_mine"
+						country="c:RUS"
+						levels=1
 						region="STATE_URAL"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -20,26 +26,75 @@
 					building={
 						type="building_financial_district"
 						country="c:RUS"
-						levels=2
+						levels=1
+						region="STATE_URAL"
+					}
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=1
 						region="STATE_URAL"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_road_carts" "pm_no_equipment" "pm_increased_hardwood" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
 			}
 		}
 	}
 	s:STATE_TOMSK={
 		region_state:RUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_TUVA={
-		
-	
-		region_state:TUV = { }
+		region_state:TUV={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:TUV"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
 	}
 	s:STATE_TOBOLSK={
 		region_state:RUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_UPPER_YENISEYSK={
@@ -56,6 +111,17 @@
 	}
 	s:STATE_KAMCHATKA={
 		region_state:RUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_OKHOTSK={
@@ -63,19 +129,53 @@
 			create_building={
 				building="building_port"
 				add_ownership={
-					company={
-						type = company_russian_american_company
+					building={
+						type="building_company_russian_american_company"
 						country="c:RUS"
 						levels=1
+						region="STATE_INGRIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
+			create_building={
+				building="building_naval_base"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_power_of_the_purse" }
+			}
 		}
 	}
 	s:STATE_YAKUTSK={
 		region_state:RUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
@@ -84,19 +184,30 @@
 				building="building_iron_mine"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_iron_mine"
 						country="c:RUS"
 						levels=1
-						region="STATE_INGRIA"
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 		}
 	}
 	s:STATE_IRKUTSK={
 		region_state:RUS={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
+			}
 		}
 	}
 }

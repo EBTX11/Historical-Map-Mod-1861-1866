@@ -94,7 +94,7 @@ MOR = {
 NAL = {
 	color = { 106  178  46 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = principality
 

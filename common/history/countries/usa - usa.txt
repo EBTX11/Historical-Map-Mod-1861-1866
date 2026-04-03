@@ -46,8 +46,11 @@
 			set_company_state_region = s:STATE_PENNSYLVANIA
 		}
 		add_journal_entry = {
-			type = je_acw_war
+			type = je_acw_countdown
 		}
+		# add_journal_entry = {
+		# 	type = je_acw_war
+		# }
 		set_variable = free_elections_var
 		active_law:lawgroup_distribution_of_power ?= { # Census Voting - whilst individual parties carried out electoral fraud, the American central government did not typically have any role in rigging elections
 			add_amendment = {
