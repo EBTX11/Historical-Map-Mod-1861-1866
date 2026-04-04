@@ -168,7 +168,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=62
+						levels=90
 					}
 				}
 				reserves=1
@@ -379,7 +379,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=20
+						levels=36
 					}
 				}
 				reserves=1
@@ -390,7 +390,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=6
+						levels=12
 					}
 				}
 				reserves=1
@@ -564,7 +564,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=5
+						levels=15
 					}
 				}
 				reserves=1
@@ -586,7 +586,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=6
+						levels=15
 					}
 				}
 				reserves=1
@@ -631,7 +631,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=3
+						levels=5
 					}
 				}
 				reserves=1
@@ -690,7 +690,7 @@
 				add_ownership={
 					country={
 						country="c:SWE"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -755,7 +755,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=24
+						levels=36
 					}
 				}
 				reserves=1
@@ -777,7 +777,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1
@@ -949,7 +949,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=27
+						levels=49
 					}
 				}
 				reserves=1
@@ -960,7 +960,7 @@
 				add_ownership={
 					country={
 						country="c:DEN"
-						levels=6
+						levels=28
 					}
 				}
 				reserves=1
@@ -1054,7 +1054,7 @@
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=11
+						levels=15
 					}
 				}
 				reserves=1
@@ -1187,7 +1187,7 @@
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=11
+						levels=13
 					}
 				}
 				reserves=1
@@ -1385,7 +1385,7 @@
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=11
+						levels=15
 					}
 				}
 				reserves=1
@@ -1429,7 +1429,7 @@
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -1501,6 +1501,12 @@
 						country="c:GBR"
 						levels=22
 						region="STATE_HOME_COUNTIES"
+					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_LANCASHIRE"
 					}
 				}
 				reserves=1
@@ -1716,7 +1722,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=26
+						levels=40
 					}
 				}
 				reserves=1
@@ -1828,6 +1834,12 @@
 						country="c:GBR"
 						levels=4
 					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_LANCASHIRE"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_rotary_valve_engine_building_arms_industry" "pm_rifles" }
@@ -1897,7 +1909,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_dynamite_building_iron_mine" }
+				activate_production_methods={ "pm_steam_donkey_mine" "pm_rail_transport_mine" "pm_condensing_engine_pump_building_iron_mine" "pm_dynamite_building_iron_mine" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -1991,7 +2003,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=94
+						levels=100
 					}
 				}
 				reserves=1
@@ -2116,7 +2128,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=53
+						levels=75
 					}
 				}
 				reserves=1
@@ -2249,7 +2261,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=4
+						levels=5
 						region="STATE_YORKSHIRE"
 					}
 					building={
@@ -2340,7 +2352,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=1
+						levels=2
 						region="STATE_YORKSHIRE"
 					}
 					building={
@@ -2354,6 +2366,12 @@
 						country="c:GBR"
 						levels=2
 						region="STATE_YORKSHIRE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_MIDLANDS"
 					}
 				}
 				reserves=1
@@ -2383,7 +2401,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_railway"
@@ -2428,7 +2446,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=60
+						levels=88
 					}
 				}
 				reserves=1
@@ -2517,7 +2535,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=44
+						levels=64
 					}
 				}
 				reserves=1
@@ -2696,7 +2714,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=2
+						levels=3
 						region="STATE_MIDLANDS"
 					}
 				}
@@ -2792,6 +2810,12 @@
 						country="c:GBR"
 						levels=2
 					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_MIDLANDS"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
@@ -2820,7 +2844,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=25
+						levels=39
 					}
 				}
 				reserves=1
@@ -2831,7 +2855,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=28
+						levels=30
 					}
 				}
 				reserves=1
@@ -2970,13 +2994,13 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=5
+						levels=6
 						region="STATE_EAST_ANGLIA"
 					}
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=1
+						levels=2
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
@@ -3153,7 +3177,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=29
+						levels=43
 					}
 				}
 				reserves=1
@@ -3337,7 +3361,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -3401,7 +3425,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=12
+						levels=20
 					}
 				}
 				reserves=1
@@ -3596,7 +3620,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3639,6 +3663,12 @@
 						levels=2
 						region="STATE_HOME_COUNTIES"
 					}
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_WEST_COUNTRY"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
@@ -3661,7 +3691,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=34
+						levels=54
 					}
 				}
 				reserves=1
@@ -3672,7 +3702,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -3770,7 +3800,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=39
+						levels=63
 					}
 				}
 				reserves=1
@@ -3845,7 +3875,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=9
+						levels=15
 					}
 				}
 				reserves=1
@@ -3856,7 +3886,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=9
+						levels=13
 					}
 				}
 				reserves=1
@@ -3959,7 +3989,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=30
+						levels=53
 					}
 				}
 				reserves=1
@@ -3993,7 +4023,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=6
+						levels=17
 					}
 				}
 				reserves=1
@@ -4021,7 +4051,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=4
+						levels=11
 					}
 				}
 				reserves=1
@@ -4160,6 +4190,12 @@
 						levels=2
 						region="STATE_ILE_DE_FRANCE"
 					}
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=1
+						region="STATE_NORMANDY"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_freedom_of_movement_no_effect" "pm_traditional_patronage" "pm_realist_art" }
@@ -4272,7 +4308,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=44
+						levels=64
 					}
 				}
 				reserves=1
@@ -4452,7 +4488,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=24
+						levels=34
 					}
 				}
 				reserves=1
@@ -4631,7 +4667,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
+				activate_production_methods={ "pm_tools" "pm_citrus_orchards" "pm_simple_farming" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -4680,7 +4716,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=35
+						levels=40
 					}
 				}
 				reserves=1
@@ -4702,7 +4738,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=26
+						levels=46
 					}
 				}
 				reserves=1
@@ -4726,6 +4762,12 @@
 						country="c:FRA"
 						levels=2
 						region="STATE_ILE_DE_FRANCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_MAINE_ANJOU"
 					}
 				}
 				reserves=1
@@ -4842,7 +4884,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=53
+						levels=83
 					}
 				}
 				reserves=1
@@ -4853,7 +4895,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=22
+						levels=30
 					}
 				}
 				reserves=1
@@ -5110,7 +5152,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=68
+						levels=98
 					}
 				}
 				reserves=1
@@ -5291,7 +5333,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=96
+						levels=100
 					}
 				}
 				reserves=1
@@ -5552,7 +5594,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=74
+						levels=100
 					}
 				}
 				reserves=1
@@ -5605,7 +5647,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=1
+						levels=2
 						region="STATE_RHONE"
 					}
 					building={
@@ -5813,7 +5855,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=75
+						levels=100
 					}
 				}
 				reserves=1
@@ -5838,6 +5880,12 @@
 						country="c:FRA"
 						levels=1
 						region="STATE_BRITTANY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_CHAMPAGNE"
 					}
 				}
 				reserves=1
@@ -5956,7 +6004,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=95
+						levels=100
 					}
 				}
 				reserves=1
@@ -5987,6 +6035,12 @@
 						country="c:FRA"
 						levels=1
 						region="STATE_GUANGDONG"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_AUVERGNE_LIMOUSIN"
 					}
 				}
 				reserves=1
@@ -6306,7 +6360,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=46
+						levels=66
 					}
 				}
 				reserves=1
@@ -6425,7 +6479,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=40
+						levels=60
 					}
 				}
 				reserves=1
@@ -6534,7 +6588,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=50
+						levels=70
 					}
 				}
 				reserves=1
@@ -6730,6 +6784,12 @@
 						levels=1
 						region="STATE_GUANGDONG"
 					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_RHONE"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_bessemer_process" "pm_rotary_valve_engine_building_steel_mill" }
@@ -6739,7 +6799,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=44
+						levels=74
 					}
 				}
 				reserves=1
@@ -6899,7 +6959,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=28
+						levels=30
 					}
 				}
 				reserves=1
@@ -7007,7 +7067,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=21
+						levels=31
 					}
 				}
 				reserves=1
@@ -7068,7 +7128,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=21
+						levels=19
 					}
 				}
 				reserves=1
@@ -7238,7 +7298,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=62
+						levels=88
 					}
 				}
 				reserves=1
@@ -7249,7 +7309,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=29
+						levels=30
 					}
 				}
 				reserves=1
@@ -7350,7 +7410,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=31
+						levels=41
 					}
 				}
 				reserves=1
@@ -7438,7 +7498,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=7
+						levels=18
 					}
 				}
 				reserves=1
@@ -7561,7 +7621,7 @@
 				add_ownership={
 					country={
 						country="c:NET"
-						levels=12
+						levels=21
 					}
 				}
 				reserves=1
@@ -7757,7 +7817,7 @@
 				add_ownership={
 					country={
 						country="c:BEL"
-						levels=61
+						levels=87
 					}
 				}
 				reserves=1
@@ -7910,7 +7970,7 @@
 				add_ownership={
 					country={
 						country="c:LUX"
-						levels=3
+						levels=9
 					}
 				}
 				reserves=1
@@ -8157,7 +8217,7 @@
 				add_ownership={
 					country={
 						country="c:BEL"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -8168,7 +8228,7 @@
 				add_ownership={
 					country={
 						country="c:BEL"
-						levels=18
+						levels=34
 					}
 				}
 				reserves=1
@@ -8351,7 +8411,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=72
+						levels=100
 					}
 				}
 				reserves=1
@@ -8481,6 +8541,12 @@
 						country="c:AUS"
 						levels=1
 						region="STATE_AUSTRIA"
+					}
+					building={
+						type="building_financial_district"
+						country="c:AUS"
+						levels=1
+						region="STATE_BOHEMIA"
 					}
 				}
 				reserves=1
@@ -8704,7 +8770,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=99
+						levels=100
 					}
 				}
 				reserves=1
@@ -8881,7 +8947,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=84
+						levels=100
 					}
 				}
 				reserves=1
@@ -9004,14 +9070,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=14
+						levels=20
 					}
 				}
 				reserves=1
@@ -9090,14 +9156,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=13
+						levels=21
 					}
 				}
 				reserves=1
@@ -10652,7 +10718,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -10704,7 +10770,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_building_logging_camp" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_simple_forestry" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_steam_donkey_building_logging_camp" "pm_rail_transport_building_logging_camp" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -10916,7 +10982,7 @@
 				add_ownership={
 					country={
 						country="c:WUR"
-						levels=28
+						levels=50
 					}
 				}
 				reserves=1
@@ -11040,7 +11106,7 @@
 				add_ownership={
 					country={
 						country="c:BAD"
-						levels=19
+						levels=35
 					}
 				}
 				reserves=1
@@ -11202,7 +11268,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -11409,7 +11475,7 @@
 				add_ownership={
 					country={
 						country="c:BAV"
-						levels=52
+						levels=84
 					}
 				}
 				reserves=1
@@ -11543,7 +11609,7 @@
 				add_ownership={
 					country={
 						country="c:BAV"
-						levels=14
+						levels=38
 					}
 				}
 				reserves=1
@@ -11681,7 +11747,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_barrack"
@@ -11853,7 +11919,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_port"

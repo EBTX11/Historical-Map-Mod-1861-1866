@@ -237,7 +237,7 @@ ITA = {
 	tier = empire
 
 	cultures = { north_italian south_italian }
-	capital = STATE_LAZIO
+	capital = STATE_PIEDMONT #STATE_LAZIO
 }
 
 KUK = {
@@ -3240,7 +3240,7 @@ PUE = { # Pueblo
 NNV = { # Nunavut
 	color = { 205 214 216 }
 
-	country_type = unrecognized
+	country_type = decentralized #unrecognized
 
 	tier = principality
 

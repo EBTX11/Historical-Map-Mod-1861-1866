@@ -59,6 +59,12 @@
 			ruler = yes
 		}
 	} 
+	c:ITA ?= {
+        create_character = {
+            template = sar_victor_emmanuel_template
+			ruler = yes
+		}
+	} 
 
 
 

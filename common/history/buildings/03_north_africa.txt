@@ -82,7 +82,7 @@
 					building={
 						type="building_financial_district"
 						country="c:EGY"
-						levels=4
+						levels=5
 						region="STATE_LOWER_EGYPT"
 					}
 				}
@@ -107,7 +107,7 @@
 					building={
 						type="building_financial_district"
 						country="c:EGY"
-						levels=2
+						levels=3
 						region="STATE_LOWER_EGYPT"
 					}
 				}
@@ -124,7 +124,7 @@
 					building={
 						type="building_financial_district"
 						country="c:EGY"
-						levels=2
+						levels=3
 						region="STATE_LOWER_EGYPT"
 					}
 				}
@@ -396,7 +396,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=50
+						levels=70
 					}
 				}
 				reserves=1
@@ -549,7 +549,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=34
+						levels=50
 					}
 				}
 				reserves=1
@@ -743,7 +743,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=19
+						levels=39
 					}
 				}
 				reserves=1
@@ -896,6 +896,12 @@
 					country={
 						country="c:EGY"
 						levels=1
+					}
+					building={
+						type="building_financial_district"
+						country="c:EGY"
+						levels=1
+						region="STATE_LOWER_EGYPT"
 					}
 				}
 				reserves=1
@@ -1132,12 +1138,32 @@
 					building={
 						type="building_financial_district"
 						country="c:TUR"
-						levels=1
+						levels=2
 						region="STATE_HUDAVENDIGAR"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "molds" "default_labour_tobacco" "pm_road_carts" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=1
+						region="STATE_LOWER_EGYPT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "worker_exploitation_cotton" "pm_road_carts" }
+			}
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+				}
+				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -1196,7 +1222,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=45
+						levels=65
 					}
 				}
 				reserves=1
@@ -1284,7 +1310,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=23
+						levels=33
 					}
 				}
 				reserves=1
@@ -1461,7 +1487,7 @@
 					building={
 						type="building_financial_district"
 						country="c:EGY"
-						levels=4
+						levels=5
 						region="STATE_LOWER_EGYPT"
 					}
 					building={
@@ -1565,7 +1591,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=15
+						levels=31
 					}
 				}
 				reserves=1
@@ -1601,7 +1627,7 @@
 					building={
 						type="building_financial_district"
 						country="c:EGY"
-						levels=2
+						levels=3
 						region="STATE_LOWER_EGYPT"
 					}
 					country={
@@ -1941,7 +1967,7 @@
 				add_ownership={
 					country={
 						country="c:SPA"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -2084,7 +2110,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1

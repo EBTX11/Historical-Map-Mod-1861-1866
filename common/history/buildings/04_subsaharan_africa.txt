@@ -845,20 +845,6 @@
 	s:STATE_NIGER_DELTA={
 		region_state:IBO={
 		}
-		region_state:DEN={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
 	}
 	s:STATE_OUTER_HAUSALAND={
 		region_state:SOK={
@@ -2868,6 +2854,19 @@
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_wooden_whaling_ships" }
 			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_LORRAINE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "worker_exploitation_tea" "pm_road_carts" }
+			}
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR={
@@ -3265,7 +3264,7 @@
 				add_ownership={
 					country={
 						country="c:AGC"
-						levels=3
+						levels=7
 					}
 				}
 				reserves=1
@@ -3863,6 +3862,12 @@
 						levels=2
 						region="STATE_GUANGDONG"
 					}
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=2
+						region="STATE_ILE_DE_FRANCE"
+					}
 				}
 				reserves=1
 				activate_production_methods={ "worker_exploitation_dye" "automatic_irrigation_building_dye_plantation" "pm_steam_rail_transport" }
@@ -4228,7 +4233,7 @@
 						type="building_financial_district"
 						country="c:GBR"
 						levels=1
-						region="STATE_YORUBA_STATES"
+						region="STATE_MIDLANDS"
 					}
 				}
 				subsidized=no
@@ -4604,19 +4609,6 @@
 			}
 		}
 		region_state:NAL={
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GBR"
-						levels=1
-						region="STATE_SHAOZHOU"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
-			}
 		}
 	}
 	s:STATE_EASTERN_CAPE={
@@ -4747,7 +4739,7 @@
 				add_ownership={
 					country={
 						country="c:SAF"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1

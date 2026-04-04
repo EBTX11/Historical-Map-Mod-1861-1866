@@ -63,19 +63,19 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = malay
-				size = 130000
+				size = 187029
 			}
 			create_pop = {
 				culture = tamil
-				size = 5720
+				size = 8229
 			}
 			create_pop = {
 				culture = yue
-				size = 22100
+				size = 31795
 			}
 			create_pop = {
 				culture = british
-				size = 3634
+				size = 5228
 			}
 		}
 	}

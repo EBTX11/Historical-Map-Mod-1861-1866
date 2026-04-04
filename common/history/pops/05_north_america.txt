@@ -1428,15 +1428,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = inuit
-				size = 8944
+				size = 11622
 			}
 			create_pop = {
 				culture = irish
-				size = 44831
+				size = 58257
 			}
 			create_pop = {
 				culture = anglo_canadian
-				size = 44827
+				size = 58251
 			}
 		}
 	}
@@ -1753,11 +1753,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 16641
+				size = 21624
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 13843
+				size = 17988
 			}
 		}
 	}

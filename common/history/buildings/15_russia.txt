@@ -58,7 +58,7 @@
 				add_ownership={
 					country={
 						country="c:UBD"
-						levels=13
+						levels=18
 					}
 				}
 				reserves=1
@@ -116,7 +116,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -200,7 +200,7 @@
 				add_ownership={
 					country={
 						country="c:UBD"
-						levels=3
+						levels=4
 					}
 				}
 				reserves=1
@@ -265,6 +265,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_simple_ranch" "pm_standard_fences" "pm_butchering_tools" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:UBD"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -484,7 +495,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=13
+						levels=18
 					}
 				}
 				reserves=1
@@ -495,7 +506,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -571,7 +582,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=3
+						levels=5
 					}
 				}
 				reserves=1
@@ -709,7 +720,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -747,7 +758,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=4
+						levels=3
 					}
 				}
 				reserves=1
@@ -1260,7 +1271,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=10
+						levels=14
 					}
 				}
 				reserves=1
@@ -1333,7 +1344,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -1366,7 +1377,7 @@
 					building={
 						type="building_trade_center"
 						country="c:RUS"
-						levels=1
+						levels=2
 						region="STATE_KIEV"
 					}
 					country={
@@ -1700,7 +1711,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_barbed_wire_fences" }
 			}
 			create_building={
 				building="building_power_plant"
@@ -1890,7 +1901,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=20
+						levels=25
 					}
 				}
 				reserves=1
@@ -1965,7 +1976,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -1976,7 +1987,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -2370,7 +2381,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=10
+						levels=14
 					}
 				}
 				reserves=1
@@ -2582,7 +2593,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=10
+						levels=14
 					}
 				}
 				reserves=1
@@ -2670,7 +2681,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -2772,7 +2783,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -2783,7 +2794,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=17
 					}
 				}
 				reserves=1
@@ -2971,7 +2982,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=11
+						levels=19
 					}
 				}
 				reserves=1
@@ -3127,7 +3138,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3409,6 +3420,17 @@
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:CHC"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
 		}
 		region_state:CIR={
 			create_building={
@@ -3433,7 +3455,7 @@
 				add_ownership={
 					country={
 						country="c:CIR"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -3516,7 +3538,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=3
 					}
 				}
 				reserves=1
@@ -3959,6 +3981,19 @@
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_unrefrigerated" }
 			}
+			create_building={
+				building="building_power_plant"
+				add_ownership={
+					building={
+						type="building_power_plant"
+						country="c:RUS"
+						levels=1
+						region="STATE_YAROSLAVL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_early_power_plant" }
+			}
 		}
 	}
 	s:STATE_NIZHNY_NOVGOROD={
@@ -4387,7 +4422,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="building_construction_sector"

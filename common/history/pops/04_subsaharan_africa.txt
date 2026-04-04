@@ -3,7 +3,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = akan
-				size = 56417
+				size = 93963
 			}
 		}
 		region_state:BLE = {
@@ -95,15 +95,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = fulbe
-				size = 61540
+				size = 102495
 			}
 			create_pop = {
 				culture = bidan
-				size = 7949
+				size = 13239
 			}
 			create_pop = {
 				culture = wolof
-				size = 20517
+				size = 34171
 			}
 		}
 		
@@ -232,15 +232,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = fulbe
-				size = 82760
+				size = 107545
 			}
 			create_pop = {
 				culture = bidan
-				size = 10690
+				size = 13891
 			}
 			create_pop = {
 				culture = wolof
-				size = 27590
+				size = 35852
 			}
 		}
 	}
@@ -460,12 +460,12 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = yoruba
-				size = 1334634
+				size = 1734333
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = fon
-				size = 24137
+				size = 31365
 			}
 		}
 	}
@@ -839,11 +839,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = akan
-				size = 73458
+				size = 95457
 			}
 			create_pop = {
 				culture = british
-				size = 235
+				size = 305
 			}
 		}
 	}
@@ -931,25 +931,25 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = fon
-				size = 184632
+				size = 307507
 			}
 			create_pop = {
 				culture = yoruba
-				size = 22099
+				size = 36806
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = yoruba
-				size = 19233
+				size = 32032
 			}
 			create_pop = {
 				culture = akan
-				size = 23945
+				size = 39880
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = fulbe
-				size = 8339
+				size = 13888
 			}
 		}
 	}
@@ -1588,23 +1588,23 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = malagasy
-				size = 516223
+				size = 859776
 			}
 			create_pop = {
 				culture = malagasy
 				religion = sunni
-				size = 46546
+				size = 77523
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
-				size = 9616
+				size = 16015
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = malagasy
 				religion = sunni
-				size = 3209
+				size = 5344
 			}
 		}
 	}
@@ -2543,21 +2543,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = fang
-				size = 35901
+				size = 59793
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 38978
+				size = 64918
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = fang
-				size = 9616
+				size = 16015
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = equatorial_bantu
-				size = 12825
+				size = 21360
 			}
 		}
 	}

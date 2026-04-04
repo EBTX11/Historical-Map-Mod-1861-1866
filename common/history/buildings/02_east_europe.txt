@@ -69,7 +69,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=10
+						levels=14
 					}
 				}
 				reserves=1
@@ -165,7 +165,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_rail_transport_mine" "pm_condensing_engine_pump_building_lead_mine" "pm_steam_donkey_mine" "pm_nitroglycerin_building_lead_mine" }
+				activate_production_methods={ "pm_condensing_engine_pump_building_lead_mine" "pm_rail_transport_mine" "pm_steam_donkey_mine" "pm_nitroglycerin_building_lead_mine" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -219,7 +219,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -393,7 +393,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -530,7 +530,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=27
+						levels=43
 					}
 				}
 				reserves=1
@@ -1030,7 +1030,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_barrack"
@@ -1129,7 +1129,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1153,7 +1153,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=38
+						levels=60
 					}
 				}
 				reserves=1
@@ -1333,7 +1333,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=55
+						levels=97
 					}
 				}
 				reserves=1
@@ -1537,7 +1537,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=56
+						levels=82
 					}
 				}
 				reserves=1
@@ -1656,7 +1656,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=33
+						levels=51
 					}
 				}
 				reserves=1
@@ -1767,7 +1767,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=12
+						levels=24
 					}
 				}
 				reserves=1
@@ -1849,7 +1849,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=7
+						levels=21
 					}
 				}
 				reserves=1
@@ -2101,19 +2101,6 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			create_building={
-				building="building_power_plant"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:AUS"
-						levels=1
-						region="STATE_BOHEMIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_early_power_plant" }
-			}
 		}
 	}
 	s:STATE_MOLDAVIA={
@@ -2171,7 +2158,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2190,14 +2177,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_no_equipment" "pm_simple_forestry" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=4
+						levels=10
 					}
 				}
 				reserves=1

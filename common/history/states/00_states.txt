@@ -2093,6 +2093,7 @@ STATES = {
 			}
 		}
 		add_homeland = south_italian
+		add_claim = c:ITA
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -9169,7 +9170,7 @@ STATES = {
 	}
 	s:STATE_SAN_SALVADOR = {
 		create_state = {
-			country = c:ESL
+			country = c:ELS
 			owned_provinces = {
 				xB0D0C7 x3DB036 x107040 xCC1FCA
 			}

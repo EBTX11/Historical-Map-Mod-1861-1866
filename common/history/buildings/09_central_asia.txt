@@ -51,7 +51,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -182,7 +182,7 @@
 				add_ownership={
 					country={
 						country="c:CIR"
-						levels=24
+						levels=25
 					}
 				}
 				reserves=1
@@ -265,7 +265,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=21
 					}
 				}
 				reserves=1
@@ -331,7 +331,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -499,7 +499,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=20
+						levels=25
 					}
 				}
 				reserves=1
@@ -546,7 +546,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=20
+						levels=25
 					}
 				}
 				reserves=1
@@ -705,7 +705,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_electric_fencing" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -938,7 +938,7 @@
 				add_ownership={
 					country={
 						country="c:KAB"
-						levels=15
+						levels=20
 					}
 				}
 				reserves=1
@@ -1077,7 +1077,7 @@
 				add_ownership={
 					country={
 						country="c:CHT"
-						levels=6
+						levels=13
 					}
 				}
 				reserves=1
@@ -1163,7 +1163,7 @@
 				add_ownership={
 					country={
 						country="c:HER"
-						levels=17
+						levels=24
 					}
 				}
 				reserves=1
@@ -1250,7 +1250,7 @@
 				add_ownership={
 					country={
 						country="c:KUN"
-						levels=6
+						levels=20
 					}
 				}
 				reserves=1
@@ -1289,7 +1289,7 @@
 				add_ownership={
 					country={
 						country="c:MAI"
-						levels=16
+						levels=25
 					}
 				}
 				reserves=1
@@ -1575,7 +1575,7 @@
 				add_ownership={
 					country={
 						country="c:KAF"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -1831,7 +1831,7 @@
 				add_ownership={
 					country={
 						country="c:KAL"
-						levels=15
+						levels=25
 					}
 				}
 				reserves=1

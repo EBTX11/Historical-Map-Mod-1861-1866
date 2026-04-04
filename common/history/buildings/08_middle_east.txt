@@ -125,6 +125,17 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+			create_building={
+				building="building_naval_base"
+				add_ownership={
+					country={
+						country="c:OMA"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_naval_theory" }
+			}
 		}
 		region_state:AED={
 			create_building={
@@ -491,7 +502,7 @@
 				add_ownership={
 					country={
 						country="c:LAH"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1688,7 +1699,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=9
+						levels=15
 					}
 				}
 				reserves=1
@@ -1839,7 +1850,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=18
+						levels=25
 					}
 				}
 				reserves=1
@@ -2019,7 +2030,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=11
+						levels=23
 					}
 				}
 				reserves=1
@@ -2073,7 +2084,7 @@
 				add_ownership={
 					country={
 						country="c:ARB"
-						levels=12
+						levels=18
 					}
 				}
 				reserves=1
@@ -2123,7 +2134,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=6
+						levels=12
 					}
 				}
 				reserves=1
@@ -2240,7 +2251,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=8
+						levels=18
 					}
 				}
 				reserves=1
@@ -2463,7 +2474,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=11
+						levels=25
 					}
 				}
 				reserves=1
@@ -2521,7 +2532,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=3
+						levels=6
 					}
 				}
 				reserves=1
@@ -2961,7 +2972,7 @@
 				add_ownership={
 					country={
 						country="c:TUR"
-						levels=15
+						levels=20
 					}
 				}
 				reserves=1
@@ -3079,7 +3090,7 @@
 				add_ownership={
 					country={
 						country="c:TUR"
-						levels=23
+						levels=25
 					}
 				}
 				reserves=1
@@ -3250,7 +3261,7 @@
 				add_ownership={
 					country={
 						country="c:TUR"
-						levels=12
+						levels=18
 					}
 				}
 				reserves=1
@@ -3763,7 +3774,7 @@
 				add_ownership={
 					country={
 						country="c:TUR"
-						levels=22
+						levels=25
 					}
 				}
 				reserves=1
@@ -3828,7 +3839,7 @@
 				add_ownership={
 					country={
 						country="c:TUR"
-						levels=5
+						levels=11
 					}
 				}
 				reserves=1

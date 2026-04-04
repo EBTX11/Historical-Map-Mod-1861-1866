@@ -2,7 +2,7 @@
 	s:STATE_SAN_SALVADOR = {
 		
 	
-		region_state:COS = {
+		region_state:ELS = {
 			create_pop = {
 				culture = central_american
 				size = 556665
@@ -14,11 +14,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 6124
+				size = 7958
 			}
 			create_pop = {
 				culture = british
-				size = 90
+				size = 116
 			}
 		}
 	
@@ -260,11 +260,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 16553
+				size = 21510
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 86561
+				size = 112484
 			}
 		}
 	}
@@ -272,11 +272,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 14232
+				size = 23703
 			}
 			create_pop = {
 				culture = afro_antillean
-				size = 138548
+				size = 230753
 			}
 		}
 		region_state:DEN = {
@@ -292,15 +292,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 29920
+				size = 38880
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 202407
+				size = 263024
 			}
 			create_pop = {
 				culture = dutch
-				size = 342
+				size = 444
 			}
 		}
 		region_state:NET = {
@@ -344,11 +344,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 309166
+				size = 401755
 			}
 			create_pop = {
 				culture = british
-				size = 19865
+				size = 25814
 			}
 		}
 	}

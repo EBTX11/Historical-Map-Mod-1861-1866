@@ -161,21 +161,21 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2291280
+				size = 2977477
 			}
 			create_pop = {
 				culture = british
 				religion = jewish
-				size = 17243
+				size = 22406
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 86216
+				size = 112036
 			}
 			create_pop = {
 				culture = irish
-				size = 24486
+				size = 31819
 			}
 		}
 	}
@@ -183,16 +183,16 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1712604
+				size = 2225498
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 73887
+				size = 96014
 			}
 			create_pop = {
 				culture = irish
-				size = 69577
+				size = 90414
 			}
 		}
 	}
@@ -200,11 +200,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = welsh
-				size = 671242
+				size = 872267
 			}
 			create_pop = {
 				culture = british
-				size = 167811
+				size = 218067
 			}
 		}
 	}
@@ -212,16 +212,16 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1747252
+				size = 2270522
 			}
 			create_pop = {
 				culture = irish
-				size = 13794
+				size = 17925
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 41385
+				size = 53779
 			}
 		}
 	}
@@ -229,17 +229,17 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 374941
+				size = 487229
 			}
 			# est. 316680 Scottish Gaels
 			create_pop = {
 				culture = scottish_gaelic
-				size = 204772
+				size = 266097
 			}
 			create_pop = {
 				culture = scottish_gaelic
 				religion = catholic
-				size = 68258
+				size = 88700
 			}
 		}
 	}
@@ -247,16 +247,16 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2193001
+				size = 2849765
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 21036
+				size = 27335
 			}
 			create_pop = {
 				culture = irish
-				size = 10347
+				size = 13445
 			}
 		}
 	}
@@ -264,12 +264,12 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1349463
+				size = 1753603
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 6898
+				size = 8963
 			}
 		}
 	}
@@ -277,16 +277,16 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1698115
+				size = 2206670
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 10690
+				size = 13891
 			}
 			create_pop = {
 				culture = irish
-				size = 3795
+				size = 4931
 			}
 		}
 	}
@@ -294,20 +294,20 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1162257
+				size = 1510332
 			}
 			create_pop = {
 				culture = scottish
 				religion = catholic
-				size = 162086
+				size = 210627
 			}
 			create_pop = {
 				culture = scottish_gaelic
-				size = 42356
+				size = 55040
 			}
 			create_pop = {
 				culture = irish
-				size = 45178
+				size = 58708
 			}
 		}
 	}
@@ -317,72 +317,72 @@
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
 				pop_type = aristocrats
-				size = 12932
+				size = 16804
 			}
 			create_pop = {
 				culture = irish  # Catholics
 				pop_type = aristocrats
-				size = 8621
+				size = 11202
 			}
 
 			### Farmers
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
 				pop_type = farmers
-				size = 12932
+				size = 16804
 			}
 
 			### Officers
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = officers
-				size = 1724
+				size = 2240
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
 				pop_type = officers
-				size = 2155
+				size = 2800
 			}
 
 			### Soldiers
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = soldiers
-				size = 17243
+				size = 22406
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
 				pop_type = soldiers
-				size = 17243
+				size = 22406
 			}
 			create_pop = {
 				culture = irish  # Catholics
 				pop_type = soldiers
-				size = 21554
+				size = 28009
 			}
 
 			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1011421
+				size = 1314323
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 332028
+				size = 431464
 			}
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 61939
+				size = 80488
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
-				size = 439775
+				size = 571479
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
 				religion = protestant
-				size = 87501
+				size = 113705
 			}
 		}
 	}
@@ -392,42 +392,42 @@
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = officers
-				size = 1207
+				size = 1568
 			}
 
 			### Soldiers
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = soldiers
-				size = 6897
+				size = 8962
 			}
 			create_pop = {
 				culture = irish  # Catholics
 				pop_type = soldiers
-				size = 6897
+				size = 8962
 			}
 
 			create_pop = {
 				culture = irish # Catholics
-				size = 1902266
+				size = 2471960
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 53846
+				size = 69971
 			}
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 41300
+				size = 53668
 			}
 			create_pop = {
 				culture = british  # Presbyterians and Methodists
-				size = 8663
+				size = 11257
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
 				religion = protestant
-				size = 3486
+				size = 4529
 			}
 		}
 	}
@@ -437,52 +437,52 @@
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = officers
-				size = 3879
+				size = 5040
 			}
 
 			### Soldiers
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = soldiers
-				size = 22416
+				size = 29129
 			}
 			create_pop = {
 				culture = irish  # Catholics
 				pop_type = soldiers
-				size = 25864
+				size = 33609
 			}
 
 			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1420483
+				size = 1845892
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 112502
+				size = 146194
 			}
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 59483
+				size = 77297
 			}
 			create_pop = {
 				culture = british  # Presbyterians and Methodists
-				size = 12401
+				size = 16114
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
-				size = 3707
+				size = 4817
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
 				religion = protestant
-				size = 6903
+				size = 8970
 			}
 			create_pop = {
 				culture = british
 				religion = jewish
-				size = 209
+				size = 271
 			}
 		}
 	}
@@ -493,42 +493,42 @@
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = officers
-				size = 603
+				size = 783
 			}
 
 			### Soldiers
 			create_pop = {
 				culture = british # Anglicans
 				pop_type = soldiers
-				size = 5172
+				size = 6720
 			}
 			create_pop = {
 				culture = irish  # Catholics
 				pop_type = soldiers
-				size = 6035
+				size = 7842
 			}
 
 			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1131525
+				size = 1470396
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 18762
+				size = 24380
 			}
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 28806
+				size = 37432
 			}
 			create_pop = {
 				culture = british  # Presbyterians and Methodists
-				size = 3454
+				size = 4488
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
-				size = 4462
+				size = 5798
 			}
 		}
 	}
@@ -536,16 +536,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1187822
+				size = 1978334
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 13073
+				size = 21773
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5913
+				size = 9848
 			}
 		}
 	}
@@ -554,20 +554,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 665912
+				size = 1109085
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 7766
+				size = 12934
 			}
 			create_pop = {
 				culture = french
-				size = 24113
+				size = 40160
 			}
 			create_pop = {
 				culture = sephardic # Avignonese Jews, closer to Sephardi than Ashkenazi
-				size = 1567
+				size = 2609
 			}
 		}
 	}
@@ -575,16 +575,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1712097
+				size = 2851521
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 9082
+				size = 15126
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 303
+				size = 504
 			}
 		}
 	}
@@ -592,24 +592,24 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1278929
+				size = 2130074
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 107682
+				size = 179345
 			}
 			create_pop = {
 				culture = catalan
-				size = 93093
+				size = 155047
 			}
 			create_pop = {
 				culture = french
-				size = 41168
+				size = 68565
 			}
 			create_pop = {
 				culture = sephardic
-				size = 578
+				size = 962
 			}
 		}
 	}
@@ -617,29 +617,29 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = francoprovencal
-				size = 1095801
+				size = 1825072
 			}
 			create_pop = {
 				culture = francoprovencal
 				religion = protestant
-				size = 4958
+				size = 8257
 			}
 			create_pop = {
 				culture = occitan
-				size = 456464
+				size = 760247
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 50280
+				size = 83742
 			}
 			create_pop = {
 				culture = french
-				size = 61880
+				size = 103062
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 575
+				size = 957
 			}
 		}
 	}
@@ -647,25 +647,25 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1030917
+				size = 1717006
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 6588
+				size = 10972
 			}
 			create_pop = {
 				culture = flemish
-				size = 44954
+				size = 74871
 			}
 			create_pop = {
 				culture = flemish
 				religion = protestant
-				size = 1294
+				size = 2155
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 419
+				size = 697
 			}
 		}
 	}
@@ -673,16 +673,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 943075
+				size = 1570704
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 4684
+				size = 7801
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 94
+				size = 156
 			}
 		}
 	}
@@ -690,29 +690,29 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = alemannic
-				size = 461096
+				size = 767961
 			}
 			create_pop = {
 				culture = alemannic
 				religion = protestant
-				size = 141543
+				size = 235741
 			}
 			create_pop = {
 				culture = south_german
-				size = 151935
+				size = 253049
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 2929
+				size = 4878
 			}
 			create_pop = {
 				culture = french
-				size = 137879
+				size = 229639
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 25341
+				size = 42205
 			}
 		}
 	}
@@ -720,20 +720,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1077115
+				size = 1793950
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 41728
+				size = 69498
 			}
 			create_pop = {
 				culture = occitan
-				size = 1922
+				size = 3201
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 31
+				size = 51
 			}
 		}
 	}
@@ -741,16 +741,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1085784
+				size = 1808388
 			}
 			create_pop = {
 				culture = french
-				size = 6642
+				size = 11062
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 19295
+				size = 32136
 			}
 		}
 	}
@@ -758,20 +758,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1249570
+				size = 2081176
 			}
 			create_pop = {
 				culture = french
-				size = 236745
+				size = 394302
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 5960
+				size = 9926
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 171
+				size = 284
 			}
 		}
 	}
@@ -779,20 +779,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = breton
-				size = 1025197
+				size = 1707480
 			}
 			create_pop = {
 				culture = french
-				size = 652666
+				size = 1087024
 			}
 			create_pop = {
 				culture = breton
 				religion = protestant
-				size = 1942
+				size = 3234
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 98
+				size = 163
 			}
 		}
 	}
@@ -800,20 +800,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1001016
+				size = 1667206
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 1671
+				size = 2783
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 7917
+				size = 13185
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 383
+				size = 637
 			}
 		}
 	}
@@ -821,16 +821,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1031537
+				size = 1718039
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 743
+				size = 1237
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 41
+				size = 68
 			}
 		}
 	}
@@ -838,20 +838,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 739487
+				size = 1231626
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 2225
+				size = 3705
 			}
 			create_pop = { # Givet area Walloon
 				culture = wallonian
-				size = 2670
+				size = 4446
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 559
+				size = 931
 			}
 		}
 	}
@@ -859,20 +859,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 494127
+				size = 822975
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 26106
+				size = 43479
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 78166
+				size = 130186
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 997
+				size = 1660
 			}
 		}
 	}
@@ -880,16 +880,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 726852
+				size = 1210582
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 7776
+				size = 12951
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 4643
+				size = 7732
 			}
 		}
 	}
@@ -897,24 +897,24 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1092407
+				size = 1819419
 			}
 			create_pop = {
 				culture = occitan
 				religion = protestant
-				size = 12042
+				size = 20056
 			}
 			create_pop = {
 				culture = french
-				size = 37266
+				size = 62067
 			}
 			create_pop = {
 				culture = basque
-				size = 38558
+				size = 64218
 			}
 			create_pop = {
 				culture = sephardic
-				size = 2058
+				size = 3427
 			}
 		}
 	}
@@ -922,16 +922,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 881564
+				size = 1468257
 			}
 			create_pop = {
 				culture = french
 				religion = protestant
-				size = 2791
+				size = 4648
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 60
+				size = 99
 			}
 		}
 	}

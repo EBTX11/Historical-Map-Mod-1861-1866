@@ -82,7 +82,7 @@
 				add_ownership={
 					country={
 						country="c:ECU"
-						levels=12
+						levels=20
 					}
 				}
 				reserves=1
@@ -334,22 +334,11 @@
 				add_ownership={
 					country={
 						country="c:VNZ"
-						levels=8
+						levels=18
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
-				building="building_university"
-				add_ownership={
-					country={
-						country="c:VNZ"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" "pm_freedom_of_movement_no_effect" }
 			}
 		}
 		region_state:MUI={
@@ -425,7 +414,7 @@
 				add_ownership={
 					country={
 						country="c:VNZ"
-						levels=2
+						levels=7
 					}
 				}
 				reserves=1
@@ -507,7 +496,7 @@
 				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 			}
 			create_building={
-				building="building_university"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:VNZ"
@@ -515,7 +504,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_freedom_of_movement_no_effect" "pm_religious_academia" "pm_philosophy_department" }
+				activate_production_methods={ "pm_general_training" }
 			}
 		}
 		region_state:ORN={
@@ -602,7 +591,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=19
+						levels=31
 					}
 				}
 				reserves=1
@@ -813,7 +802,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=9
+						levels=20
 					}
 				}
 				reserves=1
@@ -910,7 +899,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=2
+						levels=11
 					}
 				}
 				reserves=1
@@ -1963,7 +1952,7 @@
 				add_ownership={
 					country={
 						country="c:URU"
-						levels=4
+						levels=8
 					}
 				}
 				reserves=1
@@ -2081,7 +2070,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_simple_ranch" "pm_standard_fences" "pm_slaughterhouses" }
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -2127,7 +2116,7 @@
 				add_ownership={
 					country={
 						country="c:PRG"
-						levels=8
+						levels=14
 					}
 				}
 				reserves=1
@@ -2238,7 +2227,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=9
+						levels=17
 					}
 				}
 				reserves=1
@@ -2533,7 +2522,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=5
 					}
 				}
 				reserves=1
@@ -2673,7 +2662,7 @@
 				add_ownership={
 					country={
 						country="c:CHL"
-						levels=9
+						levels=23
 					}
 				}
 				reserves=1
@@ -2717,7 +2706,7 @@
 				add_ownership={
 					country={
 						country="c:CHL"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -2787,6 +2776,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:CHL"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" }
 			}
 		}
 	}
@@ -3155,7 +3155,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
+				activate_production_methods={ "pm_tools_disabled" "pm_simple_farming" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_coffee_plantation"
@@ -3252,14 +3252,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_no_secondary" "pm_simple_farming" }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=12
+						levels=18
 					}
 				}
 				reserves=1
@@ -3330,7 +3330,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_barbed_wire_fences" "pm_unrefrigerated" "pm_sheep_farms" "pm_slaughterhouses" }
+				activate_production_methods={ "pm_sheep_farms" "pm_unrefrigerated" "pm_barbed_wire_fences" "pm_slaughterhouses" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3373,14 +3373,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_simple_farming" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=7
+						levels=15
 					}
 				}
 				reserves=1
@@ -3509,7 +3509,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=4
+						levels=8
 					}
 				}
 				reserves=1
@@ -3591,7 +3591,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_simple_fishing" }
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_coffee_plantation"
@@ -3673,7 +3673,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=4
+						levels=12
 					}
 				}
 				reserves=1
@@ -3684,7 +3684,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=17
+						levels=30
 					}
 				}
 				reserves=1
@@ -3819,7 +3819,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_simple_fishing" }
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_port"
@@ -3861,7 +3861,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=7
+						levels=11
 					}
 				}
 				reserves=1
@@ -3872,7 +3872,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1
@@ -3919,7 +3919,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
 		}
 	}
@@ -3981,7 +3981,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -4109,7 +4109,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -4249,7 +4249,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1

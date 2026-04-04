@@ -58,11 +58,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = maltese
-				size = 101037
+				size = 131295
 			}
 			create_pop = {
 				culture = british
-				size = 2407
+				size = 3127
 			}
 		}
 	}
@@ -86,20 +86,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = corsican
-				size = 122157
+				size = 203454
 			}
 			create_pop = { # Ligurian
 				culture = north_italian
-				size = 321
+				size = 534
 			}
 			create_pop = { # Educated guess
 				culture = french
-				size = 10720
+				size = 17854
 			}
 			create_pop = {
 				culture = corsican
 				religion = protestant
-				size = 82
+				size = 136
 			}
 		}
 	}
@@ -149,15 +149,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 59002
+				size = 98268
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 125381
+				size = 208823
 			}
 			create_pop = {
 				culture = north_italian
-				size = 116171
+				size = 193484
 			}
 		}
 	}
@@ -370,27 +370,27 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 3888
+				size = 5052
 			}
 			create_pop = {
 				culture = spanish
-				size = 2594
+				size = 3370
 			}
 			create_pop = {
 				culture = north_italian
-				size = 1905
+				size = 2475
 			}
 			create_pop = {
 				culture = sephardic
-				size = 1934
+				size = 2513
 			}
 			create_pop = {
 				culture = portuguese
-				size = 1207
+				size = 1568
 			}
 			create_pop = {
 				culture = maltese
-				size = 356
+				size = 462
 			}
 		}
 	}

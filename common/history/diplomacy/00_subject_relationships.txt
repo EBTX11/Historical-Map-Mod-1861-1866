@@ -476,12 +476,15 @@
 			type = puppet
 		}
 	} 
-	c:FRA ?= {
-		# Tahiti
+	c:FRA ?= { 
 		create_diplomatic_pact = {
 			country = c:PLY
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = protectorate
+		} 
 	} 
 	c:KAL ?= {
 		create_diplomatic_pact = {
