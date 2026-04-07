@@ -74,7 +74,6 @@ PRU = {
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 
-	religion = orthodox
 }
 
 WES = {
@@ -117,7 +116,6 @@ AUS = {
 	secondary_unit_color = { 211 220 240 }
 	tertiary_unit_color = { 211 220 240 }
 
-	religion = orthodox
 }
 
 USA = {
@@ -133,9 +131,7 @@ USA = {
 	primary_unit_color = { 0 15 90 }
 	secondary_unit_color = { 0 15 90 }
 	tertiary_unit_color = { 0 15 90 }
- 
-
-	religion = orthodox
+  
 }
 
 CSA = {
@@ -464,7 +460,7 @@ SPA = {
 	cultures = { spanish }
 	capital = STATE_NEW_CASTILE
 
-	religion = orthodox
+	
 }
 
 WLL = {
