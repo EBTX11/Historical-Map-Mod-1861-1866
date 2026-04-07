@@ -82,7 +82,7 @@
 				add_ownership={
 					country={
 						country="c:ECU"
-						levels=20
+						levels=27
 					}
 				}
 				reserves=1
@@ -334,7 +334,7 @@
 				add_ownership={
 					country={
 						country="c:VNZ"
-						levels=18
+						levels=23
 					}
 				}
 				reserves=1
@@ -414,7 +414,7 @@
 				add_ownership={
 					country={
 						country="c:VNZ"
-						levels=7
+						levels=10
 					}
 				}
 				reserves=1
@@ -500,7 +500,7 @@
 				add_ownership={
 					country={
 						country="c:VNZ"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -591,7 +591,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=31
+						levels=37
 					}
 				}
 				reserves=1
@@ -802,7 +802,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=20
+						levels=27
 					}
 				}
 				reserves=1
@@ -899,7 +899,7 @@
 				add_ownership={
 					country={
 						country="c:CLM"
-						levels=11
+						levels=16
 					}
 				}
 				reserves=1
@@ -1952,7 +1952,7 @@
 				add_ownership={
 					country={
 						country="c:URU"
-						levels=8
+						levels=12
 					}
 				}
 				reserves=1
@@ -2116,7 +2116,7 @@
 				add_ownership={
 					country={
 						country="c:PRG"
-						levels=14
+						levels=19
 					}
 				}
 				reserves=1
@@ -2227,7 +2227,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=17
+						levels=22
 					}
 				}
 				reserves=1
@@ -2249,7 +2249,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -2522,7 +2522,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -2662,7 +2662,7 @@
 				add_ownership={
 					country={
 						country="c:CHL"
-						levels=23
+						levels=31
 					}
 				}
 				reserves=1
@@ -2706,7 +2706,7 @@
 				add_ownership={
 					country={
 						country="c:CHL"
-						levels=3
+						levels=4
 					}
 				}
 				reserves=1
@@ -2782,7 +2782,7 @@
 				add_ownership={
 					country={
 						country="c:CHL"
-						levels=3
+						levels=5
 					}
 				}
 				reserves=1
@@ -3259,7 +3259,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=18
+						levels=21
 					}
 				}
 				reserves=1
@@ -3380,7 +3380,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=15
+						levels=19
 					}
 				}
 				reserves=1
@@ -3509,7 +3509,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=8
+						levels=10
 					}
 				}
 				reserves=1
@@ -3673,7 +3673,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=12
+						levels=16
 					}
 				}
 				reserves=1
@@ -3861,7 +3861,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=11
+						levels=14
 					}
 				}
 				reserves=1
@@ -3872,7 +3872,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -4109,7 +4109,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -4249,7 +4249,7 @@
 				add_ownership={
 					country={
 						country="c:BRZ"
-						levels=6
+						levels=8
 					}
 				}
 				reserves=1

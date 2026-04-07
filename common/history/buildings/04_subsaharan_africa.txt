@@ -783,17 +783,6 @@
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
 			}
 			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" "pm_general_training" }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					building={
@@ -2865,7 +2854,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "worker_exploitation_tea" "pm_road_carts" }
+				activate_production_methods={ "pm_road_carts" "automatic_irrigation_building_tea_plantation" "worker_exploitation_tea" }
 			}
 		}
 	}
@@ -3264,7 +3253,7 @@
 				add_ownership={
 					country={
 						country="c:AGC"
-						levels=7
+						levels=12
 					}
 				}
 				reserves=1
@@ -4226,20 +4215,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					building={
-						type="building_financial_district"
-						country="c:GBR"
-						levels=1
-						region="STATE_MIDLANDS"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
 		}
 	}
 	s:STATE_VRYSTAAT={
@@ -4739,7 +4714,7 @@
 				add_ownership={
 					country={
 						country="c:SAF"
-						levels=7
+						levels=8
 					}
 				}
 				reserves=1

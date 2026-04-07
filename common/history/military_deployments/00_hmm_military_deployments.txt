@@ -1,0 +1,41 @@
+﻿MILITARY_DEPLOYMENTS = { 
+	c:FRA ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x5B5167.front
+		}
+	}
+	c:Y44 ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x5B5167.front
+		}
+	}
+	c:MEX ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x6EFE9A.front
+		}
+	}
+
+
+	
+	c:ITA ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xD8F07B.front
+		}
+	}
+	# c:FRA ?= {
+	# 	every_military_formation = {
+	# 		fully_mobilize_army = yes 
+ 	# 		teleport_to_front = p:x5080E0.front
+	# 	}
+	# }
+	# c:PAP ?= {
+	# 	every_military_formation = {
+	# 		fully_mobilize_army = yes 
+ 	# 		teleport_to_front = p:xC3BFC4.front
+	# 	}
+	# } 
+} 

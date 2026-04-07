@@ -1,4 +1,18 @@
 ﻿
+Y44= {  
+	color = { 23 43 25 } 
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mexican } 
+	capital = STATE_MEXICO
+
+	religion = catholic
+}
+
+
 Y16= { 
 	color = { 0 15 90 }
 	

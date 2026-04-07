@@ -51,7 +51,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=21
+						levels=3
 					}
 				}
 				reserves=1
@@ -112,17 +112,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_unrefrigerated" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 		}
 		region_state:CIR={
@@ -265,7 +254,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=21
+						levels=3
 					}
 				}
 				reserves=1
@@ -331,7 +320,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=1
 					}
 				}
 				reserves=1
@@ -352,18 +341,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_mechanized_looms" "pm_craftsman_sewing" "pm_sewing_machines" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
+				activate_production_methods={ "pm_craftsman_sewing" "pm_mechanized_looms" "pm_sewing_machines" }
 			}
 		}
 	}
@@ -494,17 +472,6 @@
 				reserves=1
 				activate_production_methods={ "pm_tools" "pm_potatoes" "pm_simple_farming" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
 		}
 	}
 	s:STATE_ASTRAKHAN={
@@ -540,17 +507,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_vineyard" "pm_road_carts" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -719,17 +675,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_road_carts" "worker_exploitation_tea" "automatic_irrigation_building_tea_plantation" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=20
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -938,7 +883,7 @@
 				add_ownership={
 					country={
 						country="c:KAB"
-						levels=20
+						levels=24
 					}
 				}
 				reserves=1
@@ -1077,7 +1022,7 @@
 				add_ownership={
 					country={
 						country="c:CHT"
-						levels=13
+						levels=17
 					}
 				}
 				reserves=1
@@ -1163,7 +1108,7 @@
 				add_ownership={
 					country={
 						country="c:HER"
-						levels=24
+						levels=25
 					}
 				}
 				reserves=1
@@ -1250,7 +1195,7 @@
 				add_ownership={
 					country={
 						country="c:KUN"
-						levels=20
+						levels=25
 					}
 				}
 				reserves=1
@@ -1575,7 +1520,7 @@
 				add_ownership={
 					country={
 						country="c:KAF"
-						levels=6
+						levels=9
 					}
 				}
 				reserves=1
@@ -1831,7 +1776,7 @@
 				add_ownership={
 					country={
 						country="c:KAL"
-						levels=25
+						levels=32
 					}
 				}
 				reserves=1

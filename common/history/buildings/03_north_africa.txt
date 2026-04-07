@@ -396,7 +396,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=70
+						levels=10
 					}
 				}
 				reserves=1
@@ -549,7 +549,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=50
+						levels=8
 					}
 				}
 				reserves=1
@@ -743,7 +743,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=39
+						levels=10
 					}
 				}
 				reserves=1
@@ -1158,13 +1158,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "worker_exploitation_cotton" "pm_road_carts" }
 			}
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-				}
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
-			}
 		}
 	}
 	s:STATE_DONGOLA={
@@ -1222,7 +1215,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=65
+						levels=14
 					}
 				}
 				reserves=1
@@ -1310,7 +1303,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=33
+						levels=38
 					}
 				}
 				reserves=1
@@ -1591,7 +1584,7 @@
 				add_ownership={
 					country={
 						country="c:EGY"
-						levels=31
+						levels=41
 					}
 				}
 				reserves=1
@@ -1967,7 +1960,7 @@
 				add_ownership={
 					country={
 						country="c:SPA"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -2110,7 +2103,7 @@
 				add_ownership={
 					country={
 						country="c:FRA"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -2318,7 +2311,7 @@
 				add_ownership={
 					country={
 						country="c:TUN"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1

@@ -69,7 +69,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=14
+						levels=2
 					}
 				}
 				reserves=1
@@ -530,7 +530,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=43
+						levels=32
 					}
 				}
 				reserves=1
@@ -1153,7 +1153,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=60
+						levels=72
 					}
 				}
 				reserves=1
@@ -1333,7 +1333,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=97
+						levels=100
 					}
 				}
 				reserves=1
@@ -1537,7 +1537,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=82
+						levels=13
 					}
 				}
 				reserves=1
@@ -1656,7 +1656,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=51
+						levels=42
 					}
 				}
 				reserves=1
@@ -1767,7 +1767,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=24
+						levels=30
 					}
 				}
 				reserves=1
@@ -1849,7 +1849,7 @@
 				add_ownership={
 					country={
 						country="c:HUN"
-						levels=21
+						levels=30
 					}
 				}
 				reserves=1
@@ -2158,7 +2158,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2184,7 +2184,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=10
+						levels=14
 					}
 				}
 				reserves=1

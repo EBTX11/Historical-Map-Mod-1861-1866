@@ -5115,7 +5115,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "worker_exploitation_tea" "pm_road_carts" "automatic_irrigation_building_tea_plantation" }
+				activate_production_methods={ "automatic_irrigation_building_tea_plantation" "worker_exploitation_tea" "pm_road_carts" }
 			}
 			create_building={
 				building="building_port"
@@ -10477,13 +10477,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-				}
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
 		}
 	}

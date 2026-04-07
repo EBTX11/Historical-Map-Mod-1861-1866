@@ -485,6 +485,10 @@
 			country = c:PAP
 			type = protectorate
 		} 
+		create_diplomatic_pact = {
+			country = c:Y44
+			type = protectorate
+		} 
 	} 
 	c:KAL ?= {
 		create_diplomatic_pact = {

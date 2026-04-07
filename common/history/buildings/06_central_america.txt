@@ -1,65 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SAN_SALVADOR={
 		region_state:ELS={
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_maize_farm"
-						country="c:GUA"
-						levels=2
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:GUA"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:GUA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GUA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
 		}
 	}
 	s:STATE_GUATEMALA={
@@ -614,7 +555,7 @@
 				add_ownership={
 					country={
 						country="c:HAI"
-						levels=51
+						levels=71
 					}
 				}
 				reserves=1
@@ -824,7 +765,7 @@
 				add_ownership={
 					country={
 						country="c:PCO"
-						levels=28
+						levels=35
 					}
 				}
 				reserves=1
@@ -1042,7 +983,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "coffee_plantation_mechanical_drying" "worker_exploitation_coffee" "pm_road_carts" "coffee_plantation_wet_process_mechanical" }
+				activate_production_methods={ "worker_exploitation_coffee" "pm_road_carts" "coffee_plantation_mechanical_drying" "coffee_plantation_wet_process_mechanical" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1260,7 +1201,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=6
+						levels=8
 					}
 				}
 				reserves=1
@@ -1416,7 +1357,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=41
+						levels=48
 					}
 				}
 				reserves=1
@@ -1571,7 +1512,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=7
+						levels=9
 					}
 				}
 				reserves=1
@@ -1866,7 +1807,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=3
+						levels=5
 					}
 				}
 				reserves=1

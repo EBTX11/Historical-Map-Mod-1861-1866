@@ -60,29 +60,52 @@
 			type = dp_revolution   
 		} 
 	} 
+ 
+	c:Y44 ?= {
+		create_diplomatic_play = {
+			name = mexican_empire
 
+			target_state = c:MEX.capital 
+			war = yes 
+			type = dp_annex_war   
 
+            add_initiator_backers = { c:FRA }
+ 
+			#MEX
+			add_war_goal = {
+				holder = c:MEX 
+				type = annex_country
+				target_country = c:Y44
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}  
 
+			#FRA
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:MEX
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+		}   
+	}   
 
+	c:ITA ?= {
+		create_diplomatic_play = {
+			name = italian_unification
 
+			target_state = c:PAP.capital 
+			war = yes 
+			type = dp_annex_war   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            #add_initiator_backers = { c:FRA }
+			
+			#FRA
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:ITA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+		}
+	} 
 }

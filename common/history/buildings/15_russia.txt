@@ -58,7 +58,7 @@
 				add_ownership={
 					country={
 						country="c:UBD"
-						levels=18
+						levels=21
 					}
 				}
 				reserves=1
@@ -116,7 +116,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=1
 					}
 				}
 				reserves=1
@@ -200,7 +200,7 @@
 				add_ownership={
 					country={
 						country="c:UBD"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -271,7 +271,7 @@
 				add_ownership={
 					country={
 						country="c:UBD"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -304,17 +304,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 		}
 		region_state:POL={
@@ -495,7 +484,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=18
+						levels=21
 					}
 				}
 				reserves=1
@@ -506,7 +495,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -582,7 +571,7 @@
 				add_ownership={
 					country={
 						country="c:FIN"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -720,7 +709,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=1
 					}
 				}
 				reserves=1
@@ -884,17 +873,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_naval_base"
@@ -1123,17 +1101,6 @@
 				activate_production_methods={ "pm_road_carts" "pm_no_explosives" "pm_no_steam_automation" "pm_condensing_engine_pump_building_iron_mine" }
 			}
 			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_food_industry"
 				add_ownership={
 					country={
@@ -1271,7 +1238,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=14
+						levels=2
 					}
 				}
 				reserves=1
@@ -1344,7 +1311,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=21
+						levels=3
 					}
 				}
 				reserves=1
@@ -1496,17 +1463,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_sewing_machines" "pm_mechanized_looms" "pm_no_luxury_clothes" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -1668,17 +1624,6 @@
 				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
@@ -1797,17 +1742,6 @@
 				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
@@ -1897,17 +1831,6 @@
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools" }
 			}
 			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=25
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
@@ -1976,7 +1899,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=1
 					}
 				}
 				reserves=1
@@ -1987,7 +1910,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=7
+						levels=8
 					}
 				}
 				reserves=1
@@ -2056,7 +1979,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=25
+						levels=2
 					}
 				}
 				reserves=1
@@ -2381,7 +2304,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=14
+						levels=16
 					}
 				}
 				reserves=1
@@ -2593,7 +2516,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=14
+						levels=16
 					}
 				}
 				reserves=1
@@ -2681,7 +2604,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=21
+						levels=24
 					}
 				}
 				reserves=1
@@ -2783,7 +2706,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=21
+						levels=24
 					}
 				}
 				reserves=1
@@ -2794,7 +2717,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=17
+						levels=22
 					}
 				}
 				reserves=1
@@ -2982,7 +2905,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=19
+						levels=24
 					}
 				}
 				reserves=1
@@ -3138,7 +3061,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=3
+						levels=4
 					}
 				}
 				reserves=1
@@ -3455,7 +3378,7 @@
 				add_ownership={
 					country={
 						country="c:CIR"
-						levels=7
+						levels=10
 					}
 				}
 				reserves=1
@@ -3538,7 +3461,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=3
+						levels=4
 					}
 				}
 				reserves=1

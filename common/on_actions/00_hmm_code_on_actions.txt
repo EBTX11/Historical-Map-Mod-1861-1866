@@ -1,0 +1,16 @@
+﻿on_wargoal_enforced = {
+	effect = {
+		if = {
+			limit = { 
+				exists = c:Y44
+				c:Y44 = this
+				not = { 
+					exists = c:MEX 
+				}
+			} 
+			c:Y44 = { 
+				change_tag = MEX
+			}
+		}
+	}
+}

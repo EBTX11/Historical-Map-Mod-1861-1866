@@ -2195,17 +2195,17 @@ ATL = {
 }
 
 MEX = {
-	color = { 23 43 25 } 
+	color = { 56 143 53 }
 
-	country_type = colonial #recognized
+	country_type = recognized
  
 	tier = kingdom
 
 	cultures = { mexican }
-	capital = STATE_MEXICO
-	is_named_from_capital = yes
+	capital = STATE_CHIHUAHUA #STATE_MEXICO
+	#is_named_from_capital = yes
 
-	religion = protestant
+	religion = catholic
 }
 
 MTC = {
