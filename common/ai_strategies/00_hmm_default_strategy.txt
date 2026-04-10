@@ -1,0 +1,17 @@
+﻿
+# ai_strategy_default = {
+
+
+# 	wargoal_scores = {
+# 		annex_country = {  
+# 			if = {
+# 				limit = {
+# 					c:USA ?= this
+# 					exist = c:CSA
+# 					target_country = c:CSA 
+# 				}
+# 				add = 200
+# 			} 
+# 		}
+# 	} 
+# }
