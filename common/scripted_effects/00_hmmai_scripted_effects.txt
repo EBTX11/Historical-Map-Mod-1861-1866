@@ -1,0 +1,59 @@
+﻿hmmai_on_monthly_pulse_country = {
+	if = {
+		limit = { 
+			c:CSA = this 
+		}
+		set_strategy = ai_strategy_diplomatic_csa_1861
+		#Fini quand les USA n'ont p^lus de claim sur le CSA
+	}
+}
+
+hmmai_on_half_yearly_pulse_country = {  
+	if = {
+		limit = {
+			exists = c:CSA
+			c:CSA = ROOT
+			Not = {
+				c:CSA = {   
+					has_strategy = ai_strategy_diplomatic_csa_1861
+				}
+			}
+			# any_scope_state = { 
+			# 	has_claim_by = c:USA
+			# } 
+		}
+		set_strategy = ai_strategy_diplomatic_csa_1861
+		#Fini quand les USA n'ont p^lus de claim sur le CSA
+	}
+	if = {
+		limit = {
+			exists = c:USA
+			c:USA = ROOT
+			Not = {
+				c:USA = {   
+					has_strategy = ai_strategy_diplomatic_usa_1861
+				}
+			} 
+			AND = {
+				exists = c:CSA
+				c:CSA = {    
+					any_scope_state = { 
+						has_claim_by = c:USA
+					} 
+				} 
+			}  
+			AND = {
+				exists = c:MEX
+				c:MEX = {
+					is_subject_of = c:FRA
+				} 
+			} 
+			 
+		}
+		set_strategy = ai_strategy_diplomatic_usa_1861
+	}
+}
+
+hmmai_on_yearly_pulse_country = { 
+} 
+ 

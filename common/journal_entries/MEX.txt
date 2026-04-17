@@ -1,0 +1,100 @@
+
+MEX_je_1 = {
+    icon = "gfx/interface/icons/event_icons/MEX_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = { 
+        MEX_modifier_2
+        #is_decaying = yes
+        # scope:journal_entry = {
+        #     hidden_effect = {
+        #         remove_modifier = upc_quota_failed
+        #         remove_modifier = upc_quota_met
+        #     }
+        #     add_modifier = {
+        #         name = upc_quota_met
+        #         days = -1
+        #         multiplier = root.upc_quota_predicted_percent
+        #     }
+        # }
+    }
+
+    is_shown_when_inactive = {
+        OR = {
+            AND = {
+                exists = c:MEX
+                c:MEX ?= THIS
+            }
+            AND = {
+                exists = c:Y44
+                c:Y44 ?= THIS
+            }
+        }
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+        is_subject_of = c:FRA
+    }
+
+    immediate = {
+    }
+
+    complete = {
+        custom_tooltip = {
+            text = MEX_je_1_tt_complete_1
+            scope:journal_entry = { is_goal_complete = yes }
+        }
+    }
+
+    fail = {
+        NOT = { has_law = law_type:law_monarchy }
+    }
+
+    on_complete = {
+    }
+
+    on_fail = {
+    }
+
+    scripted_progress_bar = MEX_je_1_1_progress_bar
+
+    on_yearly_pulse = {
+        effect = {
+            scope:journal_entry ?= {
+                if = {
+                    limit = {
+                    }
+                    change_global_variable = {
+                        name = MEX_je_1_global_variable_progress_bar_1
+                        add = 1
+                    }
+                }
+            }
+            je:MEX_je_1 ?= {
+                set_bar_progress = {
+                    value = global_var:MEX_je_1_global_variable_progress_bar_1
+                    name = MEX_je_1_1_progress_bar
+                }
+            }
+            remove_modifier = MEX_modifier_1
+            add_modifier = {
+                name = MEX_modifier_1
+                multiplier = global_var:MEX_je_1_global_variable_progress_bar_1
+            } 
+        }
+    }
+
+    current_value = {
+        value = global_var:MEX_je_1_global_variable_progress_bar_1
+    }
+    goal_add_value = {
+        value = 10
+    } 
+    status_desc = {
+        first_valid = {        }
+    }
+    scripted_button = MEX_je_1_button_1
+}

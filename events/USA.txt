@@ -1,0 +1,211 @@
+namespace = USA_event_1
+
+USA_event_1.1 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.1.t
+    desc = USA_event_1.1.d
+    flavor = USA_event_1.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.1.a1 
+    } 
+}
+
+USA_event_1.2 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.2.t
+    desc = USA_event_1.2.d
+    flavor = USA_event_1.2.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.2.a1  
+    } 
+}
+
+USA_event_1.3 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.3.t
+    desc = USA_event_1.3.d
+    flavor = USA_event_1.3.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.3.a1  
+    } 
+}
+ 
+
+
+
+USA_event_1.4 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.4.t
+    desc = USA_event_1.4.d
+    flavor = USA_event_1.4.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.4.a1
+        custom_tooltip = {
+            text = USA_event_1.4_desc.a1
+        }
+        option_par_défaut = oui
+    }
+    option = {
+        name = USA_event_1.4.a2
+        custom_tooltip = {
+            text = USA_event_1.4_desc.a2
+        }
+
+    }
+}
+
+USA_event_1.5 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.5.t
+    desc = USA_event_1.5.d
+    flavor = USA_event_1.5.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.5.a1
+        custom_tooltip = {
+            text = USA_event_1.5_desc.a1
+        }
+        option_par_défaut = oui
+    }
+    option = {
+        name = USA_event_1.5.a2
+        custom_tooltip = {
+            text = USA_event_1.5_desc.a2
+        }
+
+    }
+}
+
+USA_event_1.6 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = USA_event_1.6.t
+    desc = USA_event_1.6.d
+    flavor = USA_event_1.6.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = USA_event_1.6.a1
+        custom_tooltip = {
+            text = USA_event_1.6_desc.a1
+        }
+        option_par_défaut = oui
+    }
+    option = {
+        name = USA_event_1.6.a2
+        custom_tooltip = {
+            text = USA_event_1.6_desc.a2
+        }
+
+    }
+}

@@ -1,0 +1,63 @@
+﻿
+PRG_modifier_1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    
+   #unit_army_defense_add = 100
+	unit_army_defense_mult = 1 #0.5
+    #unit_army_offense_add = 100
+	unit_army_offense_mult = 1 #0.5
+}
+
+FRA_modifier_1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_legitimacy_base_add = 15
+}
+
+
+FRA_modifier_2 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    unit_morale_recovery_mult = 0.25
+    		unit_defense_mult = 0.1
+    		unit_offense_mult = 0.1
+    		character_coup_strength_mult = 0.1
+}
+
+FRA_modifier_3 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_tax_income_add = 10000
+}
+
+FRA_modifier_4 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_bureaucracy_mult = 0.1
+    country_authority_mult = 0.1
+}
+
+MEX_modifier_1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_loyalists_from_legitimacy_mult = 0.02
+    state_loyalists_from_political_movements_mult = 0.02
+    country_prestige_mult = 0.02
+    country_legitimacy_base_add = 5 
+}
+ 
+MEX_modifier_2 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_radicals_from_legitimacy_mult = 0.5
+    state_radicals_from_political_movements_mult = 0.5 
+    country_prestige_mult = -0.25
+    country_legitimacy_base_add = -50  
+}
+
+USA_modifier_1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_prestige_mult = -0.1
+    country_authority_mult = -0.1
+    country_radicals_from_legitimacy_mult = 0.1
+    country_legitimacy_base_add = -10
+}
+
+USA_modifier_2 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_prestige_mult = -0.05
+}

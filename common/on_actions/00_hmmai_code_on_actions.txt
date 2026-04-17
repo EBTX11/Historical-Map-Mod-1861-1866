@@ -1,0 +1,17 @@
+﻿ on_monthly_pulse_country = {
+	on_actions = {
+    	hmmai_on_monthly_pulse_country
+    }
+}
+
+on_half_yearly_pulse_country = {
+	on_actions = {
+    	hmmai_on_half_yearly_pulse_country
+    }
+}
+
+on_yearly_pulse_country = {
+	on_actions = {
+    	hmmai_on_yearly_pulse_country
+    }
+} 

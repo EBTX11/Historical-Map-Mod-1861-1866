@@ -1,0 +1,32 @@
+FRA_je_1_1_progress_bar = {
+    name = "FRA_je_1_1_progress_bar"
+    desc = "FRA_je_1_1_progress_bar_desc"
+
+    default_green = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 10
+}
+
+MEX_je_1_1_progress_bar = {
+    name = "MEX_je_1_1_progress_bar"
+    desc = "MEX_je_1_1_progress_bar_desc"
+
+    default_green = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 10
+}
+
+USA_je_2_1_progress_bar = {
+    name = "USA_je_2_1_progress_bar"
+    desc = "USA_je_2_1_progress_bar_desc"
+
+    default_bad = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 100
+}

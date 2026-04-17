@@ -1,0 +1,111 @@
+BRZ_je_1 = {
+    icon = "gfx/interface/icons/event_icons/BRZ_je_1.dds"
+
+    group = je_group_ef
+    should_be_pinned_by_default = yes
+
+    is_shown_when_inactive = {
+        #has_mod_hmm_1861 = yes
+        OR = {
+            AND = {
+                exists = c:BRZ
+                c:BRZ ?= THIS
+            }
+            AND = {
+                exists = c:ARG
+                c:ARG ?= THIS
+            }
+            AND = {
+                exists = c:URU
+                c:URU ?= THIS
+            }
+            AND = {
+                exists = c:PRG
+                c:PRG ?= THIS
+            }
+        }
+
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+    }
+
+    immediate = {
+        s:STATE_CORRIENTES = {
+            add_claim = c:PRG
+        }
+        s:STATE_RIO_GRANDE_DO_SUL = {
+            add_claim = c:PRG
+        }
+        s:STATE_PARANA = {
+            add_claim = c:PRG
+        }
+        s:STATE_SANTA_CATARINA = {
+            add_claim = c:PRG
+        }
+		if = {
+			limit = {
+				not  = {
+					has_global_variable = 00_hmmf_brz_1_1
+				}
+			}
+			C:PRG = {
+				capital= {
+					save_scope_as = capital_state
+				}
+				save_scope_as = target_country
+
+				set_global_variable = 00_hmmf_brz_1_1
+
+				every_country = {
+					limit = {
+						has_diplomatic_relevance = scope:target_country
+						is_player = no
+					}
+					trigger_event = 00_hmmf_BRZ.1
+				}
+                add_modifier = {
+                    name = PRG_modifier_1
+                    years = 5
+                }
+ 			}
+        }
+    }
+
+    complete = {
+        custom_tooltip = {
+            text = BRZ_je_1_tt_1
+            has_global_variable = war_of_triple_alliance_completed
+        }
+		c:PRG ?= {
+            OR = {
+                has_truce_with = c:ARG
+                has_truce_with = c:BRZ
+                has_truce_with = c:URU
+            }
+        }
+    }
+
+	# modifiers_while_active = {
+	# }
+
+    scripted_button = BRZ_je_1_button_1
+    scripted_button = BRZ_je_1_button_2
+    scripted_button = BRZ_je_1_button_3
+    scripted_button = BRZ_je_1_button_4
+    scripted_button = BRZ_je_1_button_5
+
+    on_yearly_pulse = {
+        effect = {
+        }
+    }
+
+    on_monthly_pulse = {
+        effect = {
+        }
+    }
+
+    on_complete = {
+    }
+}

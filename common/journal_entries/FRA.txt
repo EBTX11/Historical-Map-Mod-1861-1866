@@ -1,0 +1,82 @@
+FRA_je_1 = {
+    icon = "gfx/interface/icons/event_icons/FRA_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        exists = c:FRA
+        c:FRA ?= THIS
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+    }
+
+    immediate = {
+    }
+
+    complete = {
+        custom_tooltip = {
+            text = FRA_je_1_tt_complete_1
+            scope:journal_entry = { is_goal_complete = yes }
+        }
+    }
+ 
+    fail = { 
+        or = { 
+            AND = {		  
+                c:Y44 ?= {						
+                    NOT = { is_subject_of = root}
+                }  
+                c:MEX = {						
+                    NOT = { is_subject_of = root}
+                }
+            }  
+            NOT = { has_law = law_type:law_monarchy }
+        }  
+    }
+
+    on_complete = {
+    }
+
+    on_fail = {
+    }
+ 
+    on_yearly_pulse = {
+        effect = {
+            scope:journal_entry ?= {
+                if = {
+                    limit = {
+                    }
+                    change_global_variable = {
+                        name = FRA_je_1_global_variable_progress_bar_1
+                        add = 1
+                    }
+                }
+            }
+            je:FRA_je_1 ?= {
+                set_bar_progress = {
+                    value = global_var:FRA_je_1_global_variable_progress_bar_1
+                    name = FRA_je_1_1_progress_bar
+                }
+            }
+        }
+    }
+
+    current_value = {
+        value = global_var:FRA_je_1_global_variable_progress_bar_1
+    }
+    goal_add_value = {
+        value = 10
+    }
+    scripted_button = FRA_je_1_button_1
+    scripted_button = FRA_je_1_button_2
+    scripted_button = FRA_je_1_button_3
+    scripted_button = FRA_je_1_button_4
+    scripted_progress_bar = FRA_je_1_1_progress_bar
+}
+ 

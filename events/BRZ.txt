@@ -1,0 +1,31 @@
+namespace = 00_hmmf_BRZ
+
+00_hmmf_BRZ.1 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = 00_hmmf_BRZ.1.t
+    desc = 00_hmmf_BRZ.1.d
+    flavor = 00_hmmf_BRZ.1.f
+
+    duration = 3
+
+    event_image = {
+        texture = "gfx/event_pictures/00_hmmf_BRZ.1.dds"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = 00_hmmf_BRZ.1.a
+    }
+}
+ 

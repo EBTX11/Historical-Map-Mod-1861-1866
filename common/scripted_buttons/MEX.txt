@@ -1,0 +1,31 @@
+MEX_je_1_button_1 = {
+    name = "MEX_je_1_button_1"
+    desc = "MEX_je_1_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = MEX_je_1_button_1_tt_possible_1
+        }
+    }
+
+    cooldown = { months = 12 }
+
+    effect = {
+        custom_tooltip = {
+            text = MEX_je_1_button_1_tt_effect_1
+        }
+        change_relations = { country = c:FRA value = -10 }
+		add_liberty_desire = 20 #min
+        add_radicals = {
+			value = large_radicals #huge_radicals #medium_radicals
+		}
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+

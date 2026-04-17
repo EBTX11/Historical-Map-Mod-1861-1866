@@ -1,0 +1,15 @@
+USA_script_value_1 = {
+	value = num_states
+}
+mexican_revolution = {  	
+	every_country = {
+		limit = {
+			or = {
+				is_revolutionary = yes
+				is_secessionist = yes
+			}
+			is_diplomatic_play_enemy_of = c:MEX
+		}
+		add = 1  
+	}  
+}  

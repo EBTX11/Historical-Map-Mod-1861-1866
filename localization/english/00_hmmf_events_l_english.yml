@@ -1,0 +1,52 @@
+﻿l_english: 
+  
+  00_hmmf_BRZ.1.t:0 "Revendication territorioiale du [SCOPE.sC('target_country').GetName]"
+  00_hmmf_BRZ.1.d:1 "le [SCOPE.sC('target_country').GetName] revendique certain de nos etat comme ses frontière naturelle"
+  00_hmmf_BRZ.1.f:1 "[SCOPE.sC('target_country').GetName], under the rule of Francisco Solano López, firmly asserts its claims over several disputed territories along the borders of Brazil and Argentina. Framed as a rightful correction of past injustices, these demands reignite tensions across the Rio de la Plata region.\n\nAs rhetoric hardens and armies begin to mobilize, it becomes increasingly clear that these territorial ambitions may soon drag the entire region into open conflict."
+  00_hmmf_BRZ.1.a:0 "Acknowledged"
+
+  USA_event_1.1.t:0 "Whispers Against the Crown"
+  USA_event_1.1.d:1 "Subversion Among the Elites"
+  USA_event_1.1.f:1 "Beneath the fragile order imposed by the imperial regime, doubt begins to take root. Influential figures, landowners, and members of the political elite quietly question the authority of Maximilien Ier du Mexique. Pamphlets circulate, private conversations grow bolder, and foreign influence subtly fuels this growing dissent. What was once whispered behind closed doors now risks spilling into the open, threatening the already precarious foundations of the Mexican Empire."
+  USA_event_1.1.a1:0 "Let dissent grow"
+  USA_event_1.1.a2:0 "Push further" 
+
+  USA_event_1.2.t:0 "Fires in the Countryside"
+  USA_event_1.2.d:1 "Rural Insurgency Spreads"
+  USA_event_1.2.f:1 "Far from the imperial courts and foreign advisors, unrest spreads across the Mexican countryside. Armed groups rally under republican banners, striking at isolated garrisons and disrupting local authority. Encouraged by whispers of foreign support and growing resentment toward imperial rule, these insurgents grow bolder with each passing day. What began as scattered resistance now threatens to ignite a wider rebellion."
+  USA_event_1.2.a1:0 "Fan the flames"
+  USA_event_1.2_desc.a1:0 "The rebellion intensifies, further destabilizing the Empire."
+  USA_event_1.2.a2:0 "Maintain plausible deniability"
+
+  USA_event_1.3.t:0 "Shadows Within the Empire"
+  USA_event_1.3.d:1 "Covert Operations Expand"
+  USA_event_1.3.f:1 "Operating in secrecy, American agents have begun infiltrating the administrative and military structures of the Mexican Empire. Communications are disrupted, orders delayed, and confusion spreads among imperial officials. These unseen hands erode the fragile coordination upon which the regime depends, weakening it from within without a single open confrontation."
+  USA_event_1.3.a1:0 "Exploit the chaos"
+  USA_event_1.3.a2:0 "Limit involvement"
+
+
+  USA_event_1.4.t:0 "A Public Condemnation"
+  USA_event_1.4.d:1 "Diplomatic Pressure Mounts"
+  USA_event_1.4.f:1 "In a bold and unmistakable statement, the United States has publicly condemned France’s intervention in Mexico. American officials denounce the presence of a European-backed monarchy as a violation of continental sovereignty, echoing the principles of the Doctrine Monroe. While framed as a defense of liberty, this declaration is clearly intended to challenge French authority and rally support against imperial influence."
+  USA_event_1.4.a1:0 "Stand firm"
+  USA_event_1.4_desc.a1:0 "Tensions with France increase."
+  USA_event_1.4.a2:0 "Moderate the tone"
+  USA_event_1.4_desc.a2:0 "Tensions rise more slowly, but the message is weakened."
+
+
+  USA_event_1.5.t:0 "Diplomatic Incident"
+  USA_event_1.5.d:1 "An Insult Across the Atlantic"
+  USA_event_1.5.f:1 "An American diplomat has issued a sharply worded statement directly criticizing French policy in Mexico, sparking outrage in Paris. French officials denounce the remarks as an unacceptable provocation, while American newspapers celebrate the bold stance. What might have once been dismissed as rhetoric now risks escalating into a full diplomatic crisis."
+  USA_event_1.5.a1:0 "Escalate the rhetoric"
+  USA_event_1.5_desc.a1:0 "Relations deteriorate sharply, increasing tensions."
+  USA_event_1.5.a2:0 "Dismiss it as overreach"
+  USA_event_1.5_desc.a2:0 "The situation stabilizes slightly, but distrust remains."
+
+
+  USA_event_1.6.t:0 "A Challenge to France"
+  USA_event_1.6.d:1 "Ultimatum in All but Name"
+  USA_event_1.6.f:1 "American leadership has taken a decisive step, issuing what amounts to an ultimatum to France. The continued presence of French forces in Mexico is declared unacceptable, and calls for withdrawal grow louder. Though no formal declaration has been made, the message is clear: the United States is prepared to act if its warnings go unheeded."
+  USA_event_1.6.a1:0 "Press the issue"
+  USA_event_1.6_desc.a1:0 "Tensions surge toward open conflict."
+  USA_event_1.6.a2:0 "Delay confrontation"
+  USA_event_1.6_desc.a2:0 "The crisis is postponed, but not resolved."

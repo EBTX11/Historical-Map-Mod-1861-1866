@@ -1,0 +1,6 @@
+has_mod_hmm_1804 = { always = no }
+has_mod_hmm_1837 = { always = no }
+has_mod_hmm_1861 = { always = no }
+has_mod_hmm_1871 = { always = no }
+has_mod_hmm_1890 = { always = no }
+has_mod_hmm_1919 = { always = no }

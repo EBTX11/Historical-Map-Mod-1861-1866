@@ -1,0 +1,149 @@
+USA_je_1 = {
+    icon = "gfx/interface/icons/event_icons/USA_je_1.dds"
+
+    group = je_group_ef
+    should_be_pinned_by_default = yes
+
+    is_shown_when_inactive = {
+        #has_mod_hmm_1861 = yes
+        OR = {
+            AND = {
+                exists = c:USA
+                c:USA ?= THIS
+            }
+            AND = {
+                exists = c:CSA
+                c:CSA ?= THIS
+            }
+        }
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+    }
+
+    immediate = {
+        
+    }
+
+    complete = {  
+        or = {
+            not = {
+                exists = c:CSA
+            } 
+            c:CSA ?= {
+                not = {
+                    any_scope_state = {
+                        has_claim_by = c:USA
+                    }
+                } 
+            }
+        }  
+    }
+
+    fail = {
+    }
+
+    on_complete = {
+        
+    }
+
+    
+    scripted_button = USA_je_1_button_1
+    scripted_button = USA_je_1_button_2
+    scripted_button = USA_je_1_button_3
+    scripted_button = USA_je_1_button_4
+}
+
+USA_je_2 = {
+    icon = "gfx/interface/icons/event_icons/USA_je_2.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        exists = c:USA
+        c:USA ?= THIS
+    }
+
+    possible = {
+        #game_date >= 1861.1.1 
+        c:MEX = { 
+            is_subject_of = c:FRA
+        } 
+    }
+ 
+    immediate = {
+        
+    }
+
+    complete = {
+        Not = {  
+            c:MEX = { 
+                is_subject_of = c:FRA
+            }  
+        }  
+    }
+
+    fail = {
+       
+    }
+
+    on_complete = {
+        
+    }
+
+    on_fail = {
+    }
+ 
+	weight = 400
+
+    on_monthly_pulse = {
+        effect = {
+            je:USA_je_2 ?= {
+                set_bar_progress = {
+                    value = global_var:USA_je_2_global_variable_progress_bar_1
+                    name = USA_je_2_1_progress_bar
+                }
+            }
+        }
+    }
+
+
+    scripted_progress_bar = USA_je_2_1_progress_bar
+
+    status_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = USA_je_2_status_desc_1
+                trigger = {
+                    global_var:USA_je_2_global_variable_progress_bar_1 > 0
+                    global_var:USA_je_2_global_variable_progress_bar_1 <= 33
+                }
+            }
+
+            triggered_desc = {
+                desc = USA_je_2_status_desc_2
+                trigger = {
+                    global_var:USA_je_2_global_variable_progress_bar_1 > 34
+                    global_var:USA_je_2_global_variable_progress_bar_1 <= 66
+                }
+            }
+
+            triggered_desc = {
+                desc = USA_je_2_status_desc_3
+                trigger = {
+                    global_var:USA_je_2_global_variable_progress_bar_1 > 67
+                    global_var:USA_je_2_global_variable_progress_bar_1 <= 1000
+                }
+            }
+        }
+    }
+    scripted_button = USA_je_2_button_1
+    scripted_button = USA_je_2_button_2
+    scripted_button = USA_je_2_button_3
+    scripted_button = USA_je_2_button_4
+}

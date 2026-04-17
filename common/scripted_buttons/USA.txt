@@ -1,0 +1,1201 @@
+USA_je_1_button_1 = {
+    name = "USA_je_1_button_1"
+    desc = "USA_je_1_button_1_desc"
+
+    visible = {
+        AND = {
+            exists = c:USA
+            c:USA ?= THIS
+        }
+    }
+
+    possible = { 
+		not = { has_truce_with = c:CSA }
+		custom_tooltip = {
+            text = USA_je_1_button_1_tt_possible_1
+            c:USA.army_power_projection > c:CSA.army_power_projection
+        }
+        custom_tooltip = {
+            text = USA_je_1_button_1_tt_possible_2
+            is_at_war = no
+        } 
+    }
+
+    cooldown = { months = 30 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_1_button_1_tt_effect_1
+        }
+        change_global_variable = {
+            name = USA_global_variable_1
+            add = 1
+        }
+        c:USA ?= { 
+			create_diplomatic_play = {
+                name = civil_war
+                
+                escalation = 80 
+
+                type = dp_humiliation  
+                target_country = c:CSA
+  			}
+			random_diplomatic_play = {
+				limit = {
+					is_diplomatic_play_type = dp_humiliation
+					target = {
+						c:CSA ?= this
+					}
+				} 
+   
+				###########
+				#USA
+				###########
+				#4 etat initio si on etait recuperer par le CSA à la premiere guerre  
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_KENTUCKY.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_WEST_VIRGINIA.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_MISSOURI.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TEXAS.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_TEXAS.region_state:CSA
+					}
+				}
+ 
+				#4 etats par 4 etat jusqu'a la virginie 
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:USA 
+						exists = s:STATE_ARKANSAS.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_ARKANSAS.region_state:CSA
+					}
+				}
+				if = {
+					limit = { 
+						exists = s:STATE_TEXAS.region_state:USA 
+						exists = s:STATE_LOUISIANA.region_state:CSA 
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_LOUISIANA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:USA 
+						exists = s:STATE_TENNESSEE.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_TENNESSEE.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:USA 
+						exists = s:STATE_MISSISSIPPI.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_MISSISSIPPI.region_state:CSA
+					}
+				}
+ 
+				if = {
+					limit = {
+						exists = s:STATE_ARKANSAS.region_state:USA 
+						exists = s:STATE_ALABAMA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_ALABAMA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_LOUISIANA.region_state:USA 
+						exists = s:STATE_GEORGIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_GEORGIA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_TENNESSEE.region_state:USA 
+						exists = s:STATE_FLORIDA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_FLORIDA.region_state:CSA
+					}
+				}  
+				if = {
+					limit = {
+						exists = s:STATE_MISSISSIPPI.region_state:USA 
+						exists = s:STATE_SOUTH_CAROLINA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_SOUTH_CAROLINA.region_state:CSA
+					}
+				}
+
+
+				if = {
+					limit = {
+						exists = s:STATE_ALABAMA.region_state:USA 
+						exists = s:STATE_NORTH_CAROLINA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_NORTH_CAROLINA.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_GEORGIA.region_state:USA 
+						exists = s:STATE_VIRGINIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_VIRGINIA.region_state:CSA
+					}
+				}  
+				
+				###########
+				#CSA
+				########### 
+				#essaye de recuperer les 4etat initiau si les a perdu 
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_KENTUCKY.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_WEST_VIRGINIA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_MISSOURI.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TEXAS.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_TEXAS.region_state:USA
+					}
+				}
+
+				#essay de recupêrer tout les etat qu'il aurait perdu 
+				if = {
+					limit = {
+						exists = s:STATE_ARKANSAS.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_ARKANSAS.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_LOUISIANA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_LOUISIANA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TENNESSEE.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_TENNESSEE.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSISSIPPI.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_MISSISSIPPI.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_ALABAMA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_ALABAMA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_GEORGIA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_GEORGIA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_FLORIDA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_FLORIDA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_SOUTH_CAROLINA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_SOUTH_CAROLINA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_NORTH_CAROLINA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_NORTH_CAROLINA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_VIRGINIA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_VIRGINIA.region_state:USA
+					}
+				}
+ 
+                #CSA revok tout les state dans ces diplo play à chjaque fois 
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_LOUISIANA.region_state:CSA  
+                    target_country = c:USA
+                }   
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_ARKANSAS.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_MISSISSIPPI.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_TENNESSEE.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_ALABAMA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_GEORGIA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_FLORIDA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_NORTH_CAROLINA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_SOUTH_CAROLINA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_VIRGINIA.region_state:CSA  
+                    target_country = c:USA
+                }  
+			}
+		} 
+    }
+
+    ai_chance = {
+        value = 10
+		if = {
+            limit = { 
+                not = { 
+                    has_truce_with = c:CSA
+                } 
+            }
+            add = 100
+        }    
+    }
+}
+
+USA_je_1_button_2 = {
+    name = "USA_je_1_button_2"
+    desc = "USA_je_1_button_2_desc"
+
+    visible = {
+        AND = {
+            exists = c:CSA
+            c:CSA ?= THIS
+        }
+    }
+
+    possible = {
+		not = { has_truce_with = c:USA }
+        custom_tooltip = {
+            text = USA_je_1_button_2_tt_possible_1
+            c:CSA.army_power_projection > c:USA.army_power_projection
+        }
+        custom_tooltip = {
+            text = USA_je_1_button_2_tt_possible_2
+            is_at_war = no
+        }
+    }
+
+    cooldown = { months = 30 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_1_button_2_tt_effect_1
+        }
+        c:CSA ?= { 
+			create_diplomatic_play = {
+                name = civil_war
+                
+                escalation = 70 #80  
+
+                type = dp_humiliation  
+                target_country = c:USA
+  			}
+			random_diplomatic_play = {
+				limit = {
+					is_diplomatic_play_type = dp_humiliation
+					target = {
+						c:USA ?= this
+					}
+				} 
+   
+				###########
+				#USA
+				###########
+				#4 etat initio si on etait recuperer par le CSA à la premiere guerre  
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_KENTUCKY.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_WEST_VIRGINIA.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_MISSOURI.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TEXAS.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_TEXAS.region_state:CSA
+					}
+				}
+ 
+				#4 etats par 4 etat jusqu'a la virginie 
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:USA 
+						exists = s:STATE_ARKANSAS.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_ARKANSAS.region_state:CSA
+					}
+				}
+				if = {
+					limit = { 
+						exists = s:STATE_TEXAS.region_state:USA 
+						exists = s:STATE_LOUISIANA.region_state:CSA 
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_LOUISIANA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:USA 
+						exists = s:STATE_TENNESSEE.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_TENNESSEE.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:USA 
+						exists = s:STATE_MISSISSIPPI.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_MISSISSIPPI.region_state:CSA
+					}
+				}
+ 
+				if = {
+					limit = {
+						exists = s:STATE_ARKANSAS.region_state:USA 
+						exists = s:STATE_ALABAMA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_ALABAMA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_LOUISIANA.region_state:USA 
+						exists = s:STATE_GEORGIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_GEORGIA.region_state:CSA
+					}
+				} 
+				if = {
+					limit = {
+						exists = s:STATE_TENNESSEE.region_state:USA 
+						exists = s:STATE_FLORIDA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_FLORIDA.region_state:CSA
+					}
+				}  
+				if = {
+					limit = {
+						exists = s:STATE_MISSISSIPPI.region_state:USA 
+						exists = s:STATE_SOUTH_CAROLINA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_SOUTH_CAROLINA.region_state:CSA
+					}
+				}
+
+
+				if = {
+					limit = {
+						exists = s:STATE_ALABAMA.region_state:USA 
+						exists = s:STATE_NORTH_CAROLINA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_NORTH_CAROLINA.region_state:CSA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_GEORGIA.region_state:USA 
+						exists = s:STATE_VIRGINIA.region_state:CSA
+					}
+					add_war_goal = {
+						holder = c:USA
+						type = return_state
+						target_state = s:STATE_VIRGINIA.region_state:CSA
+					}
+				}  
+				
+				###########
+				#CSA
+				########### 
+				#essaye de recuperer les 4etat initiau si les a perdu 
+				if = {
+					limit = {
+						exists = s:STATE_KENTUCKY.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_KENTUCKY.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_WEST_VIRGINIA.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_WEST_VIRGINIA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSOURI.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_MISSOURI.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TEXAS.region_state:USA 
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_TEXAS.region_state:USA
+					}
+				}
+
+				#essay de recupêrer tout les etat qu'il aurait perdu 
+				if = {
+					limit = {
+						exists = s:STATE_ARKANSAS.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_ARKANSAS.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_LOUISIANA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_LOUISIANA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_TENNESSEE.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_TENNESSEE.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_MISSISSIPPI.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_MISSISSIPPI.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_ALABAMA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_ALABAMA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_GEORGIA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_GEORGIA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_FLORIDA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_FLORIDA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_SOUTH_CAROLINA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_SOUTH_CAROLINA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_NORTH_CAROLINA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_NORTH_CAROLINA.region_state:USA
+					}
+				}
+				if = {
+					limit = {
+						exists = s:STATE_VIRGINIA.region_state:USA
+					}
+					add_war_goal = {
+						holder = c:CSA
+						type = return_state
+						target_state = s:STATE_VIRGINIA.region_state:USA
+					}
+				}
+ 
+                #CSA revok tout les state dans ces diplo play à chjaque fois 
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_LOUISIANA.region_state:CSA  
+                    target_country = c:USA
+                }   
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_ARKANSAS.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_MISSISSIPPI.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_TENNESSEE.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_ALABAMA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_GEORGIA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_FLORIDA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_NORTH_CAROLINA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_SOUTH_CAROLINA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_VIRGINIA.region_state:CSA  
+                    target_country = c:USA
+                }  
+			}
+		} 
+    }
+
+    ai_chance = {
+        value = 10
+		if = {
+            limit = { 
+                not = { 
+                    has_truce_with = c:USA
+                } 
+            }
+            add = 100
+        } 
+    }
+}
+
+USA_je_1_button_3 = {
+    name = "USA_je_1_button_3"
+    desc = "USA_je_1_button_3_desc"
+
+    visible = {
+        AND = {
+            exists = c:CSA
+            c:CSA ?= THIS
+        }
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = USA_je_1_button_3_tt_possible_1
+            USA_script_value_1 <= 2
+        }
+
+    }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_1_button_3_tt_effect_1
+        }
+
+        every_state = {
+            limit = { 
+                c:CSA = owner
+            }
+			set_state_owner = c:USA
+        } 
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+USA_je_1_button_4 = {
+    name = "USA_je_1_button_4"
+    desc = "USA_je_1_button_4_desc"
+
+    visible = {
+        AND = {
+            exists = c:USA
+            c:USA ?= THIS
+        }
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = USA_je_1_button_4_tt_possible_1
+        }
+		or = { 
+			AND = {
+				this = c:CSA
+				NOT = { has_war_with = c:USA } 
+			}
+			AND = {
+				this = c:USA
+				NOT = { has_war_with = c:CSA } 
+			}
+		}  
+    }
+
+    cooldown = { months = 36 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_1_button_4_tt_effect_1
+        }
+		c:USA = { 
+			end_truce = c:CSA  
+			create_bidirectional_truce = {
+				country = c:CSA
+				months = 24
+			}
+		}
+
+		# c:USA = { 
+		# 	if = {
+ 		# 		limit = { 
+		# 			has_truce_with = c:CSA 
+		# 		}
+		# 		end_truce = c:CSA  
+		# 		create_bidirectional_truce = {
+		# 			country = c:CSA
+		# 			months = 24
+		# 		}
+		# 	} 
+		# } 
+    }
+   
+    ai_chance = {
+        value = 100
+    }
+}
+
+USA_je_2_button_1 = {
+    name = "USA_je_2_button_1"
+    desc = "USA_je_2_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {  
+        custom_tooltip = {
+            text = USA_je_2_button_1_tt_possible_1 
+			mexican_revolution = 1 
+			global_var:USA_je_2_global_variable_progress_bar_1 > 33
+			NOT = { exists = c:CSA }
+        }
+    }
+
+    cooldown = { months = 18 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_2_button_1_tt_effect_1
+        }
+		every_country = {
+			limit = {
+				or = {
+					is_revolutionary = yes
+					is_secessionist = yes
+				}
+				is_diplomatic_play_enemy_of = c:MEX
+			}
+			save_scope_as = mexican_revolution 
+		}  
+		random_diplomatic_play = {
+			limit = {
+				any_scope_play_involved = { c:MEX ?= THIS } 
+				OR = {
+					is_diplomatic_play_type = dp_revolution
+					is_diplomatic_play_type = dp_secession
+				}
+			}
+			add_initiator_backers = { c:USA }
+		} 
+		every_scope_war = {
+			join_war = {
+				target = root #scope:mexican_revolution
+				side = scope:mexican_revolution #root
+			}
+		} 
+    }
+
+    ai_chance = {
+        value = 10 
+		if = {
+            limit = { 
+				mexican_revolution = 1 
+            }
+            add = 100
+        }   
+    }
+}
+
+USA_je_2_button_2 = {
+    name = "USA_je_2_button_2"
+    desc = "USA_je_2_button_2_desc"
+
+    visible = {
+    }
+
+    possible = { 
+		AND = {
+			C:MEX = { not = { has_modifier = USA_modifier_1 }}
+			C:FRA = { not = { has_modifier = USA_modifier_2 }}
+		}
+        custom_tooltip = {
+            text = USA_je_2_button_2_tt_possible_1
+        }
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_2_button_2_tt_effect_1
+			change_global_variable = {
+	            name = USA_je_2_global_variable_progress_bar_1
+	            add = 5
+	        }
+			if = {
+				limit = {
+					exists = c:CSA
+					global_var:USA_je_2_global_variable_progress_bar_1 > 30
+				}
+				set_global_variable = {
+					name = USA_je_2_global_variable_progress_bar_1
+					value = 30
+				}
+			}
+			je:USA_je_2 ?= {
+                set_bar_progress = {
+                    value = global_var:USA_je_2_global_variable_progress_bar_1
+                    name = USA_je_2_1_progress_bar
+                }
+            }
+        }
+		C:MEX = {
+			capital= {
+				save_scope_as = capital_state
+			}
+			save_scope_as = target_country     
+			remove_modifier = USA_modifier_1
+			add_modifier = {
+				name = USA_modifier_1
+				months =  3
+			} 
+		}   
+		random_list = {
+			1 = { trigger_event = { id = USA_event_1.1 days = 0 popup = no } }
+			1 = { trigger_event = { id = USA_event_1.2 days = 0 popup = no } }
+			1 = { trigger_event = { id = USA_event_1.3 days = 0 popup = no } } 
+		}	
+		change_infamy = 3
+		change_relations = { country = c:FRA value = -10 }
+		change_relations = { country = c:MEX value = -10 }	
+    }
+
+    ai_chance = {
+        value = 10
+    }
+}
+
+USA_je_2_button_3 = {
+    name = "USA_je_2_button_3"
+    desc = "USA_je_2_button_3_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = USA_je_2_button_3_tt_possible_1
+        } 
+		AND = {
+			C:MEX = { not = { has_modifier = USA_modifier_1 }}
+			C:FRA = { not = { has_modifier = USA_modifier_2 }}
+		}
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_2_button_3_tt_effect_1
+			change_global_variable = {
+	            name = USA_je_2_global_variable_progress_bar_1
+	            add = 5
+	        }
+			if = {
+				limit = {
+					exists = c:CSA
+					global_var:USA_je_2_global_variable_progress_bar_1 > 30
+				}
+				set_global_variable = {
+					name = USA_je_2_global_variable_progress_bar_1
+					value = 30
+				}
+			}
+        }
+		C:FRA = {
+			capital= {
+				save_scope_as = capital_state
+			}
+			save_scope_as = target_country     
+			remove_modifier = USA_modifier_2
+			add_modifier = {
+				name = USA_modifier_2
+				months =  3
+			} 
+		}   
+		random_list = {
+			1 = { trigger_event = { id = USA_event_1.4 days = 0 popup = no } }
+			1 = { trigger_event = { id = USA_event_1.5 days = 0 popup = no } }
+			1 = { trigger_event = { id = USA_event_1.6 days = 0 popup = no } } 
+		}	
+		change_infamy = 3
+		change_relations = { country = c:FRA value = -10 }
+		change_relations = { country = c:MEX value = -10 }
+    }
+
+    ai_chance = {
+        value = 9
+    }
+}
+
+USA_je_2_button_4 = {
+    name = "USA_je_2_button_4"
+    desc = "USA_je_2_button_4_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = USA_je_2_button_4_tt_possible_1
+			global_var:USA_je_2_global_variable_progress_bar_1 > 66
+        }
+		NOT = { has_war_with = c:FRA }
+    }
+
+    cooldown = { years = 2 }
+
+    effect = {
+        custom_tooltip = {
+            text = USA_je_2_button_4_tt_effect_1
+        }
+        c:USA ?= { 
+			create_diplomatic_play = {
+                name = usa_french_war
+                
+                escalation = 20 
+
+                type = dp_liberate_subject  
+                target_country = c:MEX
+				#add_target_backers = { c:FRA }
+
+				add_war_goal = {
+					holder = c:USA 
+					type = humiliation
+					target_country = c:FRA 
+				}   
+  			}
+  		}
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
