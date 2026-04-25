@@ -1,0 +1,55 @@
+
+PRU_event_1.1 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = PRU_event_1.1.t
+    desc = PRU_event_1.1.d
+    flavor = PRU_event_1.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = PRU_event_1.1.a1
+        custom_tooltip = {
+            text = PRU_event_1.1_desc.a1
+        }
+        default_option = yes 
+
+        random_scope_state = {
+            create_building={
+                building="building_barrack"
+                level=50
+            }
+        }  
+    }
+    option = {
+        name = PRU_event_1.1.a2
+        custom_tooltip = {
+            text = PRU_event_1.1_desc.a2
+        }
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+			}
+            while = {
+                count = 50 
+                start_building_construction = building_barrack 
+            } 
+		}   
+    }
+}

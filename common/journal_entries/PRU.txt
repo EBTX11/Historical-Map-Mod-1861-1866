@@ -1,0 +1,117 @@
+
+PRU_je_1 = {
+    icon = "gfx/interface/icons/event_icons/PRU_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        #has_mod_hmm_1861 = yes
+        AND = {
+            exists = c:NGF
+            c:NGF ?= THIS
+        }
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+    }
+
+    immediate = {
+        
+    }
+
+    complete = {
+		owns_entire_state_region = STATE_ALSACE_LORRAINE
+		owns_entire_state_region = STATE_BAVARIA
+		owns_entire_state_region = STATE_FRANCONIA
+		owns_entire_state_region = STATE_WURTTEMBERG
+		owns_entire_state_region = STATE_BADEN 
+        c:GER ?= THIS
+    }
+
+    fail = {
+    }
+
+    on_complete = {
+        
+    }
+
+    on_fail = {
+    }
+
+
+    status_desc = {
+        first_valid = { 
+            triggered_desc = {
+                desc = PRU_je_1_status_desc_1
+                trigger = {
+                    global_var:PRU_je_1_global_variable_progress_bar_1 > 0
+                    global_var:PRU_je_1_global_variable_progress_bar_1 <= 100
+                }
+            }
+
+            triggered_desc = {
+                desc = PRU_je_1_status_desc_2
+                trigger = {
+                    global_var:PRU_je_1_global_variable_progress_bar_1 > 101
+                    global_var:PRU_je_1_global_variable_progress_bar_1 <= 200
+                }
+            }
+
+            triggered_desc = {
+                desc = PRU_je_1_status_desc_3
+                trigger = {
+                    global_var:PRU_je_1_global_variable_progress_bar_1 > 201
+                    global_var:PRU_je_1_global_variable_progress_bar_1 <= 1000
+                }
+            }
+
+        }
+    }
+
+    scripted_progress_bar = PRU_je_1_1_progress_bar
+
+    on_monthly_pulse = {
+        effect = { 
+            je:PRU_je_1 ?= {
+                set_bar_progress = {
+                    value = global_var:PRU_je_1_global_variable_progress_bar_1
+                    name = PRU_je_1_1_progress_bar
+                }
+            } 
+        }
+    } 
+    scripted_button = PRU_je_1_button_1
+    scripted_button = PRU_je_1_button_2
+    scripted_button = PRU_je_1_button_3
+    scripted_button = PRU_je_1_button_4
+    scripted_button = PRU_je_1_button_5
+    scripted_button = PRU_je_1_button_6
+
+    on_yearly_pulse = {
+        effect = { 
+            if = { 
+                limit = {
+                    c:FRA.army_power_projection > c:NGF.army_power_projection
+                }  
+                c:FRA = {
+                    capital= {
+                        save_scope_as = capital_state
+                    }
+                    save_scope_as = target_country
+                    c:NGF = { 
+                        trigger_event = {
+                            id = PRU_event_1.1 
+                            days = 0
+                            popup = no
+                        }
+                    }
+                } 
+            } 
+        }
+    }
+} 

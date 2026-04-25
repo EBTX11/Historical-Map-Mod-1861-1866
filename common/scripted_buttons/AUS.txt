@@ -1,0 +1,26 @@
+AUS_je_1_button_1 = {
+    name = "AUS_je_1_button_1"
+    desc = "AUS_je_1_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = AUS_je_1_button_1_tt_possible_1
+        }
+    }
+
+    effect = {
+        custom_tooltip = {
+            text = AUS_je_1_button_1_tt_effect_1
+        }
+        annex = c:HUN
+        add_primary_culture = cu:hungarian
+        set_variable = established_austria_hungary_var 
+    }
+
+    ai_chance = {
+        value = 1000
+    }
+}

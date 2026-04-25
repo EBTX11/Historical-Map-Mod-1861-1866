@@ -1,0 +1,76 @@
+ITA_je_1_button_1 = {
+    name = "ITA_je_1_button_1"
+    desc = "ITA_je_1_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = ITA_je_1_button_1_tt_possible_1
+            global_var:ITA_je_1_global_variable_progress_bar_1 < 90
+        } 
+    }
+
+    cooldown = { years = 1 }
+
+    effect = {
+        custom_tooltip = {
+            text = ITA_je_1_button_1_tt_effect_1
+        }
+        change_global_variable = {
+            name = ITA_je_1_global_variable_progress_bar_1
+            add = 10
+        } 
+    }
+
+    ai_chance = {
+        value = 1000
+    }
+}
+
+ITA_je_1_button_2 = {
+    name = "ITA_je_1_button_2"
+    desc = "ITA_je_1_button_2_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = ITA_je_1_button_2_tt_possible_1
+            global_var:ITA_je_1_global_variable_progress_bar_1 > 90
+        }
+        C:FRA = {
+            is_at_war = yes
+        } 
+        NOT = { has_global_variable = ITA_global_variable_4 }  
+    }
+
+    cooldown = { months = 1 }
+
+    effect = { 
+        annex = c:PAP
+        every_scope_state = {
+            limit = {
+                state_region = s:STATE_LAZIO
+            }
+            save_scope_as = capital_state
+        } 
+        trigger_event = { id = ITA_event_1.4 }
+        set_global_variable = {
+            name = ITA_global_variable_4
+            value = 0
+        }
+        change_infamy = 30
+        change_relations = { country = c:FRA value = -50 }  
+        s:STATE_LAZIO = {
+            add_claim = c:FRA
+        } 
+    }
+
+    ai_chance = {
+        value = 1000
+    }
+}
+

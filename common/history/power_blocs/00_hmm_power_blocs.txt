@@ -1,0 +1,15 @@
+POWER_BLOCS = {
+	c:NGF ?= {
+		create_power_bloc = {
+			name = NGF_POWER_BLOCS
+			map_color = { 98 98 98 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			member = c:BAV
+			member = c:WUR
+			member = c:BAD
+			member = c:HOH
+		}
+	}
+}

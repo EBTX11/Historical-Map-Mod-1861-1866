@@ -89,23 +89,23 @@
 		}   
 	}   
 
-	c:ITA ?= {
-		create_diplomatic_play = {
-			name = italian_unification
+	# c:ITA ?= {
+	# 	create_diplomatic_play = {
+	# 		name = italian_unification
 
-			target_state = c:PAP.capital 
-			war = yes 
-			type = dp_annex_war   
+	# 		target_state = c:PAP.capital 
+	# 		war = yes 
+	# 		type = dp_annex_war   
 
-            #add_initiator_backers = { c:FRA }
+    #         #add_initiator_backers = { c:FRA }
 			
-			#FRA
-			add_war_goal = {
-				holder = c:FRA 
-				type = humiliation
-				target_country = c:ITA
-				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
-			}    
-		}
-	} 
+	# 		#FRA
+	# 		add_war_goal = {
+	# 			holder = c:FRA 
+	# 			type = humiliation
+	# 			target_country = c:ITA
+	# 			#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+	# 		}    
+	# 	}
+	# } 
 }

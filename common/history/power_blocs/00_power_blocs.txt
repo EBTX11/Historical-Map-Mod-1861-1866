@@ -92,6 +92,11 @@
 			identity = identity_sovereign_empire
 			principle = principle_vassalization_3
 			
+			member = c:BAV
+			member = c:WUR
+			member = c:BAD
+			member = c:HOH
+			
 		}
 	}
  

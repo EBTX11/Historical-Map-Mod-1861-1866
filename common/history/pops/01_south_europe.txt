@@ -212,17 +212,10 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		
-	
-		region_state:ITA = {
+		region_state:LOM = {
 			create_pop = {
 				culture = north_italian
-				size = 2411754
-			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 2600
+				size = 2414354
 			}
 		}
 	}
@@ -327,18 +320,26 @@
 		
 	}
 	s:STATE_CATALONIA = {
-		region_state:SPA = {
+		region_state:ADR = {
 			create_pop = {
 				culture = catalan
-				size = 1203930
+				size = 109448
 			}
 			create_pop = {
 				culture = spanish
-				size = 65013
+				size = 5910
 			}
 		}
-		# Carlist controlled territories + 50k moved here for gameplay reasons
-		
+		region_state:SPA = {
+			create_pop = {
+				culture = catalan
+				size = 1094482
+			}
+			create_pop = {
+				culture = spanish
+				size = 59103
+			}
+		}
 	}
 	s:STATE_BALEARIC_ISLANDS = {
 		region_state:SPA = {

@@ -1,8 +1,16 @@
 USA_je_1 = {
     icon = "gfx/interface/icons/event_icons/USA_je_1.dds"
 
-    group = je_group_ef
+    group = je_group_historical_content 
     should_be_pinned_by_default = yes
+
+    #     should_be_involved = { 
+    #     this = c:USA
+
+	# }
+    # should_show_when_not_involved = {
+    #     always = no
+    # }
 
     is_shown_when_inactive = {
         #has_mod_hmm_1861 = yes

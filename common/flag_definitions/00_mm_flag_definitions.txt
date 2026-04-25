@@ -1,4 +1,4 @@
-# INJECT:JAP = {	
+# INJECT:JAP = {
 # 	flag_definition = {
 # 		coa = JAP
 # 		subject_canton = JAP
@@ -12,7 +12,7 @@
 # 	}
 # 	flag_definition = {
 # 		coa = JAP_rising_sun
-# 		subject_canton = JAP_rising_sun	
+# 		subject_canton = JAP_rising_sun
 # 		priority = 1500
 # 		trigger = {
 # 			scope:actor = {
@@ -22,13 +22,13 @@
 # 		}
 # 	}
 # }
-# INJECT:HUN = { 
+# INJECT:HUN = {
 # 	flag_definition = {
 # 		coa = AUS_austria_hungary
 # 		subject_canton = AUS_austria_hungary
 # 		coa_with_overlord_canton = AUS_austria_hungary
-# 		allow_overlord_canton = no		
-# 		overlord_canton_scale = { 0.337 0.337 }			
+# 		allow_overlord_canton = no
+# 		overlord_canton_scale = { 0.337 0.337 }
 # 		priority = 20
 # 		trigger = {
 # 			exists = c:AUS
@@ -45,8 +45,8 @@
 # 		coa = AUS_austria_hungary
 # 		subject_canton = AUS_austria_hungary
 # 		coa_with_overlord_canton = AUS_austria_hungary
-# 		allow_overlord_canton = yes		
-# 		overlord_canton_scale = { 0.337 0.337 }			
+# 		allow_overlord_canton = yes
+# 		overlord_canton_scale = { 0.337 0.337 }
 # 		priority = 100
 # 		trigger = {
 # 			exists = c:HUN
@@ -73,7 +73,7 @@
 # 		}
 # 	}
 # }
-# INJECT:TRI = { 
+# INJECT:TRI = {
 # 	flag_definition = {
 # 		coa = TRI_subject_ITA
 # 		priority = 20
@@ -95,30 +95,30 @@
 # 		subject_canton = CHI_republic
 # 		allow_overlord_canton = yes
 # 		priority = 100
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_republic_flag_trigger = yes
 # 		}
-# 	}	
+# 	}
 # 	flag_definition = {
 # 		coa = CHI_communist
 # 		priority = 1000
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_communist_flag_trigger = yes
 # 		}
 # 	}
-# } 
+# }
 # INJECT:NEJ = { # Nejd
 # 	flag_definition = {
 # 		coa = NEJ
 # 		subject_canton = NEJ
-# 		allow_overlord_canton = yes		
+# 		allow_overlord_canton = yes
 # 		coa_with_overlord_canton = NEJ_subject
 # 		priority = 1
 # 	}
 # 	flag_definition = {
 # 		coa = NEJ_saudi
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			scope:actor = {
 # 				OR = {
 # 					has_law = law_type:law_monarchy
@@ -127,13 +127,13 @@
 # 				}
 # 			}
 # 		}
-# 	}	
+# 	}
 # }
 # INJECT:SPA = {
 # 	flag_definition = {
 # 		coa = SPA_dictatorship_republic
 # 		priority = 25
-# 		trigger = { 
+# 		trigger = {
 # 			scope:actor = {
 # 				OR = {
 # 					has_law = law_type:law_presidential_republic
@@ -144,37 +144,37 @@
 # 			}
 # 		}
 # 	}
-# }  
+# }
 # INJECT:CAN = { # Canada
 # 	flag_definition = {
 # 		coa = CAN_subject_GBR
-# 		allow_overlord_canton = yes		
+# 		allow_overlord_canton = yes
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_british_ensign_trigger = yes
 # 		}
 # 	}
 # }
-# INJECT:GER = { # Germany
-# 	flag_definition = {
-# 		coa = GER
-# 		subject_canton = GER
-# 		priority = 1
-# 		trigger = {
-# 			exists = scope:actor
-# 			scope:actor ?= {
-# 				has_law = law_type:law_monarchy 
-# 			}
-# 		}
-# 	}
-# 	flag_definition = {
-# 		coa = GER_dictatorship_2
-# 		priority = 50
-# 		trigger = { 
-# 			coa_def_dictatorship_flag_trigger = yes
-# 		}
-# 	}
-# }
+INJECT:GER = { # Germany
+	flag_definition = {
+		coa = GER
+		subject_canton = GER
+		priority = 1
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = GER_dictatorship_2
+		priority = 50
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+}
 # INJECT:DEI = { # Dutch East India Company
 # 	flag_definition = {
 # 		coa = DEI_subject_NET
@@ -196,7 +196,7 @@
 # 				}
 # 			}
 # 		}
-# 	} 
+# 	}
 # 	flag_definition = { # this is the company flag
 # 		coa = DEI_voc
 # 		coa_with_overlord_canton = DEI_voc
@@ -214,21 +214,21 @@
 # 				}
 # 			}
 # 		}
-# 	} 
+# 	}
 # }
 # INJECT:TUN = {
 # 	flag_definition = {
 # 		coa = TUN_subject_FRA
-# 		allow_overlord_canton = no		
+# 		allow_overlord_canton = no
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_french_ensign_trigger = yes
 # 		}
 # 	}
 # }
 # INJECT:MAD = {
 # 	flag_definition = {
-# 		coa = MAD		
+# 		coa = MAD
 # 		subject_canton = MAD
 # 		priority = 1
 # 	}
@@ -249,15 +249,15 @@
 # }
 # INJECT:MAL = {
 # 	flag_definition = {
-# 		coa = MAL		
+# 		coa = MAL
 # 		subject_canton = MAL
 # 		priority = 1
 # 	}
 # 	flag_definition = {
 # 		coa = MAL_subject_FRA
-# 		allow_overlord_canton = no		
+# 		allow_overlord_canton = no
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_french_ensign_trigger = yes
 # 		}
 # 	}
@@ -265,26 +265,26 @@
 # INJECT:RUS = { # Russia
 # 	flag_definition = {
 # 		coa = RUS_imperial
-# 		allow_overlord_canton = yes		
+# 		allow_overlord_canton = yes
 # 		subject_canton = RUS_imperial
 # 		priority = 1
 # 	}
 # 	flag_definition = {
 # 		coa = RUS_absolute_monarchy
-# 		subject_canton = RUS 
+# 		subject_canton = RUS
 # 		priority = 20
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_absolute_monarchy_flag_trigger = yes
 # 		}
-# 	}	
+# 	}
 # 	flag_definition = {
 # 		coa = RUS_republic
 # 		subject_canton = RUS_republic
 # 		priority = 10
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_republic_flag_trigger = yes
 # 		}
-# 	}		
+# 	}
 # 	flag_definition = {
 # 		coa = RUS_dictatorship
 # 		subject_canton = RUS_dictatorship
@@ -292,7 +292,7 @@
 # 		trigger = {
 # 			coa_def_dictatorship_flag_trigger = yes
 # 		}
-# 	}	
+# 	}
 # 	flag_definition = {
 # 		coa = RUS_oligarchy
 # 		subject_canton = RUS_oligarchy
@@ -300,7 +300,7 @@
 # 		trigger = {
 # 			coa_def_absolute_monarchy_flag_trigger = yes
 # 		}
-# 	}	
+# 	}
 # 	flag_definition = {
 # 		coa = RUS_soviet_union
 # 		priority = 1500 # need to override the DEFAULT
@@ -314,31 +314,31 @@
 # 		coa = RUS_fascist
 # 		subject_canton = RUS_fascist
 # 		priority = 1500
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_fascist_flag_trigger = yes
 # 		}
-# 	}	
+# 	}
 # 	flag_definition = {
 # 		coa = RUS_theocracy
 # 		subject_canton = RUS_theocracy
 # 		priority = 20
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_theocracy_flag_trigger = yes
 # 		}
-# 	}	
-# } 
+# 	}
+# }
 # INJECT:SEY = {
 # 	flag_definition = {
 # 		coa = SEY
 # 		subject_canton = SEY
 # 		priority = 1
 # 	}
-# } 
+# }
 # INJECT:CLM = { # Colombia
 # 	flag_definition = {
 # 	coa = CLM_oligarchy
 # 		subject_canton = CLM_oligarchy
-# 		allow_overlord_canton = yes		
+# 		allow_overlord_canton = yes
 # 		coa_with_overlord_canton = CLM_oligarchy
 # 		priority = 30
 # 		trigger = {
@@ -348,7 +348,7 @@
 # }
 # INJECT:BST = {
 # 	flag_definition = {
-# 		coa = BST		
+# 		coa = BST
 # 		subject_canton = BST
 # 		priority = 1
 # 	}
@@ -356,14 +356,14 @@
 # 		coa = LTO_subject_GBR
 # 		allow_overlord_canton = yes
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_british_ensign_trigger = yes
 # 		}
 # 	}
 # }
 # INJECT:SWZ = {
 # 	flag_definition = {
-# 		coa = SWZ		
+# 		coa = SWZ
 # 		subject_canton = SWZ
 # 		priority = 1
 # 	}
@@ -371,7 +371,7 @@
 # 		coa = SZI_subject_GBR
 # 		allow_overlord_canton = yes
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_british_ensign_trigger = yes
 # 		}
 # 	}
@@ -379,25 +379,25 @@
 # INJECT:DAI = {
 # 	flag_definition = {
 # 		coa = DAI_subject_FRA
-# 		allow_overlord_canton = yes		
+# 		allow_overlord_canton = yes
 # 		priority = 55
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_french_ensign_trigger = yes
 # 		}
 # 	}
-# } 
+# }
 # INJECT:CEY = { # Ceylon
 # 	flag_definition = {
 # 		coa = CEY_subject_GBR
 # 		allow_overlord_canton = yes
 # 		priority = 55
-# 		trigger = { 
+# 		trigger = {
 # 			OR = {
 # 				coa_def_british_ensign_trigger = yes
 # 				coa_def_british_india_trigger = yes
 # 			}
 # 		}
-# 	}	
+# 	}
 # }
 # INJECT:ASH = {
 # 	flag_definition = {
@@ -424,7 +424,7 @@
 # 		allow_overlord_canton = yes
 # 		priority = 50
 # 	}
-# } 
+# }
 # INJECT:NRU = { # Nauru
 # 	flag_definition = {
 # 		coa = NRU
@@ -441,9 +441,9 @@
 # 		priority = 50
 # 	}
 # }
-# INJECT:ZIM = { 
+# INJECT:ZIM = {
 # 	flag_definition = {
-# 	    coa = ZIM		
+# 	    coa = ZIM
 # 		subject_canton = ZIM
 # 		priority = 1
 # 	}
@@ -451,12 +451,12 @@
 # 		coa = ZIM_subject_GBR
 # 		allow_overlord_canton = yes
 # 		priority = 50
-# 		trigger = { 
+# 		trigger = {
 # 			coa_def_british_ensign_trigger = yes
 # 		}
-# 	}  
-# }  
-# INJECT:NET = { 
+# 	}
+# }
+# INJECT:NET = {
 # 	flag_definition = {
 # 		coa = NET_napoleon
 # 		priority = 20
@@ -471,7 +471,7 @@
 # 			}
 # 		}
 # 	}
-# } 
+# }
 # INJECT:GBR = { # Great Britain / United Kingdom
 # 	flag_definition = {
 # 		coa = GBR
@@ -483,8 +483,8 @@
 # 			coa_controls_part_of_ireland = no
 # 		}
 # 	}
-# } 
-# INJECT:HND = { 
+# }
+# INJECT:HND = {
 # 	flag_definition = {
 # 		coa = MAR
 # 		subject_canton = MAR
@@ -498,10 +498,10 @@
 # 				game_date < 1900.1.1
 # 			}
 # 		}
-		
+
 # 	}
 # }
-# INJECT:USA = { 
+# INJECT:USA = {
 # 	flag_definition = {
 # 		coa = USA_15
 # 		coa_with_overlord_canton = USA_15
@@ -510,7 +510,7 @@
 # 		subject_canton = sub_USA_canton_star
 
 # 		priority = 100
-# 		trigger = { 
+# 		trigger = {
 # 			exists = c:USA
 # 			c:USA = {
 # 				any_scope_state = {
@@ -521,8 +521,8 @@
 # 			}
 # 		}
 # 	}
-# }  
-# INJECT:MEX = { 
+# }
+# INJECT:MEX = {
 # 	flag_definition = {
 # 		coa = MEX_viceroyalty
 # 		priority = 50
@@ -538,7 +538,7 @@
 # 		}
 # 	}
 # }
-# INJECT:CHL = { 
+# INJECT:CHL = {
 # 	flag_definition = {
 # 		coa = CHL_viceroyalty
 # 		priority = 50
@@ -554,7 +554,7 @@
 # 		}
 # 	}
 # }
-# INJECT:VNZ = { 
+# INJECT:VNZ = {
 # 	flag_definition = {
 # 		coa = VNZ_viceroyalty
 # 		priority = 50
@@ -570,7 +570,7 @@
 # 		}
 # 	}
 # }
-# INJECT:PEU = { 
+# INJECT:PEU = {
 # 	flag_definition = {
 # 		coa = PEU_viceroyalty
 # 		priority = 50
@@ -586,7 +586,7 @@
 # 		}
 # 	}
 # }
-# INJECT:ARG = { 
+# INJECT:ARG = {
 # 	flag_definition = {
 # 		coa = ARG_viceroyalty
 # 		priority = 50
@@ -602,7 +602,7 @@
 # 		}
 # 	}
 # }
-# INJECT:CLM = { 
+# INJECT:CLM = {
 # 	flag_definition = {
 # 		coa = CGO_viceroyalty
 # 		priority = 100
@@ -666,8 +666,20 @@
 # 	}
 # }
 
+LOM = { 
+	flag_definition = {
+		coa = LOM_hmm
+		subject_canton = LOM_hmm
+		allow_overlord_canton = no
+		priority = 21
+		trigger = { 
+			has_game_rule = historical_map_mod_enabled
+			#coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	} 
+} 
 
-INJECT:POL = { 
+INJECT:POL = {
 	flag_definition = {
 		coa = POL_napoleon
 		priority = 20
@@ -682,33 +694,58 @@ INJECT:POL = {
 			}
 		}
 	}
-}  
-INJECT:PRU = { 
+}
+INJECT:PRU = {
 	flag_definition = {
 		coa = PRU_absolute_monarchy_2
 		subject_canton = PRU_absolute_monarchy_2
 		allow_overlord_canton = yes
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
-} 
+	}
+}
 INJECT:AUS = { # Austria
- 
+	flag_definition = {
+		coa = AUS_austria_hungary
+		subject_canton = AUS_austria_hungary
+		allow_overlord_canton = no
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 100
+		trigger = {
+			or = {
+				c:AUS = {
+					has_diplomatic_pact = {
+						who = c:HUN
+						type = personal_union
+						is_initiator = yes
+					}
+				}
+				scope:actor ?= {
+					AND = {
+						country_has_primary_culture = cu:hungarian
+						country_has_primary_culture = cu:south_german
+						has_variable = established_austria_hungary_var 
+					}
+				}
+			}
+
+		}
+	}
 	flag_definition = {
 		coa = AUS_absolute_monarchy_2
 		subject_canton = AUS_absolute_monarchy_2
 		allow_overlord_canton = yes
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
-} 
-INJECT:WLD = { 
+	}
+}
+INJECT:WLD = {
 	flag_definition = {
 		coa = WLD_napoleon
 		priority = 20
@@ -724,7 +761,7 @@ INJECT:WLD = {
 		}
 	}
 }
-INJECT:WES = { 
+INJECT:WES = {
 	flag_definition = {
 		coa = WES_napoleon
 		priority = 20
@@ -739,42 +776,42 @@ INJECT:WES = {
 			}
 		}
 	}
-} 
-INJECT:BRA = { 
+}
+INJECT:BRA = {
 	flag_definition = {
 		coa = BRA_hmm
 		allow_overlord_canton = yes
 		subject_canton = BRA_hmm
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}  
+	}
 }
-INJECT:ANH = { 
+INJECT:ANH = {
 	flag_definition = {
 		coa = ANH_hmm
 		allow_overlord_canton = yes
 		subject_canton = ANH_hmm
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}  
+	}
 }
-INJECT:BAD = { 
+INJECT:BAD = {
 	flag_definition = {
 		coa = BAD_napoleon
 		allow_overlord_canton = yes
 		subject_canton = BAD_napoleon
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
+	}
 	flag_definition = {
 		coa = BAD_napoleon
 		priority = 20
@@ -790,17 +827,17 @@ INJECT:BAD = {
 		}
 	}
 }
-INJECT:BAV = { 
+INJECT:BAV = {
 	flag_definition = {
 		coa = BAV_napoleon
 		allow_overlord_canton = yes
 		subject_canton = BAV_napoleon
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
+	}
 	flag_definition = {
 		coa = BAV_napoleon
 		priority = 20
@@ -816,19 +853,19 @@ INJECT:BAV = {
 		}
 	}
 }
-INJECT:SAX = { 
+INJECT:SAX = {
 	flag_definition = {
 		coa = SAX_hmm
 		allow_overlord_canton = yes
 		subject_canton = SAX_hmm
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
+	}
 }
-INJECT:TUS = { 
+INJECT:TUS = {
 	flag_definition = {
 		coa = TUS_napoleon
 		priority = 20
@@ -843,8 +880,8 @@ INJECT:TUS = {
 			}
 		}
 	}
-} 
-INJECT:LUC = { 
+}
+INJECT:LUC = {
 	flag_definition = {
 		coa = LUC_napoleon
 		priority = 20
@@ -859,15 +896,15 @@ INJECT:LUC = {
 			}
 		}
 	}
-} 
+}
 INJECT:SER = { # Serbia
 	flag_definition = {
 		coa = SER_absolute_monarchy_2
 		subject_canton = SER_absolute_monarchy_2
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = SER_subject			
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = SER_subject
 		priority = 30
-		trigger = { 
+		trigger = {
 			coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}
@@ -875,14 +912,14 @@ INJECT:SER = { # Serbia
 INJECT:POL = {
 	flag_definition = {
 		coa = POL_subject_RUS
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_russian_ensign_trigger = yes
 		}
 	}
 }
-INJECT:CSA = { 
+INJECT:CSA = {
 	flag_definition = {
 		coa = CSA_battle_flag
 		subject_canton = sub_CSA_canton_stars
@@ -890,27 +927,27 @@ INJECT:CSA = {
 		allow_overlord_canton = yes
 		overlord_canton_scale = { 0.5 @[third*2] }
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 		}
 	}
 }
-INJECT:MEX = {   
+INJECT:MEX = {
 	flag_definition = {
 		coa = MEX_empire_hmm
 		subject_canton = MEX_absolute_monarchy
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = MEX_subject
-		priority = 21 
+		priority = 21
 		trigger = {
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-			}  
-			# has_game_rule = historical_map_mod_enabled 
+			}
+			# has_game_rule = historical_map_mod_enabled
 			# coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	}  
+	}
 }
-Y44 = {   
+Y44 = {
 	flag_definition = {
 		coa = MEX
 		subject_canton = MEX
@@ -927,8 +964,8 @@ Y44 = {
 		trigger = {
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-			}  
-			# has_game_rule = historical_map_mod_enabled 
+			}
+			# has_game_rule = historical_map_mod_enabled
 			# coa_def_absolute_monarchy_flag_trigger = yes
 		}
 	}
@@ -953,9 +990,9 @@ Y44 = {
 		trigger = {
 			coa_def_american_ensign_trigger = yes
 		}
-	} 
+	}
 }
-INJECT:CLM = { 
+INJECT:CLM = {
 	flag_definition = {
 		coa = CLM_hmm
 		subject_canton = CLM
@@ -963,12 +1000,12 @@ INJECT:CLM = {
 		coa_with_overlord_canton = CLM_subject
 		priority = 21
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
+	}
 }
-INJECT:ROM = { 
+INJECT:ROM = {
 	flag_definition = {
 		coa = ROM_hmm
 		subject_canton = ROM
@@ -976,30 +1013,30 @@ INJECT:ROM = {
 		coa_with_overlord_canton = ROM_subject
 		priority = 2
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-			} 
+			}
 		}
-	} 
-}     
-INJECT:SER = { 
+	}
+}
+INJECT:SER = {
 	flag_definition = {
 		coa = SER_hmm
-		subject_canton = SER 
+		subject_canton = SER
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = SER_subject
 		priority = 21
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-			} 
+			}
 		}
-	} 
-}      
- 
-INJECT:NGF = { 
+	}
+}
+
+INJECT:NGF = {
 	flag_definition = {
 		coa = NGF_hmm
 		subject_canton = NGF
@@ -1007,15 +1044,15 @@ INJECT:NGF = {
 		coa_with_overlord_canton = NGF_subject
 		priority = 500
 		# trigger = {
-		# 	has_game_rule = historical_map_mod_enabled 
+		# 	has_game_rule = historical_map_mod_enabled
 		# 	scope:actor ?= {
 		# 		has_law = law_type:law_monarchy
-		# 	} 
+		# 	}
 		# }
-	} 
-}      
+	}
+}
 
-INJECT:ITA = { 
+INJECT:ITA = {
 	flag_definition = {
 		coa = ITA
 		subject_canton = ITA
@@ -1023,15 +1060,15 @@ INJECT:ITA = {
 		coa_with_overlord_canton = ITA_subject
 		priority = 16
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 			scope:actor ?= {
 				has_law = law_type:law_monarchy
-			} 
+			}
 		}
-	} 
-} 
+	}
+}
 
-TPG = { 
+TPG = {
 	flag_definition = {
 		coa = TPG_hmm
 		subject_canton = TPG_hmm
@@ -1039,20 +1076,20 @@ TPG = {
 		coa_with_overlord_canton = TPG_subject
 		priority = 50
 		# trigger = {
-		# 	has_game_rule = historical_map_mod_enabled  
+		# 	has_game_rule = historical_map_mod_enabled
 		# }
-	} 
-}  
+	}
+}
 
-SPN = { 
+SPN = {
 	flag_definition = {
 		coa = SPA_napoleon
 		priority = 20
 	}
-}  
-STN = { 
+}
+STN = {
 	flag_definition = {
-	    coa = STN		
+	    coa = STN
 		subject_canton = STN
 		priority = 1
 	}
@@ -1060,11 +1097,11 @@ STN = {
 		coa = STN_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
-} 
+}
 SOK = {
 	flag_definition = {
 		coa = SOK
@@ -1076,31 +1113,31 @@ SOK = {
 		coa_with_overlord_canton = SOK_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			scope:actor ?= {
 				owns_entire_state_region = STATE_YORUBA_STATES
-				owns_entire_state_region = STATE_NIGER_DELTA 
+				owns_entire_state_region = STATE_NIGER_DELTA
 			}
 		}
-	} 
+	}
 	flag_definition = {
 		coa = SOK
 		coa_with_overlord_canton = SOK_subject_GBR_2
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
-			NOT = { 
+		trigger = {
+			NOT = {
 				scope:actor ?= {
 					owns_entire_state_region = STATE_YORUBA_STATES
-					owns_entire_state_region = STATE_NIGER_DELTA 
+					owns_entire_state_region = STATE_NIGER_DELTA
 				}
 			}
 		}
-	} 
+	}
 }
 ITC = {
 	flag_definition = {
-		coa = ITC		
+		coa = ITC
 		subject_canton = ITC
 		priority = 1
 	}
@@ -1118,25 +1155,25 @@ ITC = {
 			}
 		}
 	}
-} 
+}
 COG = {
 	flag_definition = {
-		coa = COG		
+		coa = COG
 		subject_canton = COG
 		priority = 1
 	}
 	flag_definition = {
 		coa = COG_subject_FRA
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_french_ensign_trigger = yes
 		}
 	}
 }
 ERI = {
 	flag_definition = {
-		coa = ERI		
+		coa = ERI
 		subject_canton = ERI
 		priority = 1
 	}
@@ -1165,7 +1202,7 @@ GAM = {
 }
 TCO = {
 	flag_definition = {
-		coa = TCO		
+		coa = TCO
 		subject_canton = TCO
 		priority = 1
 	}
@@ -1184,7 +1221,7 @@ TCO = {
 		}
 	}
 }
-BRD = { 
+BRD = {
 	flag_definition = {
 		coa = BRD_subject_BEL
 		priority = 20
@@ -1199,16 +1236,16 @@ BRD = {
 			}
 		}
 	}
-}  
+}
 ANG = {
 	flag_definition = {
-		coa = ANG		
+		coa = ANG
 		subject_canton = ANG
 		priority = 1
 	}
 	flag_definition = {
 		coa = ANG_subject_POR
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 20
 		trigger = {
 			exists = c:POR
@@ -1224,7 +1261,7 @@ ANG = {
 }
 MOZ = {
 	flag_definition = {
-		coa = MOZ		
+		coa = MOZ
 		subject_canton = MOZ
 		priority = 1
 	}
@@ -1247,7 +1284,7 @@ MUA = {
 	flag_definition = {
 		coa = MUA_subject
 		coa_with_overlord_canton = CHI_subject
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 50
 	}
 }
@@ -1257,40 +1294,40 @@ SRW = { # Courland
 		subject_canton = SRW
 		priority = 1
 	}
-} 
+}
 MWI = {
 	flag_definition = {
-		coa = MWI		
+		coa = MWI
 		subject_canton = MWI
 		priority = 1
 	}
 	flag_definition = {
 		coa = MWI_subject_GBR
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
 }
 ZAM = {
 	flag_definition = {
-		coa = ZAM		
+		coa = ZAM
 		subject_canton = ZAM
 		priority = 1
 	}
 	flag_definition = {
 		coa = ZAM_subject_GBR
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
 }
-BOW = { 
+BOW = {
 	flag_definition = {
-		coa = BOW		
+		coa = BOW
 		subject_canton = BOW
 		priority = 1
 	}
@@ -1298,26 +1335,26 @@ BOW = {
 	    coa = TSW_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
 }
 GEA = {
 	flag_definition = {
-		coa = GEA		
+		coa = GEA
 		subject_canton = GEA
 		priority = 1
 	}
 	flag_definition = {
 		coa = GEA_subject_GER
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_german_ensign_trigger = yes
 		}
 	}
-} 
+}
 PNG = {
 	flag_definition = {
 		coa = PPN
@@ -1338,7 +1375,7 @@ PNG = {
 				}
 			}
 		}
-	}  
+	}
 	flag_definition = {
 		coa = PPN_subject_AST
 		allow_overlord_canton = yes
@@ -1353,8 +1390,8 @@ PNG = {
 				}
 			}
 		}
-	} 
-} 
+	}
+}
 PPN = {
 	flag_definition = {
 		coa = PPN
@@ -1390,7 +1427,7 @@ PPN = {
 		}
 	}
 
-} 
+}
 UGA = {
 	flag_definition = {
 		coa = UGA
@@ -1419,13 +1456,13 @@ KEN = {
 }
 CMU = {
 	flag_definition = {
-		coa = CMU		
+		coa = CMU
 		subject_canton = CMU
 		priority = 1
 	}
 	flag_definition = {
 		coa = CMU_subject_GER
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 150
 		trigger = {
 			exists = c:GER
@@ -1440,7 +1477,7 @@ CMU = {
 	}
 	flag_definition = {
 		coa = CMU_subject_FRA
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 150
 		trigger = {
 			exists = c:FRA
@@ -1456,7 +1493,7 @@ CMU = {
 }
 NAI = {
 	flag_definition = {
-		coa = NAI		
+		coa = NAI
 		subject_canton = NAI
 		priority = 1
 	}
@@ -1505,7 +1542,7 @@ NAI = {
 }
 TAN = {
 	flag_definition = {
-		coa = TAN		
+		coa = TAN
 		subject_canton = TAN
 		priority = 1
 	}
@@ -1579,7 +1616,7 @@ TOG = {
 			}
 		}
 	}
-} 
+}
 NRB = {
 	flag_definition = {
 		coa = NRB
@@ -1590,7 +1627,7 @@ NRB = {
 		coa = NRB_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
@@ -1605,11 +1642,11 @@ BLZ = {
 		coa = BLZ_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
-} 
+}
 SOM = {
 	flag_definition = {
 		coa = SOM
@@ -1618,22 +1655,22 @@ SOM = {
 	}
 	flag_definition = {
 		coa = SOM_subject_GBR
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
 }
 SOL = {
 	flag_definition = {
-		coa = SOL		
+		coa = SOL
 		subject_canton = SOL
 		priority = 1
 	}
 	flag_definition = {
 		coa = SOL_subject_ITA
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 50
 	}
 }
@@ -1647,56 +1684,56 @@ SST = {
 		coa = SST_subject_GBR
 		allow_overlord_canton = yes
 		priority = 50
-		trigger = { 
+		trigger = {
 			coa_def_british_ensign_trigger = yes
 		}
 	}
-} 
+}
 MUA = {
 	flag_definition = {
 		coa = MUA_subject
 		coa_with_overlord_canton = CHI_subject
-		allow_overlord_canton = no		
+		allow_overlord_canton = no
 		priority = 50
 	}
 }
 SHA = {
 	flag_definition = {
 		coa = SHA_subject
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
 	}
 }
 AHU = {
 	flag_definition = {
 		coa = AHU_subject
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 50
 	}
-} 
+}
 XIB = {
 	flag_definition = {
 		coa = XIB_sub
-		allow_overlord_canton = nno		
+		allow_overlord_canton = nno
 		priority = 1
 	}
-} 
+}
 CCI = { # China Communist
 
 	flag_definition = {
 		coa = CCI
 		subject_canton = CHI
 		coa_with_overlord_canton = CHI_subject
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 1
 	}
 	flag_definition = {
 		coa = CCI_communist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
-	}		
+	}
 }
 CCN = { # China Nationnalist
 
@@ -1704,14 +1741,14 @@ CCN = { # China Nationnalist
 		coa = CCN
 		subject_canton = CHI
 		coa_with_overlord_canton = CHI_subject
-		allow_overlord_canton = yes		
+		allow_overlord_canton = yes
 		priority = 1
 	}
 	flag_definition = {
 		coa = CCN_republic
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_republic_flag_trigger = yes
 		}
-	}			
+	}
 }

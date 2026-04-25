@@ -1,11 +1,25 @@
+# austria_hungary = {
+# 	color = "austriawhite"
+
+# 	possible = {
+# 		exists = c:AUS
+# 		THIS = c:AUS
+# 	}
+# }
 austria_hungary = {
-	color = "austriawhite"
+	color = "brun"
+	#color = "frenchblue"
 
 	possible = {
 		exists = c:AUS
-		THIS = c:AUS
+		c:AUS ?= THIS
+		OR = {  
+			country_has_primary_culture = cu:hungarian 
+			has_variable = established_austria_hungary_var
+ 		}
 	}
 }
+
 japanese_shogunate = {
 	color = "white"
 	possible = {

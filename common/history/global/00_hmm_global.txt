@@ -1,7 +1,61 @@
 ﻿GLOBAL = {
 	set_global_variable = schleswig_holstein_question_solved
 	set_global_variable = peoples_springtime_happened   
+  
+
+	every_country = {   
+		set_variable = {
+			name = USA_variable_1
+			value = 1
+		}
+	}     
+	
+	set_global_variable = {
+		name = USA_global_variable_1
+		value = 0
+	}
+	set_global_variable = {
+		name = FRA_global_variable_1
+		value = 0
+	}
+	set_global_variable = {
+		name = FRA_global_variable_2
+		value = 0
+	}
+
+    set_global_variable = {
+        name = FRA_je_1_global_variable_progress_bar_1
+        value = 0
+    }
  
 
+    set_global_variable = {
+        name = FRA_je_2_global_variable_progress_bar_1
+        value = 0
+    }
 
+    set_global_variable = {
+        name = FRA_je_3_global_variable_progress_bar_1
+        value = 0
+    } 
+
+    set_global_variable = {
+        name = MEX_je_1_global_variable_progress_bar_1
+        value = 0
+    }   
+	 
+    set_global_variable = {
+        name = USA_je_2_global_variable_progress_bar_1
+        value = 0
+    }
+
+    set_global_variable = {
+        name = PRU_je_1_global_variable_progress_bar_1
+        value = 0
+    }
+    set_global_variable = {
+        name = ITA_je_1_global_variable_progress_bar_1
+        value = 0
+    }
+	 
 }

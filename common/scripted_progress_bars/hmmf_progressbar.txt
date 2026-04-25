@@ -17,7 +17,7 @@ MEX_je_1_1_progress_bar = {
 
     start_value = 0
     min_value = 0
-    max_value = 10
+    max_value = 20
 }
 
 USA_je_2_1_progress_bar = {
@@ -29,4 +29,51 @@ USA_je_2_1_progress_bar = {
     start_value = 0
     min_value = 0
     max_value = 100
+}
+
+PRU_je_1_1_progress_bar = {
+    name = "PRU_je_1_1_progress_bar"
+    desc = "PRU_je_1_1_progress_bar_desc"
+
+    default_bad = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 300
+}
+
+ITA_je_1_1_progress_bar = {
+    name = "ITA_je_1_1_progress_bar"
+    desc = "ITA_je_1_1_progress_bar_desc"
+
+    default_green = yes
+
+    start_value = 0
+    min_value = 0
+    max_value = 100
+
+	monthly_progress = {
+        if = {
+            limit = {
+                C:FRA = {
+                    is_at_war = yes
+                }  
+            }
+			add = {
+				desc = "ITA_je_1_1_progress_bar_FRA_tt"
+				value = 1
+			} 
+        }  
+        if = {
+            limit = {
+                C:FRA = {
+                    is_at_war = no
+                }  
+            }
+			add = {
+				desc = "ITA_je_1_1_progress_bar_FRA_2_tt"
+				value = 0
+			} 
+        }  
+    } 
 }

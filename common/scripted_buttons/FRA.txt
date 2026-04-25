@@ -29,7 +29,7 @@ FRA_je_1_button_1 = {
         }
         c:MEX = { 
             add_modifier = {
-                name = FRA_modifier_1
+                name = FRA_modifier_2
                 months =  12
             }
         }
@@ -71,7 +71,7 @@ FRA_je_1_button_2 = {
         }
         c:MEX = { 
             add_modifier = {
-                name = FRA_modifier_2
+                name = FRA_modifier_3
                 months =  12
             }
         }
@@ -113,7 +113,7 @@ FRA_je_1_button_3 = {
         }
         c:MEX = { 
             add_modifier = {
-                name = FRA_modifier_3
+                name = FRA_modifier_1 
                 months =  12
             }
         }

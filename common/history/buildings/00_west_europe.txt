@@ -4517,6 +4517,185 @@
 				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
+		region_state:MOO={
+			create_building={
+				building="building_trade_center"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=2
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=4
+						region="STATE_ILE_DE_FRANCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_ZHILI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_high" }
+			}
+			create_building={
+				building="building_vineyard"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=2
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_vineyard"
+						country="c:MOO"
+						levels=3
+						region="STATE_PROVENCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_company_dmc"
+						country="c:MOO"
+						levels=4
+						region="STATE_ALSACE_LORRAINE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_mechanized_looms" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_FRENCH_LOW_COUNTRIES"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_RHONE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=8
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=1
+						region="STATE_NORMANDY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_road_carts" "automatic_irrigation_building_silk_plantation" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MOO"
+						levels=3
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_wheat_farm"
+						country="c:MOO"
+						levels=3
+						region="STATE_PROVENCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_tools" "pm_citrus_orchards" "pm_simple_farming" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_PROVENCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:MOO"
+						levels=1
+						region="STATE_ALSACE_LORRAINE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_general_training" "pm_general_training" }
+			}
+			create_building={
+				building="building_naval_base"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=40
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_power_of_the_purse" "pm_power_of_the_purse" }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_iron_frame_buildings" }
+			}
+			create_building={
+				building="building_railway"
+				add_ownership={
+					country={
+						country="c:MOO"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
+			}
+		}
 	}
 	s:STATE_NORMANDY={
 		region_state:FRA={
@@ -9562,6 +9741,109 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND={
+		region_state:LIE={
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" "pm_freedom_of_movement_no_effect" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_textile_mill"
+						country="c:LIE"
+						levels=1
+						region="STATE_EAST_SWITZERLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:LIE"
+						levels=1
+						region="STATE_EAST_SWITZERLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:LIE"
+						levels=1
+						region="STATE_EAST_SWITZERLAND"
+					}
+					building={
+						type="building_rye_farm"
+						country="c:LIE"
+						levels=2
+						region="STATE_EAST_SWITZERLAND"
+					}
+					country={
+						country="c:LIE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_potatoes" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:LIE"
+						levels=1
+						region="STATE_EAST_SWITZERLAND"
+					}
+					building={
+						type="building_livestock_ranch"
+						country="c:LIE"
+						levels=1
+						region="STATE_EAST_SWITZERLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+					country={
+						country="c:LIE"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_iron_frame_buildings" }
+			}
+		}
 		region_state:SWI={
 			create_building={
 				building="building_university"

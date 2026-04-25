@@ -1,4 +1,4 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
 	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
@@ -85,29 +85,7 @@
 			type = vassal
 		}  
 	}
-	c:AUS ?= {
-		create_diplomatic_pact = {
-			country = c:KRA
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:HUN
-			type = crown_land
-		}
-		create_diplomatic_pact = {
-			country = c:TRS
-			type = crown_land
-		}
-		create_diplomatic_pact = {
-			country = c:CRO
-			type = crown_land
-		}
-		create_diplomatic_pact = {
-			country = c:CRO
-			type = decrease_payments
-		}
-	}
-	c:USA ?= {
+c:USA ?= {
 		# create_diplomatic_pact = {
 		# 	country = c:SEQ
 		# 	type = puppet
@@ -610,6 +588,17 @@
 		create_diplomatic_pact = {
 			country = c:MBS
 			type = tributary
+		}
+	}
+
+	c:AUS ?= {
+		create_diplomatic_pact = {
+			country = c:KRA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = puppet
 		}
 	}
 }

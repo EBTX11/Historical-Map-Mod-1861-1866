@@ -1,0 +1,128 @@
+namespace = ITA_event_1 
+
+ITA_event_1.4 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = ITA_event_1.4.t
+    desc = ITA_event_1.4.d
+    flavor = ITA_event_1.4.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = ITA_event_1.4.a1
+
+        default_option = yes
+    }
+}
+
+
+ITA_event_1.1 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = ITA_event_1.1.t
+    desc = ITA_event_1.1.d
+    flavor = ITA_event_1.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = ITA_event_1.1.a1
+
+
+    }
+}
+
+
+ITA_event_1.2 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = ITA_event_1.2.t
+    desc = ITA_event_1.2.d
+    flavor = ITA_event_1.2.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = ITA_event_1.2.a1
+
+
+    }
+}
+
+
+ITA_event_1.3 = {
+    type = country_event
+    placement = scope:capital_state
+
+    title = ITA_event_1.3.t
+    desc = ITA_event_1.3.d
+    flavor = ITA_event_1.3.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_signed_contract"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = ITA_event_1.3.a1
+
+
+    }
+}

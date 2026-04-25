@@ -1,0 +1,340 @@
+PRU_je_1_button_1 = {
+    name = "PRU_je_1_button_1"
+    desc = "PRU_je_1_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_1_tt_possible_1
+        } 
+		C:FRA = { not = { has_modifier = USA_modifier_2 }}
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_1_tt_effect_1
+        }
+		C:FRA = {
+			capital= {
+				save_scope_as = capital_state
+			}
+			save_scope_as = target_country     
+			remove_modifier = NGF_modifier_1
+			add_modifier = {
+				name = NGF_modifier_1
+				months =  12
+			} 
+		}  
+		change_infamy = 3
+        change_relations = { country = c:FRA value = -10 } 
+        change_relations = { country = c:BAV value = 25 } 
+        change_relations = { country = c:WUR value = 25 } 
+        change_relations = { country = c:BAD value = 25 } 
+        change_relations = { country = c:HOH value = 25 }  
+		interest_group_ig_armed_forces_pol_str_mult = 0.10
+        change_global_variable = {
+            name = PRU_je_1_global_variable_progress_bar_1
+            add = 5
+        }
+        add_modifier = {
+            name = NGF_modifier_2
+            months =  12
+        }   
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+PRU_je_1_button_2 = {
+    name = "PRU_je_1_button_2"
+    desc = "PRU_je_1_button_2_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_2_tt_possible_1
+            global_var:PRU_je_1_global_variable_progress_bar_1 < 150
+        }
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_2_tt_effect_1
+        }  
+        random_scope_state = {
+            while = {
+                count = 4
+                start_privately_funded_building_construction = building_arms_industry
+                start_privately_funded_building_construction = building_artillery_foundry
+                start_privately_funded_building_construction = building_munition_plant
+            }
+        } 
+		change_infamy = 3
+        change_relations = { country = c:FRA value = -10 } 
+        change_relations = { country = c:BAV value = 25 } 
+        change_relations = { country = c:WUR value = 25 } 
+        change_relations = { country = c:BAD value = 25 } 
+        change_relations = { country = c:HOH value = 25 }  
+        remove_modifier = NGF_modifier_3
+        change_global_variable = {
+            name = PRU_je_1_global_variable_progress_bar_1
+            add = 5
+        }
+        add_modifier = {
+            name = NGF_modifier_3
+            months =  12
+        } 
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+PRU_je_1_button_3 = {
+    name = "PRU_je_1_button_3"
+    desc = "PRU_je_1_button_3_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_3_tt_possible_1
+        }
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_3_tt_effect_1
+        }  
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+			}
+            while = {
+                count = 25
+                start_privately_funded_building_construction = building_barrack
+                start_building_construction = building_barrack 
+            } 
+		}  
+		change_infamy = 3
+        change_relations = { country = c:FRA value = -10 } 
+        change_relations = { country = c:BAV value = 25 } 
+        change_relations = { country = c:WUR value = 25 } 
+        change_relations = { country = c:BAD value = 25 } 
+        change_relations = { country = c:HOH value = 25 }  
+        change_global_variable = {
+            name = PRU_je_1_global_variable_progress_bar_1
+            add = 5
+        }
+        remove_modifier = NGF_modifier_4
+        add_modifier = {
+            name = NGF_modifier_4
+            months = 12
+        } 
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+PRU_je_1_button_4 = {
+    name = "PRU_je_1_button_4"
+    desc = "PRU_je_1_button_4_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_4_tt_possible_1
+            has_global_variable = autro_prussian_war_completed  
+        }
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_4_tt_effect_1
+        }
+        change_relations = { country = c:AUS value = 25 } 
+        change_relations = { country = c:BAV value = 25 } 
+        change_relations = { country = c:WUR value = 25 } 
+        change_relations = { country = c:BAD value = 25 } 
+        change_relations = { country = c:HOH value = 25 }  
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+PRU_je_1_button_5 = {
+    name = "PRU_je_1_button_5"
+    desc = "PRU_je_1_button_5_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_5_tt_possible_1
+            global_var:PRU_je_1_global_variable_progress_bar_1 > 200
+        } 
+        OR = {
+            exists = c:BAV
+            exists = c:WUR
+            exists = c:BAD       
+            exists = c:HOH    
+            NOT = {
+                has_global_variable = franco_prussian_war_completed 
+            } 
+            NOT = {
+				owns_entire_state_region = STATE_ALSACE_LORRAINE
+            }    
+            NOT = { 
+                has_truce_with = c:FRA
+            } 
+        } 
+        game_date > 1871
+        is_at_war = no
+    }
+
+    cooldown = { months = 6 }
+
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_5_tt_effect_1
+        }
+        annex = c:BAV
+        annex = c:WUR
+        annex = c:BAD      
+        annex = c:HOH     
+        change_tag = GER 
+
+        if = { 
+            limit = {
+                NOT = {
+                    owns_entire_state_region = STATE_ALSACE_LORRAINE
+                    has_truce_with = c:FRA
+                }   
+            }   
+            s:STATE_ALSACE_LORRAINE = { add_claim = c:GER }   
+            c:GER ?= {
+                create_diplomatic_play = {
+                    name = freanco_peussian_war
+                    
+                    escalation = 80 
+
+                    type = dp_return_state
+                    target_country = c:FRA    
+
+                    target_state = s:STATE_ALSACE_LORRAINE.region_state:FRA   
+                    add_war_goal = {
+                        holder = c:FRA
+                        type = revoke_claim
+                        target_state = s:STATE_ALSACE_LORRAINE.region_state:FRA  
+                        target_country = c:GER
+                    }  
+
+                    add_war_goal = {
+                        holder = c:GER 
+                        type = humiliation
+                        target_country = c:FRA
+                        #target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+                    }    
+                    add_war_goal = {
+                        holder = c:FRA 
+                        type = humiliation
+                        target_country = c:GER
+                        #target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+                    }      
+                }
+                set_global_variable = franco_prussian_war_completed
+            }  
+        }    
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+
+PRU_je_1_button_6 = {
+    name = "PRU_je_1_button_6"
+    desc = "PRU_je_1_button_6_desc"
+
+    visible = {
+    }
+
+    #cooldown = { months = 6 }
+
+    possible = {
+        custom_tooltip = {
+            text = PRU_je_1_button_6_tt_possible_1
+            global_var:PRU_je_1_global_variable_progress_bar_1 >= 100 #150
+        }
+        NOT = {
+            has_global_variable = autro_prussian_war_completed 
+        } 
+        game_date > 1865
+        is_at_war = no
+    }
+  
+    effect = {
+        custom_tooltip = {
+            text = PRU_je_1_button_6_tt_effect_1
+        }
+		c:NGF ?= {
+			create_diplomatic_play = {
+				name = freanco_peussian_war
+				
+				escalation = 80 
+
+				type = dp_leadership_germany
+				target_country = c:AUS     
+				country_definition = GER  
+           	 	add_initiator_backers = { c:BAV }
+           	 	add_initiator_backers = { c:ITA }
+
+				add_war_goal = {
+					holder = c:NGF
+					type = humiliation
+					target_country = c:AUS 
+				}  
+				add_war_goal = {
+					holder = c:AUS
+					type = humiliation
+					target_country = c:NGF 
+				}  
+				add_war_goal = {
+					holder = c:ITA
+					type = return_state
+                    target_state = s:STATE_VENETIA.region_state:LOM 
+					#target_country = c:LOM 
+				}  
+			} 
+			set_global_variable = autro_prussian_war_completed
+		} 
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+

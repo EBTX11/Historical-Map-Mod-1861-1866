@@ -1,0 +1,47 @@
+
+AUS_je_1 = {
+    icon = "gfx/interface/icons/event_icons/AUS_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        exists = c:AUS
+        c:AUS ?= THIS
+    }
+
+    possible = {
+        #game_date >= 1867.1.1
+        has_global_variable = autro_prussian_war_completed 
+        is_at_war = no
+        not = {
+        	is_diplomatic_play_enemy_of = c:NGF
+        }  
+    }
+
+    immediate = {
+        
+    }
+
+    complete = {
+		country_has_primary_culture = cu:hungarian
+        has_variable = established_austria_hungary_var
+    }
+
+    fail = {
+    }
+
+    on_complete = {
+        
+    }
+
+    on_fail = {
+    }
+
+
+
+    scripted_button = AUS_je_1_button_1 
+}

@@ -1,62 +1,62 @@
-﻿INJECT:ORA = { 
+﻿INJECT:ORA = {
 	dynamic_country_name = {
 		name = dyn_c_ORA_01
 		adjective = ORA_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
 	}
 }
- 
-INJECT:CLM = { 
+
+INJECT:CLM = {
 	dynamic_country_name = {
 		name = dyn_c_CLM_01
 		adjective = CLM_ADJ
 
 		is_main_tag_only = yes
 		priority = 20
-		
+
 		trigger = {
 			game_date < 1890.1.1
 			has_game_rule = historical_map_mod_enabled
 		}
 	}
 }
- 
-INJECT:CAN = { 
+
+INJECT:CAN = {
 	dynamic_country_name = {
 		name = dyn_c_CAN_01
 		adjective = CAN_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		 
-		trigger = { 
- 			exists = scope:actor 
-			not = { 
-				scope:actor ?= { 
+
+		trigger = {
+ 			exists = scope:actor
+			not = {
+				scope:actor ?= {
 					owns_entire_state_region = STATE_QUEBEC
 					owns_entire_state_region = STATE_ONTARIO
 					owns_entire_state_region = STATE_MANITOBA
 					owns_entire_state_region = STATE_SASKATCHEWAN
 				}
-			}  
-		} 
+			}
+		}
 	}
-} 
+}
 
-FRM = { 
+FRM = {
 	dynamic_country_name = {
 		name = dyn_c_FRM_01
 		adjective = FRM_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -64,14 +64,14 @@ FRM = {
 }
 
 
-LIP = { 
+LIP = {
 	dynamic_country_name = {
 		name = dyn_c_LIP_01
 		adjective = LIP_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -79,14 +79,14 @@ LIP = {
 }
 
 
-WLD = { 
+WLD = {
 	dynamic_country_name = {
 		name = dyn_c_WLD_01
 		adjective = WLD_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -94,14 +94,14 @@ WLD = {
 }
 
 
-ANH = { 
+ANH = {
 	dynamic_country_name = {
 		name = dyn_c_ANH_01
 		adjective = ANH_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -109,14 +109,14 @@ ANH = {
 }
 
 
-MEI = { 
+MEI = {
 	dynamic_country_name = {
 		name = dyn_c_MEI_01
 		adjective = MEI_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -124,14 +124,14 @@ MEI = {
 }
 
 
-COB = { 
+COB = {
 	dynamic_country_name = {
 		name = dyn_c_COB_01
 		adjective = COB_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -139,14 +139,14 @@ COB = {
 }
 
 
-SCW = { 
+SCW = {
 	dynamic_country_name = {
 		name = dyn_c_SCW_01
 		adjective = SCW_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -154,44 +154,44 @@ SCW = {
 }
 
 
-WEI = { 
+WEI = {
 	dynamic_country_name = {
 		name = dyn_c_WEI_01
 		adjective = WEI_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
 	}
 }
 
- 
 
-NAS = { 
+
+NAS = {
 	dynamic_country_name = {
 		name = dyn_c_NAS_01
 		adjective = NAS_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
 	}
-} 
+}
 
-HEK = { 
+HEK = {
 	dynamic_country_name = {
 		name = dyn_c_HEK_01
 		adjective = HEK_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -199,14 +199,14 @@ HEK = {
 }
 
 
-HES = { 
+HES = {
 	dynamic_country_name = {
 		name = dyn_c_HES_01
 		adjective = HES_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -214,14 +214,14 @@ HES = {
 }
 
 
-OLD = { 
+OLD = {
 	dynamic_country_name = {
 		name = dyn_c_OLD_01
 		adjective = OLD_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -229,14 +229,14 @@ OLD = {
 }
 
 
-MST = { 
+MST = {
 	dynamic_country_name = {
 		name = dyn_c_MST_01
 		adjective = MST_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -244,14 +244,14 @@ MST = {
 }
 
 
-MEC = { 
+MEC = {
 	dynamic_country_name = {
 		name = dyn_c_MEC_01
 		adjective = MEC_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -259,14 +259,14 @@ MEC = {
 }
 
 
-SCM = { 
+SCM = {
 	dynamic_country_name = {
 		name = dyn_c_SCM_01
 		adjective = SCM_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -274,14 +274,14 @@ SCM = {
 }
 
 
-BRA = { 
+BRA = {
 	dynamic_country_name = {
 		name = dyn_c_BRA_01
 		adjective = BRA_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -289,14 +289,14 @@ BRA = {
 }
 
 
-BRE = { 
+BRE = {
 	dynamic_country_name = {
 		name = dyn_c_BRE_01
 		adjective = BRE_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -304,14 +304,14 @@ BRE = {
 }
 
 
-HAM = { 
+HAM = {
 	dynamic_country_name = {
 		name = dyn_c_HAM_01
 		adjective = HAM_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			has_game_rule = historical_map_mod_enabled
 		}
@@ -319,28 +319,28 @@ HAM = {
 }
 
 
-LUB = { 
+LUB = {
 	dynamic_country_name = {
 		name = dyn_c_LUB_01
 		adjective = LUB_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 		}
 	}
 }
- 
-SAR = { 
+
+SAR = {
 	dynamic_country_name = {
 		name = dyn_c_sardinia
 		adjective = SAR_ADJ
-		
+
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
@@ -349,14 +349,14 @@ SAR = {
 		}
 	}
 }
-DOM = { 
+DOM = {
 	dynamic_country_name = {
 		name = dyn_c_DOM_viceroyalty
 		adjective = DOM_ADJ
 
 		is_main_tag_only = yes
 		priority = 15
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -369,7 +369,7 @@ DOM = {
 		}
 	}
 }
-HND = { 
+HND = {
 	dynamic_country_name = {
 		name = dyn_c_maharata_confederation
 		adjective = HND_ADJ
@@ -383,14 +383,14 @@ HND = {
 		}
 	}
 }
-CUB = { 
+CUB = {
 	dynamic_country_name = {
 		name = dyn_c_CUB_viceroyalty
 		adjective = CUB_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -403,14 +403,14 @@ CUB = {
 		}
 	}
 }
-CHL = { 
+CHL = {
 	dynamic_country_name = {
 		name = dyn_c_CHL_viceroyalty
 		adjective = CHL_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -423,14 +423,14 @@ CHL = {
 		}
 	}
 }
-PEU = { 
+PEU = {
 	dynamic_country_name = {
 		name = dyn_c_PEU_viceroyalty
 		adjective = PEU_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -450,7 +450,7 @@ ARM = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -470,7 +470,7 @@ BYE = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -490,7 +490,7 @@ KOK = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -510,7 +510,7 @@ TRC = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -530,7 +530,7 @@ TAJ = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -550,7 +550,7 @@ KHI = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -570,7 +570,7 @@ DAI = {
 
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -583,14 +583,14 @@ DAI = {
 		}
 	}
 }
-XIB = { 
+XIB = {
 	dynamic_country_name = {
 		name = dyn_c_xib
 		adjective = dyn_c_xinjiang_adj
 
 		is_main_tag_only = yes
 		priority = 100
-		
+
 		trigger = {
 			exists = c:CCN
 			c:CCN = {
@@ -603,14 +603,14 @@ XIB = {
 		}
 	}
 }
-SOL = { 
+SOL = {
 	dynamic_country_name = {
 		name = dyn_c_Italian_Somalia
 		adjective = SOL_ADJ
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:ITA
 			c:ITA = {
@@ -630,7 +630,7 @@ SOM = {
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -643,14 +643,14 @@ SOM = {
 		}
 	}
 }
-TRI = {  
+TRI = {
 	dynamic_country_name = {
 		name = dyn_c_TRI_ITA
 		adjective = TRI_ADJ
 
 		is_main_tag_only = yes
 		priority = 10
-		
+
 		trigger = {
 			exists = c:ITA
 			c:ITA = {
@@ -658,18 +658,18 @@ TRI = {
 					who = c:TRI
 					type = colony
 				}
-			}   
+			}
 		}
 	}
-}     
-ERI = { 
+}
+ERI = {
 	dynamic_country_name = {
 		name = dyn_c_Italian_Eritrea
 		adjective = ERI_ADJ
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:ITA
 			c:ITA = {
@@ -681,7 +681,7 @@ ERI = {
 			}
 		}
 	}
-} 
+}
 ANG = {
 	dynamic_country_name = {
 		name = dyn_c_ANG
@@ -689,7 +689,7 @@ ANG = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:POR
 			c:POR = {
@@ -709,7 +709,7 @@ MOZ = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:POR
 			c:POR = {
@@ -729,7 +729,7 @@ TCO = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:BEL
 			c:BEL = {
@@ -741,7 +741,7 @@ TCO = {
 			}
 		}
 	}
-}  
+}
 BRD = {
 	dynamic_country_name = {
 		name = dyn_c_BRD_belge
@@ -749,7 +749,7 @@ BRD = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:BEL
 			c:BEL = {
@@ -761,15 +761,15 @@ BRD = {
 			}
 		}
 	}
-}  
-ITC = { 
+}
+ITC = {
 	dynamic_country_name = {
-		name = dyn_c_Italian_Cyrenaica 
+		name = dyn_c_Italian_Cyrenaica
 		adjective = ITC_ADJ
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:ITA
 			c:ITA = {
@@ -789,7 +789,7 @@ AST = {
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -809,7 +809,7 @@ CAN = {
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -829,7 +829,7 @@ GAM = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -849,7 +849,7 @@ GAM = {
 
 # 		is_main_tag_only = yes
 # 		priority = 5
-		
+
 # 		trigger = {
 # 			exists = c:GBR
 # 			c:GBR = {
@@ -858,10 +858,10 @@ GAM = {
 # 					type = colony
 # 					is_initiator = yes
 # 				}
-# 			} 
+# 			}
 # 			scope:actor ?= {
 # 				#owns_entire_state_region = STATE_YORUBA_STATES
-# 				owns_entire_state_region = STATE_NIGER_DELTA 
+# 				owns_entire_state_region = STATE_NIGER_DELTA
 # 			}
 # 		}
 # 	}
@@ -872,7 +872,7 @@ GAM = {
 
 # 		is_main_tag_only = yes
 # 		priority = 100
-		
+
 # 		trigger = {
 # 			exists = c:GBR
 # 			c:GBR = {
@@ -881,13 +881,13 @@ GAM = {
 # 					type = colony
 # 					is_initiator = yes
 # 				}
-# 			} 
+# 			}
 # 			scope:actor ?= {
-# 				NOT = { 
+# 				NOT = {
 # 					#owns_entire_state_region = STATE_YORUBA_STATES
-# 					owns_entire_state_region = STATE_NIGER_DELTA 
+# 					owns_entire_state_region = STATE_NIGER_DELTA
 # 				}
-# 			} 
+# 			}
 # 		}
 # 	}
 # }
@@ -898,7 +898,7 @@ ASH = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -918,7 +918,7 @@ KEN = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -938,7 +938,7 @@ BOW = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -958,7 +958,7 @@ NRB = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -978,7 +978,7 @@ ZAM = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -995,10 +995,10 @@ MWI = {
 	dynamic_country_name = {
 		name = dyn_c_Nyasaland
 		adjective = MWI_ADJ
-		
+
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1018,7 +1018,7 @@ ZIM = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1029,7 +1029,7 @@ ZIM = {
 				}
 			}
 			scope:actor ?= {
-				NOT = { 
+				NOT = {
 					owns_entire_state_region = STATE_ZAMBIA
 					#owns_entire_state_region = STATE_KAZEMBE
 					owns_entire_state_region = STATE_ZAMBEZI
@@ -1043,7 +1043,7 @@ ZIM = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1059,7 +1059,7 @@ ZIM = {
 				owns_entire_state_region = STATE_ZAMBEZI
 			}
 		}
-	}  
+	}
 }
 BLZ = {
 	dynamic_country_name = {
@@ -1068,7 +1068,7 @@ BLZ = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1083,12 +1083,12 @@ BLZ = {
 }
 CMU = {
 	dynamic_country_name = {
-		name = dyn_c_Kamerun 
+		name = dyn_c_Kamerun
 		adjective = CMU_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GER
 			c:GER = {
@@ -1108,7 +1108,7 @@ NAI = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GER
 			c:GER = {
@@ -1126,7 +1126,7 @@ NAI = {
 
 		is_main_tag_only = yes
 		priority = 10
-		
+
 		trigger = {
 			exists = c:SAF
 			c:SAF = {
@@ -1146,7 +1146,7 @@ TAN = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GER
 			c:GER = {
@@ -1166,7 +1166,7 @@ PPN = {
 
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			exists = c:GER
 			c:GER = {
@@ -1186,7 +1186,7 @@ PNG = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1198,7 +1198,7 @@ PNG = {
 			}
 		}
 	}
-} 
+}
 MAL = {
 	dynamic_country_name = {
 		name = dyn_c_French_West_Africa
@@ -1206,7 +1206,7 @@ MAL = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1226,7 +1226,7 @@ COG = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1241,35 +1241,35 @@ COG = {
 }
 
 
-BRZ = { 
+BRZ = {
 	dynamic_country_name = {
 		name = dyn_c_BRZ_01
 		adjective = BRZ_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
-			has_game_rule = historical_map_mod_enabled 
+			has_game_rule = historical_map_mod_enabled
 			scope:actor = {
 				OR = {
 					coa_monarchy_trigger = yes
 					coa_absolute_monarchy_trigger = yes
 				}
-			} 
+			}
 		}
 	}
-} 
+}
 
 
-INJECT:ITA = { 
+INJECT:ITA = {
 	dynamic_country_name = {
 		name = dyn_c_italian_napoleon
 		adjective = ITA_ADJ
 
 		is_main_tag_only = yes
 		priority = 15
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1282,14 +1282,14 @@ INJECT:ITA = {
 		}
 	}
 }
-INJECT:LIB = { 
+INJECT:LIB = {
 	dynamic_country_name = {
 		name = dyn_c_liberia_compagny
 		adjective = LIB_ADJ
 
 		is_main_tag_only = yes
 		priority = 15
-		
+
 		trigger = {
 			exists = c:USA
 			c:USA = {
@@ -1302,14 +1302,14 @@ INJECT:LIB = {
 		}
 	}
 }
-INJECT:LUC = { 
+INJECT:LUC = {
 	dynamic_country_name = {
 		name = dyn_c_lucca_napoleon
 		adjective = LUC_ADJ
 
 		is_main_tag_only = yes
 		priority = 15
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1322,14 +1322,14 @@ INJECT:LUC = {
 		}
 	}
 }
-INJECT:LOU = { 
+INJECT:LOU = {
 	dynamic_country_name = {
 		name = dyn_c_french_louisiana
 		adjective = LOU_ADJ
 
 		is_main_tag_only = yes
 		priority = 50
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1342,14 +1342,14 @@ INJECT:LOU = {
 		}
 	}
 }
-INJECT:ARG = { 
+INJECT:ARG = {
 	dynamic_country_name = {
 		name = dyn_c_ARG_viceroyalty
 		adjective = ARG_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -1362,7 +1362,7 @@ INJECT:ARG = {
 		}
 	}
 }
-INJECT:CLM = { 
+INJECT:CLM = {
 	dynamic_country_name = {
 		name = dyn_c_CGO_viceroyalty
 		adjective = CLM_ADJ
@@ -1379,8 +1379,8 @@ INJECT:CLM = {
 			}
 		}
 	}
-} 
-INJECT:MEX = { 
+}
+INJECT:MEX = {
 	dynamic_country_name = {
 		name = dyn_c_MEX_viceroyalty
 		adjective = MEX_ADJ
@@ -1401,14 +1401,14 @@ INJECT:MEX = {
 		}
 	}
 }
-INJECT:VNZ = { 
+INJECT:VNZ = {
 	dynamic_country_name = {
 		name = dyn_c_VNZ_viceroyalty
 		adjective = VNZ_ADJ
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:SPA
 			c:SPA = {
@@ -1446,7 +1446,7 @@ INJECT:AUS = {
 
 		is_main_tag_only = yes
 		priority = 5
-	
+
 		trigger = {
 			scope:actor = {
 				OR = {
@@ -1456,23 +1456,31 @@ INJECT:AUS = {
 		}
 	}
 	dynamic_country_name = {
-		name = dyn_c_austria-hungary
+		name = dyn_c_austria_hungary
 		adjective = AUS_ADJ
 
 		is_main_tag_only = yes
-		priority = 20
+		priority = 6
 		trigger = {
-			exists = c:AUS
-			c:AUS = {
-				has_diplomatic_pact = {
-					who = c:HUN
-					type = puppet
-					is_initiator = yes
+			or = {
+				c:AUS = {
+					has_diplomatic_pact = {
+						who = c:HUN
+						type = puppet
+						is_initiator = yes
+					}
+				}
+				scope:actor ?= {
+					AND = {
+						country_has_primary_culture = cu:hungarian
+						country_has_primary_culture = cu:south_german
+						has_variable = established_austria_hungary_var  
+					}
 				}
 			}
 		}
 	}
-}   
+}
 INJECT:JAP = {
 	dynamic_country_name = {
 		name = dyn_c_Japan
@@ -1480,7 +1488,7 @@ INJECT:JAP = {
 
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			scope:actor = {
 				OR = {
@@ -1490,7 +1498,7 @@ INJECT:JAP = {
 			}
 		}
 	}
-} 
+}
 INJECT:RUS = {
 	dynamic_country_name = {
 		name = dyn_c_Russian_Empire
@@ -1513,7 +1521,7 @@ INJECT:RUS = {
 
 	# 	is_main_tag_only = yes
 	# 	priority = 10
-		
+
 	# 	trigger = {
 	# 		scope:actor = {
 	# 			OR = {
@@ -1531,7 +1539,7 @@ INJECT:UKR = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1551,7 +1559,7 @@ INJECT:LIT = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1571,7 +1579,7 @@ INJECT:LAT = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1591,7 +1599,7 @@ INJECT:EST = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1611,7 +1619,7 @@ INJECT:GEO = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1631,7 +1639,7 @@ INJECT:AZB = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1651,7 +1659,7 @@ INJECT:KAZ = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1672,7 +1680,7 @@ INJECT:CHI = {
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			scope:actor = {
 				OR = {
@@ -1682,21 +1690,21 @@ INJECT:CHI = {
 		}
 	}
 }
-INJECT:PER = { 
+INJECT:PER = {
 	dynamic_country_name = {
 		name = dyn_c_persia
 		adjective = dyn_c_persia_adj
-		
+
 		is_main_tag_only = yes
 		priority = 0
-		
+
 		trigger = {
 			scope:actor = {
 				has_law = law_type:law_monarchy
 			}
 		}
 	}
-} 
+}
 INJECT:GER = {
 	dynamic_country_name = {
 		name = dyn_c_German_Empire
@@ -1704,7 +1712,7 @@ INJECT:GER = {
 
 		is_main_tag_only = yes
 		priority = 2
-		
+
 		trigger = {
 			scope:actor = {
 				OR = {
@@ -1720,7 +1728,7 @@ INJECT:GER = {
 
 		is_main_tag_only = yes
 		priority = 3
-		
+
 		trigger = {
 			scope:actor = {
 				OR = {
@@ -1730,7 +1738,7 @@ INJECT:GER = {
 			}
 		}
 	}
-} 
+}
 INJECT:SAF = { # South Africa
 	dynamic_country_name = {
 		name = dyn_c_Union_of_South_Africa
@@ -1738,7 +1746,7 @@ INJECT:SAF = { # South Africa
 
 		is_main_tag_only = yes
 		priority = 200
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1758,7 +1766,7 @@ INJECT:SUD = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:GBR
 			c:GBR = {
@@ -1778,7 +1786,7 @@ INJECT:POL = {
 
 		is_main_tag_only = yes
 		priority = 25
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1796,7 +1804,7 @@ INJECT:POL = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:RUS
 			c:RUS = {
@@ -1814,7 +1822,7 @@ INJECT:POL = {
 
 		is_main_tag_only = yes
 		priority = 25
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1834,7 +1842,7 @@ INJECT:MAD = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1846,16 +1854,16 @@ INJECT:MAD = {
 			}
 		}
 	}
-} 
-INJECT:KOR = { # Korea 
+}
+INJECT:KOR = { # Korea
 	dynamic_country_name = {
 		name = dyn_c_empire_of_korea
 		adjective = dyn_c_empire_of_korea_adj
 
 		is_main_tag_only = yes
 		priority = 100
-		
-		trigger = {   
+
+		trigger = {
 			exists = c:JAP
 			c:JAP = {
 				has_diplomatic_pact = {
@@ -1866,15 +1874,15 @@ INJECT:KOR = { # Korea
 			}
 		}
 	}
-}  
-INJECT:ALD = { 
+}
+INJECT:ALD = {
 	dynamic_country_name = {
 		name = dyn_c_ALD_FRA
 		adjective = dyn_c_maghreb_adj
 
 		is_main_tag_only = yes
 		priority = 11
-		
+
 		trigger = {
 			exists = c:FRA
 			c:FRA = {
@@ -1904,14 +1912,14 @@ INJECT:XIN = {
 		}
 	}
 }
-INJECT:YUE = { 
+INJECT:YUE = {
 	dynamic_country_name = {
 		name = dyn_c_yue_clique
 		adjective = YUE_ADJ
 
 		is_main_tag_only = yes
 		priority = 10
-		
+
 		trigger = {
 			exists = c:CCN
 			c:CCN = {
@@ -1924,14 +1932,14 @@ INJECT:YUE = {
 		}
 	}
 }
-INJECT:YUN = { 
+INJECT:YUN = {
 	dynamic_country_name = {
 		name = dyn_c_Yunnan_clique
 		adjective = YUN_ADJ
 
 		is_main_tag_only = yes
 		priority = 10
-		
+
 		trigger = {
 			exists = c:CCN
 			c:CCN = {
@@ -1951,7 +1959,7 @@ INJECT:MCH = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:JAP
 			c:JAP = {
@@ -1971,7 +1979,7 @@ INJECT:SHA = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:JAP
 			c:JAP = {
@@ -1991,7 +1999,7 @@ INJECT:AHU = {
 
 		is_main_tag_only = yes
 		priority = 5
-		
+
 		trigger = {
 			exists = c:JAP
 			c:JAP = {
@@ -2003,7 +2011,7 @@ INJECT:AHU = {
 			}
 		}
 	}
-} 
+}
 INJECT:SPA = {
 	dynamic_country_name = {
 		name = SPA_spanish_state

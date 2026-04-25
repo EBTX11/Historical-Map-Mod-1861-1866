@@ -550,24 +550,32 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1109085
-			}
-			create_pop = {
-				culture = occitan
-				religion = protestant
-				size = 12934
+				size = 997350
 			}
 			create_pop = {
 				culture = french
-				size = 40160
+				size = 35698
 			}
 			create_pop = {
-				culture = sephardic # Avignonese Jews, closer to Sephardi than Ashkenazi
-				size = 2609
+				culture = sephardic
+				size = 2319
+			}
+		}
+		region_state:MOO = {
+			create_pop = {
+				culture = occitan
+				size = 124669
+			}
+			create_pop = {
+				culture = french
+				size = 4462
+			}
+			create_pop = {
+				culture = sephardic
+				size = 290
 			}
 		}
 	}
@@ -1318,28 +1326,24 @@
 		}
 	}
 	s:STATE_EAST_SWITZERLAND = {
-		region_state:SWI = {
-			# 895200 total
-			# 43.3% Protestant, 56.7% Catholic
-
+		region_state:LIE = {
 			create_pop = {
 				culture = alemannic
-				religion = catholic
-				size = 416018
+				size = 153490
 			}
-			create_pop = {
-				culture = alemannic
-				size = 504920
-			}
-
-			# Swiss Italians probably constituted something like 8 percent? That's been near the average over the 20th century back to 1910 statistics.
-			# No separate Romansh culture, but I'm arbitrarily pinning it at 1.5% and counting it towards the Italian total, so this figure should be 9.5% of the total starting Swiss population of 1966164
-			# Ticino and Grisons account for almost the entire Italian population, and Grisons further accounts for the Romansh population.
-			# I realize this runs into the old Questione Ladina. Don't care.
-
 			create_pop = {
 				culture = north_italian
-				size = 242821
+				size = 40470
+			}
+		}
+		region_state:SWI = {
+			create_pop = {
+				culture = alemannic
+				size = 767448
+			}
+			create_pop = {
+				culture = north_italian
+				size = 202351
 			}
 		}
 	}

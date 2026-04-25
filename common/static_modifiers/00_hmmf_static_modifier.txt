@@ -11,15 +11,13 @@ PRG_modifier_1 = {
 FRA_modifier_1 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
     country_legitimacy_base_add = 15
-}
-
-
+} 
 FRA_modifier_2 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
     unit_morale_recovery_mult = 0.25
-    		unit_defense_mult = 0.1
-    		unit_offense_mult = 0.1
-    		character_coup_strength_mult = 0.1
+    unit_defense_mult = 0.1
+    unit_offense_mult = 0.1
+    character_coup_strength_mult = 0.1
 }
 
 FRA_modifier_3 = {
@@ -43,10 +41,10 @@ MEX_modifier_1 = {
  
 MEX_modifier_2 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-    country_radicals_from_legitimacy_mult = 0.5
-    state_radicals_from_political_movements_mult = 0.5 
-    country_prestige_mult = -0.25
-    country_legitimacy_base_add = -50  
+    country_radicals_from_legitimacy_mult = 0.05
+    state_radicals_from_political_movements_mult = 0.05 
+    country_prestige_mult = -0.025
+    country_legitimacy_base_add = -5
 }
 
 USA_modifier_1 = {
@@ -60,4 +58,60 @@ USA_modifier_1 = {
 USA_modifier_2 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
     country_prestige_mult = -0.05
+}
+
+USA_modifier_3 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_prestige_mult = -0.05
+}
+
+NGF_modifier_1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_prestige_mult = -0.05
+}
+
+NGF_modifier_2 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    state_conscription_rate_mult = 0.10
+    interest_group_ig_armed_forces_pol_str_mult = 0.50
+    interest_group_ig_armed_forces_approval_add = 5
+}
+NGF_modifier_3 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+    unit_defense_mult = 0.25
+    unit_offense_mult = 0.25
+    unit_devastation_mult = 0.25
+    unit_blockade_mult = 0.25
+    unit_kill_rate_add = 1 #0.25  #cheat
+    unit_recovery_rate_add = 1 #0.25 #cheat
+    unit_morale_recovery_mult = 0.25
+    unit_morale_damage_mult = 0.25
+    unit_morale_loss_mult = -0.25
+    unit_experience_gain_mult = 0.50
+    military_formation_mobilization_speed_mult = 0.50
+    military_formation_movement_speed_mult = 0.50
+
+    interest_group_ig_armed_forces_pol_str_mult = 2
+    interest_group_ig_armed_forces_approval_add = 5
+}
+ 
+NGF_modifier_4 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+    unit_defense_mult = 0.25
+    unit_offense_mult = 0.25
+    unit_devastation_mult = 0.25
+    unit_blockade_mult = 0.25
+    unit_kill_rate_add = 1 #0.25  #cheat
+    unit_recovery_rate_add = 1 #0.25 #cheat
+    unit_morale_recovery_mult = 0.25
+    unit_morale_damage_mult = 0.25
+    unit_morale_loss_mult = -0.25
+    unit_experience_gain_mult = 0.50
+    military_formation_mobilization_speed_mult = 0.50
+    military_formation_movement_speed_mult = 0.50
+
+    interest_group_ig_armed_forces_pol_str_mult = 2
+    interest_group_ig_armed_forces_approval_add = 5
 }

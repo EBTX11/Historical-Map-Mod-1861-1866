@@ -5,21 +5,21 @@ MEX_je_1 = {
     group = je_group_historical_content
     should_be_pinned_by_default = yes
 
-    modifiers_while_active = { 
-        MEX_modifier_2
-        #is_decaying = yes
-        # scope:journal_entry = {
-        #     hidden_effect = {
-        #         remove_modifier = upc_quota_failed
-        #         remove_modifier = upc_quota_met
-        #     }
-        #     add_modifier = {
-        #         name = upc_quota_met
-        #         days = -1
-        #         multiplier = root.upc_quota_predicted_percent
-        #     }
-        # }
-    }
+    # modifiers_while_active = { 
+    #     MEX_modifier_2
+    #     #is_decaying = yes
+    #     # scope:journal_entry = {
+    #     #     hidden_effect = {
+    #     #         remove_modifier = upc_quota_failed
+    #     #         remove_modifier = upc_quota_met
+    #     #     }
+    #     #     add_modifier = {
+    #     #         name = upc_quota_met
+    #     #         days = -1
+    #     #         multiplier = root.upc_quota_predicted_percent
+    #     #     }
+    #     # }
+    # }
 
     is_shown_when_inactive = {
         OR = {
@@ -36,7 +36,7 @@ MEX_je_1 = {
 
     possible = {
         game_date >= 1861.1.1
-        is_subject_of = c:FRA
+        #is_subject_of = c:FRA
     }
 
     immediate = {
@@ -79,9 +79,9 @@ MEX_je_1 = {
                     name = MEX_je_1_1_progress_bar
                 }
             }
-            remove_modifier = MEX_modifier_1
+            remove_modifier = MEX_modifier_2
             add_modifier = {
-                name = MEX_modifier_1
+                name = MEX_modifier_2
                 multiplier = global_var:MEX_je_1_global_variable_progress_bar_1
             } 
         }
@@ -91,7 +91,7 @@ MEX_je_1 = {
         value = global_var:MEX_je_1_global_variable_progress_bar_1
     }
     goal_add_value = {
-        value = 10
+        value = 20
     } 
     status_desc = {
         first_valid = {        }

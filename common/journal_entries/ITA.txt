@@ -1,0 +1,148 @@
+
+ITA_je_1 = {
+    icon = "gfx/interface/icons/event_icons/ITA_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        exists = c:ITA
+        c:ITA ?= THIS
+    }
+
+    possible = {
+        game_date >= 1861.1.1
+    }
+
+    immediate = {
+        
+    }
+
+    complete = {
+        owns_entire_state_region = STATE_LAZIO
+    }
+
+    fail = {
+    }
+
+    on_complete = {
+        
+    }
+
+    on_fail = {
+    }
+
+
+    status_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = ITA_je_1_status_desc_1
+                trigger = {
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 0
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 45
+                }
+            }
+
+            triggered_desc = {
+                desc = ITA_je_1_status_desc_2
+                trigger = {
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 46
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 89
+                }
+            }
+
+            triggered_desc = {
+                desc = ITA_je_1_status_desc_3
+                trigger = {
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 90
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 100
+                }
+            }
+        }
+    }
+
+    scripted_progress_bar = ITA_je_1_1_progress_bar
+    scripted_button = ITA_je_1_button_1
+    scripted_button = ITA_je_1_button_2
+
+
+    on_monthly_pulse = {
+        effect = { 
+            je:ITA_je_1 ?= {
+                set_bar_progress = {
+                    value = global_var:ITA_je_1_global_variable_progress_bar_1
+                    name = ITA_je_1_1_progress_bar
+                }
+            } 
+            if = {
+                limit = {
+                    C:FRA = {
+                        is_at_war = yes
+                    }  
+                }
+                change_global_variable = {
+                    name = ITA_je_1_global_variable_progress_bar_1
+                    add = 1
+                } 
+            }  
+            C:FRA = {
+                capital= {
+                    save_scope_as = capital_state
+                }
+                save_scope_as = target_country      
+            }  
+            
+			if = {
+				limit = { 
+                    NOT = { has_global_variable = ITA_global_variable_1 }  
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 10
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 33
+                }
+				trigger_event = { id = ITA_event_1.1 }
+                set_global_variable = {
+                    name = ITA_global_variable_1
+                    value = 0
+                }
+                change_infamy = 3
+                change_relations = { country = c:FRA value = -10 }
+                change_relations = { country = c:PAP value = -10 }
+                c:PAP = {  add_liberty_desire = 50 } 
+			}
+			if = {
+				limit = { 
+                    NOT = { has_global_variable = ITA_global_variable_2 }  
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 34
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 66
+                }
+				trigger_event = { id = ITA_event_1.2 }
+                set_global_variable = {
+                    name = ITA_global_variable_2
+                    value = 0
+                }
+                change_infamy = 3
+                change_relations = { country = c:FRA value = -10 }
+                change_relations = { country = c:PAP value = -10 }
+                c:PAP = {  add_liberty_desire = 50 } 
+			}
+			if = {
+				limit = { 
+                    NOT = { has_global_variable = ITA_global_variable_3 }  
+                    global_var:ITA_je_1_global_variable_progress_bar_1 > 67
+                    global_var:ITA_je_1_global_variable_progress_bar_1 <= 90
+                }
+				trigger_event = { id = ITA_event_1.3 }
+                set_global_variable = {
+                    name = ITA_global_variable_3
+                    value = 0
+                }
+                change_infamy = 3
+                change_relations = { country = c:FRA value = -10 }
+                change_relations = { country = c:PAP value = -10 }
+                c:PAP = {  add_liberty_desire = 50 } 
+			}  
+        }
+    } 
+}

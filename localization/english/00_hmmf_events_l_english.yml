@@ -50,3 +50,39 @@
   USA_event_1.6_desc.a1:0 "Tensions surge toward open conflict."
   USA_event_1.6.a2:0 "Delay confrontation"
   USA_event_1.6_desc.a2:0 "The crisis is postponed, but not resolved."
+
+
+  PRU_event_1.1.t:0 "Calls for Military Expansion"
+  PRU_event_1.1.d:1 "Reports indicate that France maintains a significantly larger army than our own."
+  PRU_event_1.1.f:1 "Nationalist newspapers and political agitators have begun to openly criticize the government, denouncing its inaction in the face of a growing threat.\nVoices across the nation demand immediate measures to strengthen the army and prepare for the challenges ahead."
+  PRU_event_1.1.a1:0 "Expand the Army at Once"
+  PRU_event_1.1_desc.a1:0 "We cannot afford to fall behind. Immediate action must be taken."
+  PRU_event_1.1.a2:0 "Gradual Military Expansion"
+  PRU_event_1.1_desc.a2:0 "Expansion is necessary, but must be carefully managed."
+
+
+
+
+
+
+
+
+  ITA_event_1.4.t:0 "Entering Rome"
+  ITA_event_1.4.d:1 "The Breach of Porta Pia"
+  ITA_event_1.4.f:1 "Italian forces have breached the walls of Rome. The Papal resistance was brief, and the Eternal City now lies under our control.\n\nThis day marks the culmination of the long struggle for Italian unity. Rome is now the capital of the nation."
+  ITA_event_1.4.a1:0 "Rome is ours"
+
+  ITA_event_1.1.t:0 "Tensions in Rome"
+  ITA_event_1.1.d:1 "The Italian shadow looms over the Eternal City"
+  ITA_event_1.1.f:1 "Italian movements around Rome are becoming increasingly noticeable. Though officially discreet, they have not escaped the attention of European observers or the French government.\n\nIn Paris, some view these developments as mere nationalist agitation, while others see the early signs of a challenge to the established order surrounding the Holy See.\n\nFor now, no direct action is considered… but the situation warrants attention."
+  ITA_event_1.1.a1:0 "The time has not yet come"
+
+  ITA_event_1.2.t:0 "The Roman Crisis"
+  ITA_event_1.2.d:1 "Paris faces a difficult decision"
+  ITA_event_1.2.f:1 "Italian pressure on Rome can no longer be ignored. Troop concentrations, nationalist rhetoric, and diplomatic maneuvers all point toward imminent action.\n\nIn Paris, debate intensifies: should we firmly reaffirm our role as protector of the Holy See, or avoid a risky confrontation in an already unstable international climate?\n\nA decision must be made."
+  ITA_event_1.2.a1:0 "Continue to increase pressure."
+
+  ITA_event_1.3.t:0 "The Fate of Rome"
+  ITA_event_1.3.d:1 "The European balance trembles"
+  ITA_event_1.3.f:1 "The situation in Rome has reached a critical point. Italy stands ready to act, and the last obstacles are fading.\n\nIf we intervene now, we may still prevent the fall of the city. But such action could trigger a war with unpredictable consequences.\n\nThe time for compromise has passed. Only difficult choices remain."
+  ITA_event_1.3.a1:0 "Prepare to enter Rome."
