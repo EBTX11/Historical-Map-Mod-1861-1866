@@ -4,7 +4,7 @@
     
     c:FRA = { 
     	add_supply_ships = {
-			value = 25000
+			value = 50000
  		}
 	} 
 

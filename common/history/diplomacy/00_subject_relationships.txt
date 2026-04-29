@@ -591,14 +591,14 @@ c:USA ?= {
 		}
 	}
 
-	c:AUS ?= {
-		create_diplomatic_pact = {
-			country = c:KRA
-			type = puppet
-		}
+	c:AUS ?= { 
 		create_diplomatic_pact = {
 			country = c:LOM
 			type = puppet
 		}
+		# create_diplomatic_pact = {
+		# 	country = c:HUN
+		# 	type = puppet
+		# }
 	}
 }

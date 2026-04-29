@@ -15,19 +15,19 @@ AUS_je_1 = {
 
     possible = {
         #game_date >= 1867.1.1
-        has_global_variable = autro_prussian_war_completed 
+        has_global_variable = autro_prussian_war_completed
         is_at_war = no
         not = {
         	is_diplomatic_play_enemy_of = c:NGF
-        }  
+        }
     }
 
     immediate = {
-        
+
     }
 
     complete = {
-		country_has_primary_culture = cu:hungarian
+		    #country_has_primary_culture = cu:hungarian
         has_variable = established_austria_hungary_var
     }
 
@@ -35,7 +35,7 @@ AUS_je_1 = {
     }
 
     on_complete = {
-        
+
     }
 
     on_fail = {
@@ -43,5 +43,5 @@ AUS_je_1 = {
 
 
 
-    scripted_button = AUS_je_1_button_1 
+    scripted_button = AUS_je_1_button_1
 }

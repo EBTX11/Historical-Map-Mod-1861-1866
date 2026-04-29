@@ -71,5 +71,5 @@ MILITARY_FORMATIONS = {
 			transfer_to_formation = scope:FRA_MILITARY_FORMATION_04
 			set_variable = is_frederic_forey
 		}
-}
+	}
 }

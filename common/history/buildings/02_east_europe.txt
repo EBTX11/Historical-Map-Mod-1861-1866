@@ -1412,17 +1412,7 @@
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:HUN"
-						levels=26
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 		}
 	}
 	s:STATE_BEKES={
@@ -1531,17 +1521,7 @@
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:HUN"
-						levels=51
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_railway"
 				add_ownership={
@@ -1642,17 +1622,7 @@
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:HUN"
-						levels=36
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 		}
 	}
 	s:STATE_SLOVAKIA={
@@ -1724,17 +1694,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:HUN"
-						levels=39
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_arms_industry"
 				add_ownership={

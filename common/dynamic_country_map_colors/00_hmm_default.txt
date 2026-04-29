@@ -14,14 +14,15 @@ austria_hungary = {
 
 	possible = {
 		exists = c:AUS
-		c:AUS ?= THIS 
-		AND = {
-			country_has_primary_culture = cu:hungarian
-			country_has_primary_culture = cu:south_german
-			has_variable = established_austria_hungary_var 
-		}
+		c:AUS ?= THIS
+		has_variable = established_austria_hungary_var
+		# AND = {
+		# 	country_has_primary_culture = cu:hungarian
+		# 	country_has_primary_culture = cu:south_german
+		# 	has_variable = established_austria_hungary_var
+		# }
 	}
-} 
+}
 
 japanese_empire = {
 	color = "white"
@@ -46,14 +47,14 @@ republican_france = {
 	possible = {
 		exists = c:FRA
 		THIS = c:FRA
-		NOT = { 
-			has_law = law_type:law_autocracy 
-			has_law = law_type:law_oligarchy 
-			has_law = law_type:law_elder_council 
-			has_law = law_type:law_landed_voting 
-			has_law = law_type:law_wealth_voting 
-			has_law = law_type:law_census_voting 
-			has_law = law_type:law_universal_suffrage 
+		NOT = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+			has_law = law_type:law_elder_council
+			has_law = law_type:law_landed_voting
+			has_law = law_type:law_wealth_voting
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
 		}
 		OR = {
 			has_law = law_type:law_parliamentary_republic
@@ -77,6 +78,6 @@ napoleon_italia = {
 		exists = c:ITA
 		c:ITA ?= THIS
 
-		is_subject_type = subject_type_protectorate 
+		is_subject_type = subject_type_protectorate
 	}
 }
