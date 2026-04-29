@@ -1483,22 +1483,42 @@ INJECT:AUS = {
 	}
 }
 INJECT:JAP = {
-	dynamic_country_name = {
-		name = dyn_c_Japan
+	dynamic_country_name = { # Tokugawa Shogunate
+		name = dyn_c_tokugawa_shogunate
 		adjective = JAP_ADJ
 
 		is_main_tag_only = yes
-		priority = 0
+		priority = 25
 
 		trigger = {
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_monarchy
-
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+				NOT = {
+					or = {  
+						has_variable = japan_emperor_restored
+						has_variable = japan_restoration_complete  
+					}
 				}
+				has_law = law_type:law_bakufu
 			}
 		}
 	}
+	# dynamic_country_name = {
+	# 	name = dyn_c_Japan
+	# 	adjective = JAP_ADJ
+
+	# 	is_main_tag_only = yes
+	# 	priority = 0
+
+	# 	trigger = {
+	# 		scope:actor = {
+	# 			OR = {
+	# 				has_law = law_type:law_monarchy
+
+	# 			}
+	# 		}
+	# 	}
+	# }
 }
 INJECT:RUS = {
 	dynamic_country_name = {

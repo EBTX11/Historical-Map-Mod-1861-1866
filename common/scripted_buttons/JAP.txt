@@ -1,0 +1,27 @@
+JAP_je_1_button_1 = {
+    name = "JAP_je_1_button_1"
+    desc = "JAP_je_1_button_1_desc"
+
+    visible = {
+    }
+
+    possible = {
+        custom_tooltip = {
+            text = JAP_je_1_button_1_tt_possible_1
+        }
+        game_date > 1868.1.1
+    }
+
+    effect = {
+        custom_tooltip = {
+            text = JAP_je_1_button_1_tt_effect_1
+        }
+		activate_law = law_type:law_wealth_voting
+		set_variable = { name = restoration_timer_var value = 6 }
+    }
+
+    ai_chance = {
+        value = 100
+    }
+}
+

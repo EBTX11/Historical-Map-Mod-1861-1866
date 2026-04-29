@@ -1,0 +1,47 @@
+
+JAP_je_1 = {
+    icon = "gfx/interface/icons/event_icons/JAP_je_1.dds"
+
+    group = je_group_historical_content
+    should_be_pinned_by_default = yes
+
+    modifiers_while_active = {
+    }
+
+    is_shown_when_inactive = {
+        exists = c:JAP
+        c:JAP ?= THIS
+    }
+
+    possible = {
+        game_date >= 1867.1.1
+        #game_date >= 1861.1.1
+    }
+
+    immediate = {
+        
+    }
+
+    complete = {
+        NOT = {
+            has_law = law_type:law_bakufu
+        }
+    }
+
+    fail = {
+    }
+
+    on_complete = {
+        
+    }
+
+    on_fail = {
+    }
+
+
+
+    scripted_button = JAP_je_1_button_1
+
+
+
+}

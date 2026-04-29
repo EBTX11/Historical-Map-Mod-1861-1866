@@ -166,3 +166,10 @@
   ITA_je_1_status_desc_1:0 "Italian influence around #gold Rome#! is #green growing#!, though the situation remains contained."
   ITA_je_1_status_desc_2:0 "The situation in #gold Rome#! is #gold deteriorating#!. Diplomatic tensions are rising across Europe."
   ITA_je_1_status_desc_3:0 "The fate of #gold Rome#! hangs in the #r balance#!. A decisive move may soon be inevitable."
+
+  JAP_je_1:0 "Proclamation of the Honorable Restoration"
+  JAP_je_1_reason:0 "The authority of the Shogunate has waned, and the balance of power within the realm can no longer be sustained. Loyalist factions, court nobles, and reform-minded domains now rally around the Emperor, seeking to restore imperial rule and usher in a new era of centralized governance.\n\nWithout the need for open conflict, the foundations of the old order give way. The time has come to formally proclaim the restoration of imperial authority and bring an end to centuries of military rule under the Bakufu"
+  JAP_je_1_button_1:0 "End of the Bakufu"
+  JAP_je_1_button_1_desc:0 "Formally dissolve the Shogunate and restore full governing authority to the Emperor, marking the beginning of a new imperial era."
+  JAP_je_1_button_1_tt_possible_1:0 "Nothing"
+  JAP_je_1_button_1_tt_effect_1:0 "Nothing"

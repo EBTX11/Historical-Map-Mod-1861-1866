@@ -211,7 +211,7 @@ PRU_je_1_button_5 = {
                 has_truce_with = c:FRA
             }
         }
-        game_date > 1871
+        game_date > 1870.6.19
         is_at_war = no
     }
 

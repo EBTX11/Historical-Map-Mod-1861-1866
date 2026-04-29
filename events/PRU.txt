@@ -18,6 +18,8 @@ PRU_event_1.1 = {
     icon = "gfx/interface/icons/event_icons/event_default.dds"
 
     trigger = {
+        exists = c:NGF # vérifie si un pays avec l'étiquette « USA » existe
+		this = c:NGF # Ceci vérifie si un pays avec l'étiquette « USA » est le pays actuellement concerné.
     }
 
     immediate = {
