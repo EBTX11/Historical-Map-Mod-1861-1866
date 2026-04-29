@@ -1,4 +1,3 @@
-
 REPLACE:soviet_red = {
 	color = "rednew"
 
@@ -8,19 +7,21 @@ REPLACE:soviet_red = {
 		has_law_or_variant = law_type:law_council_republic
 	}
 }
+
 austria_hungary = {
 	color = "brun"
 	#color = "frenchblue"
 
 	possible = {
 		exists = c:AUS
-		c:AUS ?= THIS
-		OR = {  
-			country_has_primary_culture = cu:hungarian 
-			has_variable = established_austria_hungary_var
- 		}
+		c:AUS ?= THIS 
+		AND = {
+			country_has_primary_culture = cu:hungarian
+			country_has_primary_culture = cu:south_german
+			has_variable = established_austria_hungary_var 
+		}
 	}
-}
+} 
 
 japanese_empire = {
 	color = "white"

@@ -1,9 +1,9 @@
 MILITARY_FORMATIONS = {
-	c:FRA ?= {
+	c:FRA ?= { 
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_western_europe
-			name = FRA_MILITARY_FORMATION_01
+			name = FRA_MILITARY_FORMATION_03
 
 			ship = {
 				type = ship_type:ship_type_early_ironclad
@@ -13,7 +13,63 @@ MILITARY_FORMATIONS = {
 				type = ship_type:ship_type_troop_ship
 				count = 20
 			}
-			save_scope_as = FRA_MILITARY_FORMATION_01
-		} 
-	}
+			save_scope_as = FRA_MILITARY_FORMATION_03
+		}
+
+		create_character = {
+			is_general = no
+			is_admiral = yes
+			first_name = fra_edmond_jurien_first
+			last_name = fra_de_la_gravire_last
+			historical = yes
+			hq = region_western_europe
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_FRA_MILITARY_FORMATION_03
+		}
+
+		scope:character_FRA_MILITARY_FORMATION_03 = {
+			transfer_to_formation = scope:FRA_MILITARY_FORMATION_03
+		}
+	
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_western_europe
+			name = FRA_MILITARY_FORMATION_04
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_AQUITAINE
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_shrapnel_artillery
+				state_region = s:STATE_AQUITAINE
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_AQUITAINE
+				count = 10
+			}
+			save_scope_as = FRA_MILITARY_FORMATION_04
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = fra_lie_first
+			last_name = fra_frdric_forey_last
+			historical = yes
+			hq = region_western_europe
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_FRA_MILITARY_FORMATION_04
+		}
+
+		scope:character_FRA_MILITARY_FORMATION_04 = {
+			transfer_to_formation = scope:FRA_MILITARY_FORMATION_04
+			set_variable = is_frederic_forey
+		}
+}
 }

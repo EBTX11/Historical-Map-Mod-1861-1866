@@ -666,18 +666,18 @@ INJECT:GER = { # Germany
 # 	}
 # }
 
-LOM = { 
+LOM = {
 	flag_definition = {
 		coa = LOM_hmm
 		subject_canton = LOM_hmm
 		allow_overlord_canton = no
 		priority = 21
-		trigger = { 
+		trigger = {
 			has_game_rule = historical_map_mod_enabled
 			#coa_def_absolute_monarchy_flag_trigger = yes
 		}
-	} 
-} 
+	}
+}
 
 INJECT:POL = {
 	flag_definition = {
@@ -715,23 +715,29 @@ INJECT:AUS = { # Austria
 		overlord_canton_scale = { 0.337 0.337 }
 		priority = 100
 		trigger = {
-			or = {
-				c:AUS = {
-					has_diplomatic_pact = {
-						who = c:HUN
-						type = personal_union
-						is_initiator = yes
-					}
+			scope:actor ?= {
+				AND = {
+					country_has_primary_culture = cu:hungarian
+					country_has_primary_culture = cu:south_german
+					has_variable = established_austria_hungary_var
 				}
-				scope:actor ?= {
-					AND = {
-						country_has_primary_culture = cu:hungarian
-						country_has_primary_culture = cu:south_german
-						has_variable = established_austria_hungary_var 
-					}
-				}
-			}
-
+			} 
+			# or = {
+			# 	c:AUS = {
+			# 		has_diplomatic_pact = {
+			# 			who = c:HUN
+			# 			type = personal_union
+			# 			is_initiator = yes
+			# 		}
+			# 	}
+			# 	scope:actor ?= {
+			# 		AND = {
+			# 			country_has_primary_culture = cu:hungarian
+			# 			country_has_primary_culture = cu:south_german
+			# 			has_variable = established_austria_hungary_var
+			# 		}
+			# 	}
+			# }
 		}
 	}
 	flag_definition = {

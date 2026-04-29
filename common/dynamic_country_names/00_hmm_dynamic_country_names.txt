@@ -1471,10 +1471,10 @@ INJECT:AUS = {
 					}
 				}
 				scope:actor ?= {
-					AND = {
+					AND = { 
 						country_has_primary_culture = cu:hungarian
 						country_has_primary_culture = cu:south_german
-						has_variable = established_austria_hungary_var  
+						has_variable = established_austria_hungary_var
 					}
 				}
 			}

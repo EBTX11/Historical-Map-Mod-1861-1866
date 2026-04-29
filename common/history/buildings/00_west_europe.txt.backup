@@ -4358,106 +4358,197 @@
 			}
 		}
 	}
-	s:STATE_NORMANDY = {
-		region_state:FRA = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 5
+	s:STATE_NORMANDY={
+		region_state:FRA={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=5
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
-			create_building = {
-				building = "building_vineyard"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_vineyard"
+				add_ownership={
+					building={
+						type="building_vineyard"
+						country="c:FRA"
+						levels=1
+						region="STATE_NORMANDY"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_steam_rail_transport" "automatic_irrigation_building_vineyard" }
 			}
-			create_building = {
-				building = "building_trade_center"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_trade_center"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_NORMANDY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_ILE_DE_FRANCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_LORRAINE"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_high" }
 			}
-			create_building = {
-				building = "building_shipyard"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 10
+			create_building={
+				building="building_shipyard"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_ILE_DE_FRANCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=2
+						region="STATE_GUANGDONG"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_complex_shipbuilding" }
 			}
-			create_building = {
-				building = "building_textile_mill"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 4
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_company_dmc"
+						country="c:FRA"
+						levels=4
+						region="STATE_ALSACE_LORRAINE"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_sewing_machines" "pm_craftsman_sewing" "pm_mechanized_looms" }
 			}
-			create_building = {
-				building = "building_fishing_wharf"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:FRA"
+						levels=1
+						region="STATE_NORMANDY"
+					}
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=1
+						region="STATE_LANGUEDOC"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_ILE_DE_FRANCE"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
 			}
-			create_building = {
-				building = "building_wheat_farm"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 2
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=2
+						region="STATE_NORMANDY"
+					}
+					building={
+						type="building_wheat_farm"
+						country="c:FRA"
+						levels=2
+						region="STATE_NORMANDY"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_tools" "pm_citrus_orchards" "pm_simple_farming" }
 			}
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=1
+						region="STATE_NORMANDY"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_LORRAINE"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_unrefrigerated" }
 			}
-			create_building = {
-				building = "building_port"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=1
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_ZHILI"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_RHONE"
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 1
+			create_building={
+				building="building_railway"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=1
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
 			}
-			create_building = {
-				building = "building_naval_administration"
-				add_ownership = {
-					country = {
-						country = "c:FRA"
-						levels = 50
+			
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:FRA"
+						levels=50
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
 			}
 		}
 	}
