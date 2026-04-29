@@ -1699,12 +1699,27 @@
 			}
 		}
 	}
-	s:STATE_EQUATORIA = {
-		
-		
-		
-		
-	
+	s:STATE_EQUATORIA = { 
+		region_state:TRK = {
+			create_pop = {
+				culture = nilotic
+				size = 202540
+			}
+			create_pop = {
+				culture = kikuyu
+				size = 36914
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = nilotic
+				size = 16900
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kikuyu
+				size = 5200
+			}
+		} 
 		region_state:CGB = {
 			create_pop = {
 				culture = nilotic

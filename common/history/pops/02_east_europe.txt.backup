@@ -409,67 +409,19 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = ashkenazi
-				pop_type = shopkeepers
-				size = 650
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = clerks
-				size = 2600
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = laborers
-				size = 6500
+				size = 218405
 			}
 			create_pop = {
 				culture = polish
-				size = 2262005
+				size = 2486119
 			}
 			create_pop = {
 				culture = south_german
-				size = 36400
+				size = 41600
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 197600
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 167050
-			}
-		}
-		region_state:KRA = {
-			create_pop = {
-				culture = ashkenazi
-				pop_type = shopkeepers
-				size = 1300
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = clerks
-				size = 2600
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = shopkeepers
-				size = 19500
-			}
-			create_pop = {
-				culture = polish
-				size = 224114
-			}
-			create_pop = {
-				culture = south_german
-				size = 5200
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 18205
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 20800
+				size = 218400
 			}
 		}
 	}

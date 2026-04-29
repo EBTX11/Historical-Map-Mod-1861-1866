@@ -8916,13 +8916,21 @@ STATES = {
 		add_homeland = cu:sorb
 	}
 	s:STATE_UPPER_SILESIA = {
-	    create_state = {
-	        country = c:NGF
-	        owned_provinces = { x5E9091 x7B2F62 x821F52 x88194B x90B12B xAF9F20 }
-	    }
-	    add_homeland = cu:north_german
-	    add_homeland = cu:polish
-	    add_homeland = cu:czech
+		create_state = {
+			country = c:NGF
+			owned_provinces = {
+				x821F52 x90B12B xAF9F20 x88194B
+			}
+		}
+		create_state = {
+			country = c:AUS
+			owned_provinces = {
+				 x5E9091 x7B2F62
+			}
+		}
+		add_homeland = cu:north_german
+		add_homeland = cu:polish
+		add_homeland = cu:czech
 	}
 	s:STATE_BRANDENBURG = {
 		create_state = {

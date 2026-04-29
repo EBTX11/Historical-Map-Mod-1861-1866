@@ -227,75 +227,22 @@
 		}
 	}
 	s:STATE_UPPER_SILESIA = {
-		
-		region_state:AUS = {
-		    create_pop = {
-		        culture = north_german
-		        religion = catholic
-		        size = 171311
-		    }
-		    create_pop = {
-		        culture = north_german
-		        size = 72540
-		    }
-		    create_pop = {
-		        culture = polish
-		        size = 163377
-		    }
-		    create_pop = {
-		        culture = polish
-		        religion = protestant
-		        size = 2310
-		    }
-		    create_pop = {
-		        culture = czech
-		        religion = catholic
-		        size = 97500
-		    }
-		    create_pop = {
-		        culture = czech
-		        religion = protestant
-		        size = 6580
-		    }
-		    create_pop = {
-		        culture = ashkenazi
-		        religion = jewish
-		        size = 8964
-		    }
-		}
-	
 		region_state:NGF = {
 			create_pop = {
 				culture = north_german
-				religion = catholic
-				size = 250841
+				size = 699925
 			}
 			create_pop = {
-				culture = north_german
-				size = 205233
+				culture = polish
+				size = 841143
+			}
+			create_pop = {
+				culture = czech
+				size = 122386
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 20925
-			}
-			create_pop = {
-				culture = polish
-				size = 641684
-			}
-			create_pop = {
-				culture = polish
-				religion = protestant
-				size = 33772
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 12811
-			}
-			create_pop = {
-				culture = czech
-				religion = protestant
-				size = 5495
+				size = 29889
 			}
 		}
 	}

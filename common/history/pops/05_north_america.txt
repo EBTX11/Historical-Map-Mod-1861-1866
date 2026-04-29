@@ -991,6 +991,16 @@
 				size = 2715
 			}
 		}
+		region_state:CSA = {
+			create_pop = {
+				culture = yankee
+				size = 3069
+			}
+			create_pop = {
+				culture = afro_american
+				size = 2715
+			}
+		}
 	}
 	s:STATE_RHODE_ISLAND = {
 		region_state:USA = {
@@ -1577,7 +1587,16 @@
 				size = 40560
 			}
 		}
-	
+		region_state:Y14 = {
+			create_pop = {
+				culture = siouan
+				size = 13520
+			}
+			create_pop = {
+				culture = cree
+				size = 40560
+			}
+		} 
 		region_state:RIP = {
 			create_pop = {
 				culture = anglo_canadian
