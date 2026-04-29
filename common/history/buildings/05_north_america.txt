@@ -7212,17 +7212,7 @@
 	}
 	s:STATE_SONORA={
 		region_state:MEX={
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=4
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -7251,17 +7241,7 @@
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_unrefrigerated" "pm_sheep_farms" "pm_barbed_wire_fences" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 		}
 	}
 	s:STATE_RIO_GRANDE={
@@ -7320,17 +7300,7 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_paper_mill"
 				add_ownership={
@@ -7433,17 +7403,7 @@
 				reserves=1
 				activate_production_methods={ "pm_unrefrigerated" "pm_sheep_farms" "pm_barbed_wire_fences" "pm_open_air_stockyards" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_university"
 				add_ownership={
@@ -7680,17 +7640,7 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_paper_mill"
 				add_ownership={
@@ -7742,17 +7692,7 @@
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "worker_exploitation_banana" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_artillery_foundry"
 				add_ownership={
@@ -8072,17 +8012,7 @@
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_food_industry"
 				add_ownership={
@@ -8294,17 +8224,7 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=4
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -8346,17 +8266,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=22
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_construction_sector"
 				add_ownership={
@@ -8561,17 +8471,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={
@@ -8720,17 +8620,7 @@
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "worker_exploitation_banana" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:MEX"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
+			
 		}
 	}
 	s:STATE_BAJA_CALIFORNIA={

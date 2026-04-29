@@ -72,4 +72,35 @@ MILITARY_FORMATIONS = {
 			set_variable = is_frederic_forey
 		}
 	}
+
+	c:MEX ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_america
+			name = MEX_MILITARY_FORMATION_01
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHIAPAS
+				count = 20
+			}
+			save_scope_as = MEX_MILITARY_FORMATION_01
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = mex_ignacio_first
+			last_name = mex_zaragoza_last
+			historical = yes
+			hq = region_central_america
+			commander_rank = commander_rank_3
+			age = 40
+			save_scope_as = character_MEX_MILITARY_FORMATION_01
+		}
+
+		scope:character_MEX_MILITARY_FORMATION_01 = {
+			transfer_to_formation = scope:MEX_MILITARY_FORMATION_01
+		}
+	}
 }
