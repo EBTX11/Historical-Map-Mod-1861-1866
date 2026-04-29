@@ -1,0 +1,19 @@
+MILITARY_FORMATIONS = {
+	c:FRA ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = FRA_MILITARY_FORMATION_01
+
+			ship = {
+				type = ship_type:ship_type_early_ironclad
+				count = 50
+			}
+			ship = {
+				type = ship_type:ship_type_troop_ship
+				count = 20
+			}
+			save_scope_as = FRA_MILITARY_FORMATION_01
+		} 
+	}
+}

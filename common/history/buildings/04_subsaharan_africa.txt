@@ -30,6 +30,20 @@
 		}
 		region_state:AYI={
 		}
+		region_state:GBR={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=1
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_WINDWARD_COAST={
 		region_state:KBD={
@@ -725,7 +739,7 @@
 				add_ownership={
 					country={
 						country="c:OYO"
-						levels=8
+						levels=9
 					}
 				}
 				reserves=1
@@ -816,7 +830,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
+				activate_production_methods={ "pm_steel_frame_buildings" }
 			}
 			create_building={
 				building="building_railway"
@@ -1354,7 +1368,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
+				activate_production_methods={ "pm_wooden_passenger_carriages" "pm_steam_trains" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -2306,7 +2320,7 @@
 				add_ownership={
 					country={
 						country="c:ETH"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -2322,45 +2336,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_general_training" }
-			}
-		}
-		region_state:TRK={
-			create_building={
-				building="building_millet_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:TRK"
-						levels=1
-						region="STATE_AMHARA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:TRK"
-						levels=1
-						region="STATE_AMHARA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "hand_rolled" "default_labour_tobacco" "pm_road_carts" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:TRK"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -2453,7 +2428,7 @@
 				add_ownership={
 					country={
 						country="c:ETH"
-						levels=4
+						levels=5
 					}
 				}
 				reserves=1
@@ -2488,6 +2463,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "worker_exploitation_coffee" "pm_road_carts" }
+			}
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:ETH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" "pm_freedom_of_movement_no_effect" }
 			}
 		}
 	}
@@ -2919,7 +2905,29 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_naval_administration"
+				add_ownership={
+					country={
+						country="c:MAD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_sailor_recruitment" }
+			}
+			create_building={
+				building="building_naval_fortification"
+				add_ownership={
+					country={
+						country="c:MAD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_naval_fortification_basic" }
 			}
 		}
 	}
@@ -3107,6 +3115,8 @@
 		}
 	}
 	s:STATE_EQUATORIA={
+		region_state:TRK={
+		}
 		region_state:CGB={
 		}
 		region_state:EGY={
@@ -3253,7 +3263,7 @@
 				add_ownership={
 					country={
 						country="c:AGC"
-						levels=12
+						levels=17
 					}
 				}
 				reserves=1
@@ -3570,17 +3580,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:KON"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
 			}
 		}
 		region_state:YKA={
@@ -4215,6 +4214,20 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=1
+						region="STATE_MIDLANDS"
+					}
+				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
 		}
 	}
 	s:STATE_VRYSTAAT={
@@ -4714,7 +4727,7 @@
 				add_ownership={
 					country={
 						country="c:SAF"
-						levels=8
+						levels=9
 					}
 				}
 				reserves=1
@@ -4736,12 +4749,12 @@
 				add_ownership={
 					country={
 						country="c:SAF"
-						levels=3
+						levels=2
 					}
 					building={
 						type="building_financial_district"
 						country="c:SAF"
-						levels=2
+						levels=3
 						region="STATE_CAPE_COLONY"
 					}
 				}
@@ -4910,6 +4923,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:SPA"
+						levels=1
+						region="STATE_UPPER_ANDALUSIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "default_labour" "pm_road_carts" }
 			}
 		}
 		region_state:GZA={

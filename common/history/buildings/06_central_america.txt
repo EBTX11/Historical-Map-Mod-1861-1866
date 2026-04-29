@@ -1,6 +1,24 @@
 ﻿BUILDINGS={
 	s:STATE_SAN_SALVADOR={
 		region_state:ELS={
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					country={
+						country="c:ELS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
 		}
 	}
 	s:STATE_GUATEMALA={
@@ -555,7 +573,7 @@
 				add_ownership={
 					country={
 						country="c:HAI"
-						levels=71
+						levels=91
 					}
 				}
 				reserves=1
@@ -650,6 +668,8 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}
+		}
+		region_state:USA={
 		}
 	}
 	s:STATE_PUERTO_RICO={
@@ -765,7 +785,7 @@
 				add_ownership={
 					country={
 						country="c:PCO"
-						levels=35
+						levels=42
 					}
 				}
 				reserves=1
@@ -851,7 +871,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
+				activate_production_methods={ "pm_wooden_passenger_carriages" "pm_steam_trains" }
 			}
 		}
 	}
@@ -983,7 +1003,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "worker_exploitation_coffee" "pm_road_carts" "coffee_plantation_mechanical_drying" "coffee_plantation_wet_process_mechanical" }
+				activate_production_methods={ "coffee_plantation_mechanical_drying" "worker_exploitation_coffee" "pm_road_carts" "coffee_plantation_wet_process_mechanical" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -1107,7 +1127,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_high" }
+				activate_production_methods={ "pm_trade_center" "pm_trade_center_trade_quantity_very_high" }
 			}
 			create_building={
 				building="building_banana_plantation"
@@ -1158,7 +1178,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_road_carts" "coffee_plantation_mechanical_drying" "worker_exploitation_coffee" "coffee_plantation_wet_process_manual" }
+				activate_production_methods={ "pm_road_carts" "coffee_plantation_mechanical_drying" "worker_exploitation_coffee" "coffee_plantation_wet_process_mechanical" }
 			}
 			create_building={
 				building="building_port"
@@ -1194,18 +1214,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages" }
-			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=8
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_power_of_the_purse" "pm_power_of_the_purse" }
+				activate_production_methods={ "pm_wooden_passenger_carriages" "pm_steam_trains" }
 			}
 		}
 	}
@@ -1286,7 +1295,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "default_labour_tobacco" "molds" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "molds" "worker_exploitation_tobacco" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -1357,7 +1366,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=48
+						levels=55
 					}
 				}
 				reserves=1
@@ -1412,17 +1421,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
-			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:CUB"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
 			}
 		}
 	}
@@ -1512,7 +1510,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=9
+						levels=11
 					}
 				}
 				reserves=1
@@ -1673,17 +1671,6 @@
 				activate_production_methods={ "pm_automation_disabled" "pm_pig_iron" }
 			}
 			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:CUB"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_naval_theory" }
-			}
-			create_building={
 				building="building_furniture_manufactory"
 				add_ownership={
 					building={
@@ -1719,7 +1706,7 @@
 					building={
 						type="building_manor_house"
 						country="c:CUB"
-						levels=1
+						levels=2
 						region="STATE_CENTRAL_CUBA"
 					}
 					building={
@@ -1730,7 +1717,7 @@
 					}
 					country={
 						country="c:CUB"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -1807,7 +1794,7 @@
 				add_ownership={
 					country={
 						country="c:CUB"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1

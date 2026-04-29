@@ -44,7 +44,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=3
+						levels=6
 					}
 				}
 				reserves=1
@@ -59,7 +59,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -89,7 +89,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -116,7 +116,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -139,28 +139,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
-			create_building={
-				building="building_naval_base"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_power_of_the_purse" }
-			}
 		}
 	}
 	s:STATE_YAKUTSK={
@@ -170,7 +148,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -202,7 +180,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
