@@ -330,7 +330,7 @@ PRU_je_1_button_6 = {
 				}  
 			} 
 			set_global_variable = autro_prussian_war_completed
-		} 
+		}  
     }
 
     ai_chance = {

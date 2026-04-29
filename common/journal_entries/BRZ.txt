@@ -2,7 +2,7 @@ BRZ_je_1 = {
     icon = "gfx/interface/icons/event_icons/BRZ_je_1.dds"
 
     group = je_group_ef
-    should_be_pinned_by_default = yes
+    should_be_pinned_by_default_uninvolved_or_context = yes
 
     is_shown_when_inactive = {
         #has_mod_hmm_1861 = yes

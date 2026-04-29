@@ -120,7 +120,7 @@ REPLACE:je_confederation_of_the_rhine = {
 		}
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }
@@ -212,7 +212,7 @@ REPLACE:je_acw_countdown = {
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 REPLACE:je_manifest_destiny_mexico = {
@@ -242,7 +242,7 @@ REPLACE:je_manifest_destiny_mexico = {
 	}
 
 	weight = 100
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }   
 REPLACE:je_uneasy_raj = {
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"
@@ -674,7 +674,7 @@ REPLACE:je_uneasy_raj = {
 	}
 
 	weight = 100
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
  
 REPLACE:je_heavenly_kingdom_main = {
@@ -791,7 +791,7 @@ REPLACE:je_heavenly_kingdom_main = {
 	}
 
 	weight = 10000
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 REPLACE:je_german_unification = {
@@ -844,7 +844,7 @@ REPLACE:je_german_unification = {
 	}
 
 	weight = 1000
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 REPLACE:je_north_german_unification = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
@@ -901,5 +901,5 @@ REPLACE:je_north_german_unification = {
 	}
 
 	weight = 1000
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

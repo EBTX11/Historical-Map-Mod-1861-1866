@@ -1,11 +1,13 @@
-# austria_hungary = {
-# 	color = "austriawhite"
 
-# 	possible = {
-# 		exists = c:AUS
-# 		THIS = c:AUS
-# 	}
-# }
+REPLACE:soviet_red = {
+	color = "rednew"
+
+	possible = {
+		exists = c:RUS
+		c:RUS ?= THIS
+		has_law_or_variant = law_type:law_council_republic
+	}
+}
 austria_hungary = {
 	color = "brun"
 	#color = "frenchblue"
@@ -20,13 +22,23 @@ austria_hungary = {
 	}
 }
 
-japanese_shogunate = {
+japanese_empire = {
 	color = "white"
 	possible = {
 		exists = c:JAP
-		THIS = c:JAP
+		c:JAP ?= THIS
+		country_has_monarchy_law = yes
+		NOT = {
+			OR = {
+				has_law = law_type:law_bakufu
+				any_active_law = {
+					has_amendment = amendment_type:amendment_taikunate
+				}
+			}
+		}
 	}
 }
+
 republican_france = {
 	color = "frenchblue"
 
@@ -57,16 +69,6 @@ unpleasant_germany = {
 		coa_dictatorship_trigger = yes
 	}
 }
-REPLACE:soviet_red = {
-	color = "rednew"
-
-	possible = {
-		exists = c:RUS
-		c:RUS ?= THIS
-		has_law_or_variant = law_type:law_council_republic
-	}
-}
-
 napoleon_italia = {
 	color = "napoleon_italia"
 
