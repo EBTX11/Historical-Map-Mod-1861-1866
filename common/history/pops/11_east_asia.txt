@@ -1,7 +1,7 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		
-	
+
+
 		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Northern Xinjiang excluding Turfan and the Khumul Khanate
@@ -69,8 +69,8 @@
 		}
 	}
 	s:STATE_TIANSHAN = {
-		
-	
+
+
 		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Only some 'hundreds' Chinese merchants were settled in the Tarim Basis
@@ -138,7 +138,7 @@
 				size = 928203
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -244,7 +244,7 @@
 				size = 11114
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -307,12 +307,12 @@
 				size = 347377
 				religion = mahayana
 			}
-		} 
+		}
 		region_state:GBR = {
 			create_pop = {
 				culture = yue
 				size = 6388
-			} 
+			}
 		}
 		region_state:TPG = {
 			create_pop = {
@@ -345,8 +345,8 @@
 		}
 	}
 	s:STATE_ALXA = {
-		
-	
+
+
 		region_state:IMG = {
 			# Alasha Ööled and Ejine Torghuud banner. Could not find accurate population data, but should be relatively low
 			create_pop = {
@@ -389,7 +389,7 @@
 				religion = sunni
 			}
 		}
-	
+
 		region_state:IMG = {
 			create_pop = {
 				culture = mongol
@@ -458,7 +458,7 @@
 				religion = mahayana
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -608,7 +608,7 @@
 				size = 1666
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -655,7 +655,7 @@
 				size = 341959
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -736,7 +736,7 @@
 				size = 150279
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -763,8 +763,8 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		
-	
+
+
 		region_state:QIN = {
 			create_pop = {
 				culture = tibetan
@@ -887,12 +887,12 @@
 				religion = catholic
 				size = 6500
 			}
-		} 
+		}
 		region_state:FRA = {
 			create_pop = {
 				culture = yue
 				size = 8677
-			} 
+			}
 		}
 	}
 	s:STATE_FUJIAN = {
@@ -938,7 +938,7 @@
 				size = 69477
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = min
@@ -983,8 +983,8 @@
 		}
 	}
 	s:STATE_ZHEJIANG = {
-		
-	
+
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1030,7 +1030,7 @@
 				size = 4722
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1048,8 +1048,8 @@
 		}
 	}
 	s:STATE_NANJING = {
-		
-	
+
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1092,7 +1092,7 @@
 				size = 1384
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1144,7 +1144,7 @@
 			create_pop = {
 				culture = yue
 				size = 8677
-			} 
+			}
 		}
 		region_state:TPG = {
 			create_pop = {
@@ -1168,8 +1168,8 @@
 		}
 	}
 	s:STATE_JIANGXI = {
-		
-	
+
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1209,8 +1209,8 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI = {
-		
-	
+
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1237,8 +1237,8 @@
 		}
 	}
 	s:STATE_NORTHERN_ANHUI = {
-		
-	
+
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1277,7 +1277,7 @@
 				size = 614169
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1324,7 +1324,7 @@
 				size = 94483
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1384,7 +1384,7 @@
 				size = 141730
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1461,7 +1461,7 @@
 				religion = mahayana
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1486,7 +1486,7 @@
 				religion = mahayana
 			}
 		}
-	
+
 		region_state:TPG = {
 			create_pop = {
 				culture = han # nanfaren
@@ -1501,8 +1501,8 @@
 	}
 	# Population of Outer Mongolia should be somewhat over 600,000, but I could not find data for a more granular distribution in regards to West vs East. Due to the existence of more banners in the East, I have assumed this also means a somewhat higher population.
 	s:STATE_ULIASTAI = {
-		
-	
+
+
 		region_state:OMG = {
 			create_pop = {
 				culture = mongol
@@ -1519,8 +1519,8 @@
 		}
 	}
 	s:STATE_URGA = {
-		
-	
+
+
 		region_state:OMG = {
 			create_pop = {
 				culture = mongol
@@ -2000,7 +2000,7 @@
 		}
 	}
 	s:STATE_SHAN_STATES = {
-		
+
 		region_state:SHS = {
 			create_pop = {
 				culture = shan
@@ -2195,16 +2195,30 @@
 			}
 		}
 	}
-	s:STATE_CHUBU = {
+	s:STATE_HOKUSHINETSU = {
+		# Shinano, Wakasa, Echizen, Kaga, Noto, Etchū, Echigo, and Sado provinces
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 5366108
+				size = 4138700
 			}
+		}
+	}
+	s:STATE_KYOTO = {
+		# Ōmi, Tanba, Tango, and Tajima provinces
+		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = shinto
-				size = 2269493
+				size = 1377948
+			}
+		}
+	}
+	s:STATE_TOKAI = {
+		# Iga, Ise, Shima, Owari, Mikawa, Tōtōmi, Suruga, Kai, Izu, Mino, and Hida provinces
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 4192918
 			}
 		}
 	}
