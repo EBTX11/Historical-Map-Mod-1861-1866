@@ -7968,6 +7968,21 @@
 		}
 	}
 	s:STATE_SAKHALIN={
+		region_state:EZO={
+			create_building={
+				building="building_port"
+				add_ownership={
+					building={
+						type="building_port"
+						country="c:EZO"
+						levels=1
+						region="STATE_SAKHALIN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 		region_state:RUS={
 			create_building={
 				building="building_port"
@@ -7983,60 +7998,26 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:AIN={
-		}
 		region_state:SKH={
+			create_building={
+				building="building_port"
+				add_ownership={
+					building={
+						type="building_port"
+						country="c:SKH"
+						levels=1
+						region="STATE_SAKHALIN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_HOKKAIDO={
-		region_state:AIN={
+		region_state:EZO={
 		}
 		region_state:JAP={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:JAP"
-						levels=1
-						region="STATE_HOKKAIDO"
-					}
-					country={
-						country="c:JAP"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:JAP"
-						levels=1
-						region="STATE_HOKKAIDO"
-					}
-					country={
-						country="c:JAP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					country={
-						country="c:JAP"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-			}
 		}
 	}
 	s:STATE_TOHOKU={

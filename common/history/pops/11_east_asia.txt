@@ -2136,36 +2136,56 @@
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:SKH = {
+		region_state:EZO = {
 			create_pop = {
 				culture = ainu
-				size = 31205
+				size = 4026
 			}
 			create_pop = {
 				culture = siberian
-				size = 20800
+				size = 2684
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = ainu
+				size = 1007
+			}
+			create_pop = {
+				culture = siberian
+				size = 671
+			}
+		}
+		region_state:SKH = {
+			create_pop = {
+				culture = ainu
+				size = 26172
+			}
+			create_pop = {
+				culture = siberian
+				size = 17445
 			}
 		}
 	}
 	s:STATE_HOKKAIDO = {
-		region_state:AIN = {
+		region_state:EZO = {
 			create_pop = {
 				culture = ainu
-				size = 38350
+				size = 33672
 			}
-			create_pop = { # traders and fishermen associated with contract fisheries
+			create_pop = {
 				culture = japanese
-				size = 1080
+				size = 36323
 			}
 		}
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 132
+				size = 4810
 			}
 			create_pop = {
 				culture = japanese
-				size = 40432
+				size = 5189
 			}
 		}
 	}

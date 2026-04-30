@@ -4,7 +4,8 @@
     historical = yes
     culture = primary_culture #cu:north_german
     female = no
-    birth_date = 1859.01.27
+    birth_date = 1859.01.27	
+	dna = dna_pru_wilhelm_02
 }
   
 belgique_character_template = {
@@ -14,6 +15,7 @@ belgique_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1835.04.06
+    dna = dna_bel_leopold_02
 }
 
 carnot_character_template = {
@@ -32,6 +34,7 @@ romanov_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1845.03.10
+	dna = dna_rus_aleksandr_03
 }
 
 harrison_character_template = {
@@ -50,6 +53,7 @@ savoia_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1844.03.14
+	dna = dna_sar_umberto_01
 }
 
 nassau_character_template = {
@@ -59,6 +63,7 @@ nassau_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1870.08.31
+	dna = dna_net_wilhelmina_01
 }
 
 bonaparte_character_template = {
@@ -123,6 +128,7 @@ romanov_1_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1777.12.23
+	dna = dna_rus_nikolai_01 
 }
 
 hohenzollern_character_template = {
@@ -132,6 +138,7 @@ hohenzollern_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1770.08.03
+	dna = dna_king_frederik_william_03
 }
 
 bourbon_character_template = {
@@ -141,6 +148,7 @@ bourbon_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1784.10.14
+	dna = dna_sic_ferdinando_02
 }
 
 braganza_character_template = {
@@ -168,6 +176,7 @@ wittelsbach_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1756.05.27
+	dna = dna_bav_ludwig_01
 }
 
 bourbon_character_template = {
@@ -204,6 +213,7 @@ aisin_gioro_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1760.11.13
+    dna = dna_chi_daoguang
 }
 
 tokugawa_character_template = {
@@ -211,8 +221,9 @@ tokugawa_character_template = {
     last_name = tokugawa
     historical = yes
     culture = primary_culture #cu:
-    female = no
+    female = no 
     birth_date = 1773.11.18
+    dna = dna_jap_tokugawa_ienari
 }
 
 osmanoglu_character_template = {
@@ -222,6 +233,7 @@ osmanoglu_character_template = {
     culture = primary_culture #cu:
     female = no
     birth_date = 1761.12.24
+    dna = dna_mahmud_02
 }
 
 bourbon_parma_character_template = {

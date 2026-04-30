@@ -215,7 +215,7 @@ GRI = {
 
 JAP = {
 	color = { 194 53 60 }
-	country_type = recognized
+	country_type = unrecognized
 
 	tier = empire
 
@@ -3087,7 +3087,7 @@ AIN = { # Ainu Mosir
 
 	capital = STATE_HOKKAIDO
 }
-
+ 
 EZO = { # Ezo
 	color = { 129 40 147 }
 
@@ -3095,7 +3095,7 @@ EZO = { # Ezo
 
 	tier = principality
 
-	cultures = { japanese ainu }
+	cultures = { ainu japanese }
 
 	capital = STATE_HOKKAIDO
 }
