@@ -70,11 +70,5 @@
             template = sar_victor_emmanuel_template
 			ruler = yes
 		}
-	} 
-
-
-
-
-
-}
-
+	}  
+} 
