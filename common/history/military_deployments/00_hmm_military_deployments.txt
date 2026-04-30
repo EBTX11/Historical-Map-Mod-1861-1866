@@ -54,4 +54,18 @@
  			teleport_to_front = p:x6EFE9A.front
 		}
 	} 
+
+	
+	c:TPG ?= { 
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:x43043A.front
+		} 
+	}
+	c:CHI ?= { 
+		every_military_formation = {
+			fully_mobilize_army = yes 
+ 			teleport_to_front = p:xF54194.front
+		} 
+	}
 } 

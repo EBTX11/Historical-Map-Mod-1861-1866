@@ -103,4 +103,617 @@ MILITARY_FORMATIONS = {
 			transfer_to_formation = scope:MEX_MILITARY_FORMATION_01
 		}
 	}
+
+	c:TPG ?= {
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_02
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HUNAN
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_HUNAN
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_HUNAN
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_02
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_02
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_02
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_02 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_02
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_03
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FUJIAN
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_FUJIAN
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_FUJIAN
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_03
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_03
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_03
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_03 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_03
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_04
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_JIANGXI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_JIANGXI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_JIANGXI
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_04
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_04
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_04
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_04 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_04
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_05
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NANJING
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_NANJING
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NANJING
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_05
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_05
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_05
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_05 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_05
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_06
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTHERN_ANHUI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_NORTHERN_ANHUI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NORTHERN_ANHUI
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_06
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_06
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_06
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_06 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_06
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = TPG_MILITARY_FORMATION_07
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOUTHERN_ANHUI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SOUTHERN_ANHUI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SOUTHERN_ANHUI
+				count = 20
+			}
+			save_scope_as = TPG_MILITARY_FORMATION_07
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_TPG_MILITARY_FORMATION_07
+			historical = yes
+			hq = region_south_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_TPG_MILITARY_FORMATION_07
+		}
+
+		scope:character_TPG_MILITARY_FORMATION_07 = {
+			transfer_to_formation = scope:TPG_MILITARY_FORMATION_07
+		}
+	}
+
+	c:CHI ?= { 
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_01
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BEIJING
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_BEIJING
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_BEIJING
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_01
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_01
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_01
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_01 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_01
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_02
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHONGQING
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CHONGQING
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CHONGQING
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_02
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_02
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_02
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_02 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_02
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_03
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_HUBEI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EASTERN_HUBEI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_EASTERN_HUBEI
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_03
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_03
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_03
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_03 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_03
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_04
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GANSU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GANSU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GANSU
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_04
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_04
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_04
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_04 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_04
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_05
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUANGDONG
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GUANGDONG
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GUANGDONG
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_05
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_05
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_05
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_05 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_05
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_06
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUANGXI
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GUANGXI
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GUANGXI
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_06
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_06
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_06
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_06 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_06
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_07
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUIZHOU
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GUIZHOU
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GUIZHOU
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_07
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_07
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_07
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_07 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_07
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_08
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YUNNAN
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_YUNNAN
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_YUNNAN
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_08
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_08
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_08
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_08 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_08
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_09
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FORMOSA
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_FORMOSA
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_FORMOSA
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_09
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_09
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_09
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_09 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_09
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = CHI_MILITARY_FORMATION_10
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SOUTHERN_MANCHURIA
+				count = 50
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SOUTHERN_MANCHURIA
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SOUTHERN_MANCHURIA
+				count = 20
+			}
+			save_scope_as = CHI_MILITARY_FORMATION_10
+		}
+
+		create_character = {
+			is_general = yes
+			is_admiral = no
+			first_name = character_CHI_MILITARY_FORMATION_10
+			historical = yes
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			age = 40
+			save_scope_as = character_CHI_MILITARY_FORMATION_10
+		}
+
+		scope:character_CHI_MILITARY_FORMATION_10 = {
+			transfer_to_formation = scope:CHI_MILITARY_FORMATION_10
+		}
+	}
 }
