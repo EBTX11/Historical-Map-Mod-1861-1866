@@ -120,3 +120,13 @@ FRA_modifier_5 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
     ship_ship_type_supply_ship_supply_capacity_mult = 1
 }
+
+FRA_modifier_6 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_prestige_mult = -0.15
+}
+
+FRA_modifier_7 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_prestige_mult = 0.15
+}

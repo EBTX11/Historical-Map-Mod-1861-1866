@@ -1198,24 +1198,24 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = paulista
-				size = 1817 # 1828 census
+				size = 5484 # 1828 census
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 4299 # 1828 census
+				size = 12977 # 1828 census
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 6597 # 1828 census
+				size = 19914 # 1828 census
 			}
 			create_pop = {
 				culture = guarani
-				size = 12743
+				size = 38467
 			}
 			create_pop = {
 				culture = amazonian
-				size = 18694
+				size = 56431
 			}
 		}
 		
@@ -1242,20 +1242,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = sulista
-				size = 49566
+				size = 149624
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 17916
+				size = 54082
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 1735
+				size = 5237
 			}
 			create_pop = {
 				culture = guarani
-				size = 16994
+				size = 51299
 			}
 		}
 	}
@@ -1263,20 +1263,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = paulista
-				size = 4341
+				size = 13104
 			}
 			create_pop = {
 				culture = sulista
-				size = 4341
+				size = 13104
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 2601
+				size = 7851
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 4249
+				size = 12826
 			}
 		}
 	}
@@ -1284,16 +1284,16 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = sulista
-				size = 15114
+				size = 45624
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 5527
+				size = 16684
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 5591
+				size = 16877
 			}
 		}
 	}
@@ -1301,20 +1301,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = paulista
-				size = 73440 # 1836 census
+				size = 221692 # 1836 census
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 36929 # 1836 census
+				size = 111477 # 1836 census
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 28149 # 1836 census
+				size = 84973 # 1836 census
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 3400
+				size = 10263
 			}
 		}
 	}
@@ -1322,16 +1322,16 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 156033
+				size = 471015
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 77017
+				size = 232490
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 77019
+				size = 232496
 			}
 		}
 	}
@@ -1343,16 +1343,16 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
-				size = 87251
+				size = 263384
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 112638
+				size = 340019
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 47692
+				size = 143967
 			}
 		}
 	}
@@ -1360,16 +1360,16 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 142523
+				size = 430233
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 62558
+				size = 188843
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 105666
+				size = 318973
 			}
 		}
 	}
@@ -1377,20 +1377,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 12702
+				size = 38343
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 2100
+				size = 6339
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 4350
+				size = 13131
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 18208
+				size = 54964
 			}
 		}
 	}
@@ -1398,20 +1398,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 2964243
+				size = 89480
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 84949
+				size = 25640
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 1079081
+				size = 325717
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 4854320
+				size = 1465364
 			}
 		}
 	}
@@ -1419,20 +1419,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 7326
+				size = 22114
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 690
+				size = 2082
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 5418
+				size = 16355
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 8411
+				size = 25390
 			}
 		}
 	}
@@ -1440,20 +1440,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 43476
+				size = 131240
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 38896
+				size = 117415
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 37926
+				size = 114486
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 74583
+				size = 225143
 			}
 		}
 	}
@@ -1461,20 +1461,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 58648
+				size = 177040
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 9678
+				size = 29214
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 5053
+				size = 15253
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 14094
+				size = 42545
 			}
 		}
 	}
@@ -1482,20 +1482,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = amazonic
-				size = 55373
+				size = 167154
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 9482
+				size = 28623
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 8577
+				size = 25891
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 14058
+				size = 42436
 			}
 		}
 	}
@@ -1503,20 +1503,20 @@ POPS = {
 		region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
-				size = 28497
+				size = 86023
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 2385 # 1825 estimate
+				size = 7199 # 1825 estimate
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 2786
+				size = 8410
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 50563
+				size = 152634
 			}
 		}
 	}
@@ -1527,7 +1527,7 @@ POPS = {
 		region_state:AMZ = {
 			create_pop = {
 				culture = amazonic
-				size = 144686
+				size = 436762
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1536,19 +1536,19 @@ POPS = {
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 100934
+				size = 304688
 			}
 			create_pop = {
 				culture = amazonian
-				size = 56940
+				size = 171884
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 4739
+				size = 14305
 			}
 			create_pop = {
 				culture = french
-				size = 540
+				size = 1630
 			}
 		}
 		region_state:BRZ = {
@@ -1559,7 +1559,7 @@ POPS = {
 			create_pop = {
 				pop_type = slaves
 				culture = afro_brazilian
-				size = 15128
+				size = 45666
 			}
 			create_pop = {
 				culture = afro_brazilian

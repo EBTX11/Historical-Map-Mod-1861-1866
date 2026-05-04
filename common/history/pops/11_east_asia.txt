@@ -2181,11 +2181,11 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 4810
+				size = 3744
 			}
 			create_pop = {
 				culture = japanese
-				size = 5189
+				size = 4040
 			}
 		}
 	}
@@ -2193,12 +2193,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 3087021
+				size = 2403462
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1192464
+				size = 928416
 			}
 		}
 	}
@@ -2206,12 +2206,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 5265093
+				size = 4099244
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1460165
+				size = 1136840
 			}
 		}
 	}
@@ -2220,7 +2220,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4138700
+				size = 3222268
 			}
 		}
 	}
@@ -2229,7 +2229,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 1377948
+				size = 1072829
 			}
 		}
 	}
@@ -2238,7 +2238,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4192918
+				size = 3264481
 			}
 		}
 	}
@@ -2246,12 +2246,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 8031628
+				size = 6253186
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 2192065
+				size = 1706676
 			}
 		}
 	}
@@ -2259,20 +2259,20 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4121217
+				size = 3208656
 			}
 			create_pop = {
 				culture = micronesian
-				size = 171
+				size = 133
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1387146
+				size = 1079990
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 24325
+				size = 18938
 			}
 		}
 	}
@@ -2281,7 +2281,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 336935
+				size = 262327
 			}
 		}
 	}
@@ -2290,12 +2290,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2631642
+				size = 2048918
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 967964
+				size = 753627
 			}
 		}
 	}
@@ -2303,12 +2303,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 1509840
+				size = 1175516
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 458146
+				size = 356698
 			}
 		}
 	}

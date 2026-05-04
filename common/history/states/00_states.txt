@@ -772,19 +772,13 @@ STATES = {
 		add_claim = c:CSA
 	}
 	s:STATE_ILLINOIS = {
-		create_state = {
-			country = c:CSA
-			owned_provinces = { x00A080 }
-		}
-		create_state = {
-			country = c:USA
-			owned_provinces = {
-				x22BBD7 x6D1F7A x4A94CA x908040 x2B0E33 xD998BB x2938A5 x746E6F x1B1B01 x0212BC x6D8AAA xF82338 xBD8B8B x26D283 x6B3BE8 x3FEEB5 xB90E0D x9EA280 x977A71 xCD3BFC xA53D3B x585A65 x999D9F x806000 x7A2E59 xA36021 x67EB18 x445F91 x108040 xEB7340 x7514E0 x2FBF72 x543986 xAD5337 x34036E x50C040 xF68D89 xBCB645 x4E0162 x33B258 x6F02DA
-			}
-		}
-		add_homeland = cu:yankee
-		add_claim = c:USA
-		add_claim = c:CSA
+	    create_state = {
+	        country = c:USA
+	        owned_provinces = { x00A080 x0212BC x108040 x1B1B01 x22BBD7 x26D283 x2938A5 x2B0E33 x2FBF72 x33B258 x34036E x3FEEB5 x445F91 x4A94CA x4E0162 x50C040 x543986 x585A65 x67EB18 x6B3BE8 x6D1F7A x6D8AAA x6F02DA x746E6F x7514E0 x7A2E59 x806000 x908040 x977A71 x999D9F x9EA280 xA36021 xA53D3B xAD5337 xB90E0D xBCB645 xBD8B8B xCD3BFC xD998BB xEB7340 xF68D89 xF82338 }
+	    }
+	    add_homeland = cu:yankee
+	    add_claim = c:USA
+	    add_claim = c:CSA
 	}
 	s:STATE_CONNECTICUT = {
 		create_state = {
