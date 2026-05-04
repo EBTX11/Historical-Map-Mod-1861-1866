@@ -11,6 +11,7 @@ USA_je_1_button_1 = {
 
     possible = { 
 		not = { has_truce_with = c:CSA }
+        is_at_war = no
 		custom_tooltip = {
             text = USA_je_1_button_1_tt_possible_1
             c:USA.army_power_projection > c:CSA.army_power_projection
@@ -36,10 +37,11 @@ USA_je_1_button_1 = {
                 name = civil_war
                 
                 escalation = 80 
-
+  
                 type = dp_humiliation  
-                target_country = c:CSA
+                target_country = c:CSA 
   			}
+ 
 			random_diplomatic_play = {
 				limit = {
 					is_diplomatic_play_type = dp_humiliation
@@ -47,7 +49,7 @@ USA_je_1_button_1 = {
 						c:CSA ?= this
 					}
 				} 
-   
+    
 				###########
 				#USA
 				###########
@@ -59,7 +61,7 @@ USA_je_1_button_1 = {
 					add_war_goal = {
 						holder = c:USA
 						type = return_state
-						target_state = s:STATE_KENTUCKY.region_state:CSA
+						target_state = s:STATE_KENTUCKY.region_state:CSA 
 					}
 				}
 				if = {
@@ -466,10 +468,10 @@ USA_je_1_button_2 = {
 			create_diplomatic_play = {
                 name = civil_war
                 
-                escalation = 70 #80  
+                escalation = 80  
 
                 type = dp_humiliation  
-                target_country = c:USA
+                target_country = c:USA 
   			}
 			random_diplomatic_play = {
 				limit = {
