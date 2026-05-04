@@ -358,6 +358,32 @@ USA_je_1_button_1 = {
 				}
  
                 #CSA revok tout les state dans ces diplo play à chjaque fois 
+				
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_KENTUCKY.region_state:CSA  
+                    target_country = c:USA
+                }   
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_WEST_VIRGINIA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_MISSOURI.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_TEXAS.region_state:CSA  
+                    target_country = c:USA
+                }
+
                 add_war_goal = {
                     holder = c:CSA
                     type = revoke_claim
@@ -789,6 +815,32 @@ USA_je_1_button_2 = {
 				}
  
                 #CSA revok tout les state dans ces diplo play à chjaque fois 
+				
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_KENTUCKY.region_state:CSA  
+                    target_country = c:USA
+                }   
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_WEST_VIRGINIA.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_MISSOURI.region_state:CSA  
+                    target_country = c:USA
+                }
+                add_war_goal = {
+                    holder = c:CSA
+                    type = revoke_claim
+                    target_state = s:STATE_TEXAS.region_state:CSA  
+                    target_country = c:USA
+                }
+				
                 add_war_goal = {
                     holder = c:CSA
                     type = revoke_claim

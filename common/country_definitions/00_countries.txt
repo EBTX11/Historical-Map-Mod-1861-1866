@@ -2716,7 +2716,7 @@ COM = {
 SEQ = {
 	color = { 250 249 245 }
 
-	country_type = decentralized
+	country_type = #colonial decentralized
 
 	tier = principality
 
@@ -2736,7 +2736,7 @@ DKT = {
 }
 
 LKT = {
-	color = { 217 123 83 }
+	color = { 250 249 245 }
  
 	country_type = decentralized #colonial
 
@@ -2758,7 +2758,7 @@ NVJ = {
 }
 
 ARP = {
-	color = { 255 255 128 } 
+	color = { 250 249 245 }
 
 	country_type = decentralized #colonial
 
@@ -3234,7 +3234,7 @@ PUE = { # Pueblo
 }
 
 NNV = { # Nunavut
-	color = { 205 214 216 }
+	color = { 250 249 245 }
 
 	country_type = decentralized #unrecognized
 
@@ -3258,7 +3258,7 @@ NVL = { # Navajoland
 }
 
 ATB = { # Athabaska
-	color = { 88 105 137 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
