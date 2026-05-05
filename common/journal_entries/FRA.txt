@@ -35,7 +35,11 @@ FRA_je_1 = {
             c:MEX = {						
                 NOT = { is_subject_of = root}
             }	
-            NOT = { has_law = law_type:law_monarchy }
+            NOT = { has_law = law_type:law_monarchy } 
+            custom_tooltip = {
+                text = FRA_je_1_tt_fail_1
+                c:MEX.mexican_state_controlled = 0  
+            }  
         }  
     }
 
@@ -51,6 +55,15 @@ FRA_je_1 = {
 			name = FRA_modifier_6
             years = 10
 		} 
+        custom_tooltip = {
+            text = FRA_je_1_tt_on_fail_2
+            c:FRA ?= { 
+                create_diplomatic_pact = {
+                    country = c:MEX
+                    type = vassal
+                }   
+            }   
+        } 
     }
  
     on_yearly_pulse = {

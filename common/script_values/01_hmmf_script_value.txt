@@ -13,3 +13,41 @@ mexican_revolution = {
 		add = 1  
 	}  
 }  
+
+mexican_state_num = {  	 
+	value = 0
+	every_scope_state = {
+		add = 1  
+	}  
+}  
+mexican_state_controlled = {  	 
+	every_scope_state = { 
+		if = {
+			limit = {
+				controller = c:MEX 
+			}
+			add = 1
+		} 
+	}  
+}   
+
+mexican_state_num_fra = {  	 
+	value = 0
+	c:MEX = {
+		every_scope_state = {
+			add = 1  
+		}   
+	}  
+}  
+mexican_state_controlled_fra = {  
+	c:MEX = {
+		every_scope_state = { 
+			if = {
+				limit = {
+					controller = c:MEX 
+				}
+				add = 1
+			} 
+		}  
+	} 	 
+}   

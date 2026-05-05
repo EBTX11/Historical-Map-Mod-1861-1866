@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
   treaty_treaty_of_the_triple_alliance:0 "Treaty of the Triple Alliance"
   BRZ_je_1:0 "War of the Triple Alliance"
   BRZ_je_1_reason:0 "The Rio de la Plata region has long been a stage for rival ambitions and fragile balances of power. The Empire of Brazil, determined to maintain its influence over Uruguay and contain its neighbors, watches with growing concern the rise of Paraguay under the leadership of Francisco Solano López.\n\nDriven by expansionist ambitions and unwilling to tolerate Brazilian interference in regional affairs, Paraguay appears ready to challenge the existing order in South America. The prospect of war now looms large, as alliances begin to take shape behind closed doors.\n\nShould conflict erupt, it will not be a mere border dispute, but a total war capable of reshaping the region for generations. The Empire must decide whether it is prepared to commit to a long and costly struggle to assert its dominance over the continent."
@@ -6,19 +6,19 @@
   BRZ_je_1_button_1:0 "Alliance with Argentina"
   BRZ_je_1_button_1_desc:0 "Form an alliance with Argentina, in order to stop Paraguay's territorial ambitions"
   BRZ_je_1_button_1_tt_1:0 "Not has treaty defensive pact with Argentina"
-  BRZ_je_1_button_1_tt_2:0 "Sign The Treaty of the Triple Alliance" 
+  BRZ_je_1_button_1_tt_2:0 "Sign The Treaty of the Triple Alliance"
   BRZ_je_1_button_2:0 "Alliance with Uruguay"
   BRZ_je_1_button_2_desc:0 "Form an alliance with Uruguay, in order to stop Paraguay's territorial ambitions"
   BRZ_je_1_button_2_tt_1:0 "Not has treaty defensive pact with Uruguay"
-  BRZ_je_1_button_2_tt_2:0 "nothin" 
+  BRZ_je_1_button_2_tt_2:0 "nothin"
   BRZ_je_1_button_3:0 "We can beat them alone"
   BRZ_je_1_button_3_desc:0 "We are not forming any alliances with border allies to stop Paraguay's territorial ambitions."
   BRZ_je_1_button_3_tt_1:0 "No alliance with potential allies has been formed"
-  BRZ_je_1_button_3_tt_2:0 "nothin" 
+  BRZ_je_1_button_3_tt_2:0 "nothin"
   BRZ_je_1_button_4:0 "Alliance with Brazil"
   BRZ_je_1_button_4_desc:0 "Form an alliance with Brazil, in order to stop Paraguay's territorial ambitions"
   BRZ_je_1_button_4_tt_1:0 "Not has treaty defensive pact with Brazil"
-  BRZ_je_1_button_4_tt_2:0 "nothin"    
+  BRZ_je_1_button_4_tt_2:0 "nothin"
   BRZ_je_1_button_5:0 "Declare the Great War"
   BRZ_je_1_button_5_desc:0 "Declare war on your enemies"
   BRZ_je_1_button_5_tt_1:0 "The War of the Triple Alliance never occurred."
@@ -30,7 +30,7 @@
 
   USA_je_1:0 "A House Divided"
   USA_je_1_reason:0 "The United States stand fractured, divided by irreconcilable differences over the future of the nation. What began as a political crisis has erupted into open conflict, as states take up arms either to preserve the Union or to secure their independence.\n\nBoth sides believe their cause to be just, and neither appears willing to yield. The outcome of this struggle will determine not only the fate of the Confederacy, but the very nature of the American nation itself.\n\nWill the Union be restored, or will a new nation rise from its ashes?"
- 
+
 
   FRA_je_1_button_1:0 "Military Support"
   FRA_je_1_button_1_desc:0 "Provide troops and military aid to secure victory on the battlefield."
@@ -54,6 +54,10 @@
   FRA_je_1_tt_complete_1:0 "France maintains the status quo during [GetGlobalVariable('FRA_je_1_global_variable_progress_bar_1').GetValue|D]/10 Years"
   FRA_je_1_1_progress_bar:0 "Progress Bar"
   FRA_je_1_1_progress_bar_desc:0 "1 Years of French rule in Mexico [GetGlobalVariable('FRA_je_1_global_variable_progress_bar_1').GetValue|D]/10 Years"
+  FRA_je_1_tt_fail_1:0 "Mexico no longer controls any state, whether due to foreign occupation, revolt, or secession. Mexico currently controls [GetPlayer.MakeScope.ScriptValue('mexican_state_controlled_fra')|D] / [GetPlayer.MakeScope.ScriptValue('mexican_state_num_fra')|D] states."
+  FRA_je_1_tt_on_fail_2:0 "Mexico becomes independent from France."
+
+
 
   MEX_je_1_tt_complete_1:0 "Imperial Longevity [GetGlobalVariable('MEX_je_1_global_variable_progress_bar_1').GetValue|D]/ 20"
 
@@ -158,11 +162,11 @@
   ITA_je_1_button_2:0 "Enter Rome"
   ITA_je_1_button_2_desc:0 "The time has come. France is absent, and Rome lies within our grasp. By breaching its walls, we shall complete the unification of Italy."
   ITA_je_1_button_2_tt_possible_1:0 "The pressure is greater than 90"
-  ITA_je_1_button_2_tt_effect_1:0 "Nothing" 
+  ITA_je_1_button_2_tt_effect_1:0 "Nothing"
   ITA_je_1_1_progress_bar:0 "Progress Bar"
-  ITA_je_1_1_progress_bar_desc:0 "Pressure on Rome: [GetGlobalVariable('ITA_je_1_global_variable_progress_bar_1').GetValue|D]/ 100" 
-  ITA_je_1_1_progress_bar_FRA_tt: "France is at war and its troops are mobilized outside of Rome."  
-  ITA_je_1_1_progress_bar_FRA_2_tt: "France is not at war and its troops are close to Rome and ready to intervene."   
+  ITA_je_1_1_progress_bar_desc:0 "Pressure on Rome: [GetGlobalVariable('ITA_je_1_global_variable_progress_bar_1').GetValue|D]/ 100"
+  ITA_je_1_1_progress_bar_FRA_tt: "France is at war and its troops are mobilized outside of Rome."
+  ITA_je_1_1_progress_bar_FRA_2_tt: "France is not at war and its troops are close to Rome and ready to intervene."
   ITA_je_1_status_desc_1:0 "Italian influence around #gold Rome#! is #green growing#!, though the situation remains contained."
   ITA_je_1_status_desc_2:0 "The situation in #gold Rome#! is #gold deteriorating#!. Diplomatic tensions are rising across Europe."
   ITA_je_1_status_desc_3:0 "The fate of #gold Rome#! hangs in the #r balance#!. A decisive move may soon be inevitable."
