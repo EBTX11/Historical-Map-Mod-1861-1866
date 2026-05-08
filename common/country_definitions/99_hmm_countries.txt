@@ -203,10 +203,10 @@ Y01= {
 }
 
 
-CEE= { 
+CEE = { 
 	color = { 250 249 245 }
 	
-	country_type = unrecognized #
+	country_type = decentralized
 
 	tier = kingdom
 	
