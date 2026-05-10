@@ -11,7 +11,19 @@
 
 @uru_canton_height = 0.556
 @sm_fra = 0.16
+
+RUS_absolute_monarchy_2 = {
+	# 19th c. imperial coat of arms
+
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "black"
  
+	textured_emblem = {
+		texture = "sub_RUS_coa_2.dds"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }	
+	}	 
+} 
 LOM_hmm = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
